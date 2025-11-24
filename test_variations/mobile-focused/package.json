@@ -1,0 +1,53 @@
+{
+  "name": "mobile-app-security-test",
+  "version": "1.0.0",
+  "description": "Mobile-focused test case for NPM compromise detection",
+  "author": "Security Team",
+  "license": "MIT",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.0",
+    "axios": "1.4.0",
+    "@actbase/react-native-actionsheet": "1.0.0",
+    "@actbase/react-native-fast-image": "2.1.0",
+    "@actbase/react-native-kakao-channel": "1.5.0",
+    "@actbase/react-native-tiktok": "0.5.0",
+    "react-native-datepicker-modal": "1.2.0",
+    "react-native-email": "2.0.0",
+    "react-native-fetch": "3.1.0",
+    "react-native-phone-call": "1.0.9",
+    "react-native-websocket": "2.0.0",
+    "@seung-ju/react-native-action-sheet": "1.0.0",
+    "@strapbuild/react-native-date-time-picker": "4.0.0",
+    "@strapbuild/react-native-perspective-image-cropper": "2.5.0",
+    "capacitor-plugin-purchase": "1.0.0",
+    "capacitor-voice-recorder-wav": "1.1.0",
+    "expo-audio-session": "2.0.0",
+    "posthog-react-native": "3.0.0",
+    "posthog-react-native-session-replay": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.2.0",
+    "@types/react": "18.2.0",
+    "@types/react-native": "0.72.0",
+    "metro-react-native-babel-preset": "0.76.0",
+    "jest": "29.5.0",
+    "@testing-library/react-native": "12.0.0",
+    "eslint": "8.45.0",
+    "prettier": "3.0.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "react-native",
+    "mobile",
+    "security-test",
+    "npm-compromise"
+  ]
+}
+

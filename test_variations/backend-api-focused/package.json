@@ -1,0 +1,58 @@
+{
+  "name": "backend-api-security-test",
+  "version": "1.0.0",
+  "description": "Backend/API-focused test case for NPM compromise detection",
+  "author": "Security Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.2",
+    "fastify": "4.23.0",
+    "axios": "1.5.0",
+    "@asyncapi/cli": "1.2.10",
+    "@asyncapi/generator": "1.15.0",
+    "@asyncapi/parser": "3.0.0",
+    "@asyncapi/openapi-schema-parser": "3.0.5",
+    "@asyncapi/modelina": "2.0.0",
+    "@asyncapi/nodejs-template": "1.5.0",
+    "@trigo/atrix": "5.0.0",
+    "@trigo/atrix-postgres": "3.2.0",
+    "@trigo/atrix-redis": "2.1.0",
+    "@trigo/keycloak-api": "1.0.0",
+    "@postman/postman-mcp-server": "2.0.0",
+    "@postman/tunnel-agent": "1.0.0",
+    "@zapier/zapier-sdk": "14.0.0",
+    "@zapier/secret-scrubber": "2.0.0",
+    "gitsafe": "1.0.0",
+    "shell-exec": "2.0.0",
+    "typeorm-orbit": "1.0.0",
+    "atrix": "4.0.0",
+    "atrix-mongoose": "3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.3.0",
+    "@types/express": "4.17.20",
+    "@types/node": "20.8.0",
+    "nodemon": "3.0.1",
+    "eslint": "8.52.0",
+    "@asyncapi/bundler": "0.3.0",
+    "@asyncapi/optimizer": "1.0.0",
+    "jest": "29.7.0",
+    "supertest": "6.3.3",
+    "prettier": "3.0.3"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "asyncapi",
+    "security-test",
+    "npm-compromise"
+  ]
+}
+
