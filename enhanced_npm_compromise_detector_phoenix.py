@@ -952,6 +952,10 @@ additional_asset_tags = npm-project,dependency-scan
             pkg_data = self.compromised_packages[package_name]
             compromised_versions = pkg_data.get('compromised_versions', [])
             
+            # Check if all versions are compromised
+            if 'all' in compromised_versions:
+                return True, 'CRITICAL', compromised_versions
+            
             if normalized_version in compromised_versions:
                 return True, 'CRITICAL', compromised_versions
             else:
@@ -1349,6 +1353,68 @@ additional_asset_tags = npm-project,dependency-scan
             headers['Authorization'] = f'token {self.github_token}'
             
         return headers
+    
+    def fetch_all_user_repositories(self) -> List[str]:
+        """Fetch all repositories the authenticated user has access to
+        
+        Returns:
+            List of repository URLs (HTTPS format)
+        """
+        repositories = []
+        
+        if not self.github_token or self.github_token == 'your_github_token_here':
+            print("❌ GitHub token required for --pull-all feature")
+            print("💡 Set GITHUB_TOKEN environment variable or configure in .config file")
+            return repositories
+        
+        print("🔍 Fetching all repositories from GitHub...")
+        
+        try:
+            headers = self.get_github_api_headers(use_auth=True)
+            
+            # Fetch user's own repositories
+            page = 1
+            per_page = 100
+            
+            while True:
+                # Fetch user's repositories (owned)
+                url = f"https://api.github.com/user/repos?page={page}&per_page={per_page}&affiliation=owner,collaborator,organization_member"
+                
+                response = requests.get(url, headers=headers, timeout=30)
+                
+                if response.status_code != 200:
+                    print(f"⚠️  GitHub API error: {response.status_code}")
+                    print(f"    Message: {response.json().get('message', 'Unknown error')}")
+                    break
+                
+                repos = response.json()
+                
+                if not repos:
+                    break
+                    
+                for repo in repos:
+                    repo_url = repo.get('clone_url')  # HTTPS clone URL
+                    repo_name = repo.get('full_name')
+                    repo_private = repo.get('private', False)
+                    
+                    if repo_url:
+                        repositories.append(repo_url)
+                        print(f"  ✓ Found: {repo_name} {'🔒 (private)' if repo_private else '🌐 (public)'}")
+                
+                # Check if there are more pages
+                if len(repos) < per_page:
+                    break
+                    
+                page += 1
+            
+            print(f"\n✅ Found {len(repositories)} repositories")
+            
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Error fetching repositories from GitHub: {str(e)}")
+        except Exception as e:
+            print(f"❌ Unexpected error: {str(e)}")
+        
+        return repositories
         
     def find_npm_files_in_repo(self, owner: str, repo: str) -> List[Dict]:
         """Find NPM package files in a GitHub repository using API"""
@@ -2283,6 +2349,8 @@ def main():
                        help='Treat target as a file containing list of repository URLs')
     parser.add_argument('--repo-url', type=str,
                        help='Specify repository URL for the target (overrides auto-detection)')
+    parser.add_argument('--pull-all', action='store_true',
+                       help='Fetch all repositories the user has access to from GitHub, clone them, and scan recursively')
     
     # Local folder processing options (NEW)
     parser.add_argument('--folder-list', action='store_true',
@@ -2408,11 +2476,57 @@ def main():
     if vuln_tags or asset_tags:
         detector.set_additional_tags(vuln_tags, asset_tags)
     
-    print(f"📁 Target: {os.path.abspath(args.target)}")
+    if not args.pull_all:
+        print(f"📁 Target: {os.path.abspath(args.target)}")
     print()
     
     # Process based on input type
-    if args.folders:
+    if args.pull_all:
+        # Fetch all user repositories from GitHub and scan them
+        print("🌐 --pull-all mode: Fetching all repositories from GitHub...")
+        print()
+        
+        # Fetch all repositories
+        repo_urls = detector.fetch_all_user_repositories()
+        
+        if not repo_urls:
+            print("❌ No repositories found or unable to fetch from GitHub")
+            print("💡 Make sure your GitHub token is configured and has appropriate permissions")
+            return 1
+        
+        print(f"\n📋 Processing {len(repo_urls)} repositories...")
+        print()
+        
+        # Process all repositories (this will clone and scan recursively)
+        assets = []
+        for i, repo_url in enumerate(repo_urls, 1):
+            print(f"\n{'='*80}")
+            print(f"🔄 Repository {i}/{len(repo_urls)}: {repo_url}")
+            print(f"{'='*80}\n")
+            
+            if detector.light_scan_mode:
+                # Light scan mode
+                repo_assets = detector.light_scan_repository(repo_url)
+                assets.extend(repo_assets)
+            else:
+                # Full scan mode - clone and scan recursively
+                repo_path = detector._get_or_clone_repository(repo_url)
+                
+                if repo_path:
+                    # Find all package files recursively
+                    package_files = []
+                    for pattern in ['package.json', 'package-lock.json']:
+                        package_files.extend(Path(repo_path).rglob(pattern))
+                        
+                    for package_file in package_files:
+                        asset = detector.process_package_file(str(package_file), repo_url)
+                        assets.append(asset)
+                else:
+                    print(f"⚠️  Failed to clone repository: {repo_url}")
+        
+        detector.phoenix_assets = assets
+        
+    elif args.folders:
         # Multiple folders specified directly
         assets = detector.process_multiple_folders(args.folders)
         detector.phoenix_assets = assets

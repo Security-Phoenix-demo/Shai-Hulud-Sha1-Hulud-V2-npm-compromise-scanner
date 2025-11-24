@@ -1,0 +1,30 @@
+{
+  "name": "zapier-confirmed-packages-test",
+  "version": "1.0.0",
+  "description": "Test case for confirmed compromised Zapier packages with specific versions",
+  "author": "Security Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.2",
+    "@zapier/zapier-sdk": "0.15.5",
+    "zapier-platform-core": "18.0.3",
+    "zapier-platform-cli": "18.0.2",
+    "zapier-platform-schema": "18.0.4",
+    "@zapier/mcp-integration": "3.0.2",
+    "@zapier/secret-scrubber": "1.1.4",
+    "@zapier/ai-actions-react": "0.1.13",
+    "@zapier/stubtree": "0.1.3"
+  },
+  "devDependencies": {
+    "typescript": "5.2.0",
+    "@zapier/babel-preset-zapier": "1.0.0",
+    "@zapier/eslint-plugin-zapier": "2.0.0"
+  },
+  "keywords": [
+    "zapier",
+    "confirmed-compromise",
+    "security-test",
+    "specific-versions"
+  ]
+}
+

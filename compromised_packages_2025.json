@@ -8,8 +8,8 @@
     "attack_vector": "Supply chain compromise targeting popular packages across multiple organizations",
     "impact": "Potential malicious code injection, data exfiltration, crypto wallet theft",
     "severity": "CRITICAL",
-    "total_packages_confirmed": 198,
-    "total_packages_potentially_compromised": 410,
+    "total_packages_confirmed": 208,
+    "total_packages_potentially_compromised": 400,
     "total_packages": 608,
     "organizations_affected": ["@ctrl", "@nativescript-community", "@art-ws", "@crowdstrike", "@hestjs", "@operato", "@teselagen", "@things-factory", "@nstudio", "@tnf-dev", "@yoobic", "@rxap", "@teriyakibomb", "@actbase", "@alexcolls", "@asyncapi", "@ensdomains", "@posthog", "@postman", "@zapier", "@trigo", "@kvytech", "@lessondesk", "@mcp-use", "@orbitgtbelgium", "@seung-ju", "@strapbuild", "@quick-start-soft", "@varsityvibe"],
     "note": "Potentially compromised packages do not have version information available at this time. Exercise extreme caution when using any of these packages."
@@ -807,6 +807,46 @@
     "@teriyakibomb/ember-velcro": {
       "compromised_versions": ["2.2.1"],
       "safe_version": "2.2.0"
+    },
+    "@zapier/zapier-sdk": {
+      "compromised_versions": ["0.15.5", "0.15.6", "0.15.7"],
+      "safe_version": "0.15.4"
+    },
+    "zapier-platform-core": {
+      "compromised_versions": ["18.0.2", "18.0.3", "18.0.4"],
+      "safe_version": "18.0.1"
+    },
+    "zapier-platform-cli": {
+      "compromised_versions": ["18.0.2", "18.0.3", "18.0.4"],
+      "safe_version": "18.0.1"
+    },
+    "zapier-platform-schema": {
+      "compromised_versions": ["18.0.2", "18.0.3", "18.0.4"],
+      "safe_version": "18.0.1"
+    },
+    "@zapier/mcp-integration": {
+      "compromised_versions": ["3.0.1", "3.0.2", "3.0.3"],
+      "safe_version": "3.0.0"
+    },
+    "@zapier/secret-scrubber": {
+      "compromised_versions": ["1.1.3", "1.1.4", "1.1.5"],
+      "safe_version": "1.1.2"
+    },
+    "@zapier/ai-actions-react": {
+      "compromised_versions": ["0.1.12", "0.1.13", "0.1.14"],
+      "safe_version": "0.1.11"
+    },
+    "@zapier/stubtree": {
+      "compromised_versions": ["0.1.2", "0.1.3", "0.1.4"],
+      "safe_version": "0.1.1"
+    },
+    "@zapier/babel-preset-zapier": {
+      "compromised_versions": ["all"],
+      "safe_version": "none - all versions affected"
+    },
+    "@zapier/eslint-plugin-zapier": {
+      "compromised_versions": ["all"],
+      "safe_version": "none - all versions affected"
     }
   },
   
@@ -1061,15 +1101,8 @@
     "@varsityvibe/api-client",
     "@varsityvibe/validation-schemas",
     "@zapier/ai-actions",
-    "@zapier/ai-actions-react",
-    "@zapier/babel-preset-zapier",
     "@zapier/browserslist-config-zapier",
-    "@zapier/eslint-plugin-zapier",
-    "@zapier/mcp-integration",
-    "@zapier/secret-scrubber",
     "@zapier/spectral-api-ruleset",
-    "@zapier/stubtree",
-    "@zapier/zapier-sdk",
     "asyncapi-preview",
     "atrix",
     "atrix-mongoose",
@@ -1213,10 +1246,7 @@
     "web-types-lit",
     "wenk",
     "zapier-async-storage",
-    "zapier-platform-cli",
-    "zapier-platform-core",
     "zapier-platform-legacy-scripting-runner",
-    "zapier-platform-schema",
     "zapier-scripts",
     "zuper-cli",
     "zuper-sdk",
