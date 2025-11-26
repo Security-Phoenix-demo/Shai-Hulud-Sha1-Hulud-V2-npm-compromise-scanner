@@ -44,6 +44,60 @@ python3 enhanced_npm_compromise_detector_phoenix.py --repo-list my_repos.txt --l
 ./enhanced-quick-check-with-phoenix.sh my_repos.txt --enable-phoenix --light-scan --repo-list
 ```
 
+### **🐙 GitHub Automatic Repository Discovery (`--pull-all`)**
+
+**Automatically scan ALL repositories you have access to:**
+
+```bash
+# 1. Set your GitHub Personal Access Token
+export GITHUB_TOKEN=ghp_your_personal_access_token_here
+
+# 2. Automatically discover and scan all accessible repositories
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --organize-folders \
+  --output github-all-repos-scan.txt
+
+# 3. With Phoenix integration and full tree analysis
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --full-tree \
+  --enable-phoenix \
+  --organize-folders \
+  --output github-comprehensive-audit.txt
+
+# 4. Quick scan with debug mode (see what's being discovered)
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --debug \
+  --organize-folders \
+  --output github-debug-scan.txt
+```
+
+**What `--pull-all` does:**
+- 🔍 **Automatically discovers** all repositories accessible by your GitHub credentials
+- 📦 **Clones** each repository locally
+- 🔎 **Recursively scans** all directories for `package.json`, `package-lock.json`, and `yarn.lock`
+- 🚀 **Perfect for** organization-wide security audits and continuous monitoring
+- ✅ **Works with** both public and private repositories
+
+**GitHub Token Setup:**
+
+Create a Personal Access Token at: https://github.com/settings/tokens
+
+Required scopes:
+- `repo` (Full control of private repositories)
+- `read:org` (Read org and team membership)
+
+Then set it:
+```bash
+# Linux/macOS
+export GITHUB_TOKEN="ghp_your_token_here"
+
+# Windows PowerShell
+$env:GITHUB_TOKEN="ghp_your_token_here"
+```
+
 ### **🎯 What Each Tool Does**
 
 | Tool | Purpose | Speed | Use Case |

@@ -959,8 +959,8 @@ additional_asset_tags = npm-project,dependency-scan
             if normalized_version in compromised_versions:
                 return True, 'CRITICAL', compromised_versions
             else:
-                # Package is in our list but version is different - could be safe
-                return False, 'INFO', compromised_versions
+                # Package is in our list but version is different - safe version (severity 1)
+                return False, 'CLEAN', compromised_versions
                 
         # Check potentially compromised packages (no specific version)
         if package_name in self.potentially_compromised:

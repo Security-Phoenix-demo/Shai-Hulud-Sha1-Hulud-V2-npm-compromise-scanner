@@ -176,6 +176,105 @@ python3 enhanced_npm_compromise_detector_phoenix.py \
   --output local-projects-phoenix.txt
 ```
 
+## 🐙 GitHub Automatic Pull & Scan Commands
+
+### **Pull All User Repositories**
+```bash
+# Automatically fetch and scan ALL repositories you have access to
+python3 enhanced_npm_compromise_detector_phoenix.py --pull-all --output github-all-repos.txt
+
+# With organized folders
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --organize-folders \
+  --output github-all-repos-organized.txt
+
+# With Phoenix integration
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --enable-phoenix \
+  --organize-folders \
+  --output github-all-repos-phoenix.txt
+
+# With debug mode (see API calls and repository discovery)
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --debug \
+  --organize-folders \
+  --output github-all-repos-debug.txt
+```
+
+### **GitHub Authentication Setup**
+```bash
+# Set GitHub token as environment variable (recommended)
+export GITHUB_TOKEN="ghp_your_personal_access_token_here"
+python3 enhanced_npm_compromise_detector_phoenix.py --pull-all --output scan.txt
+
+# Or use git credentials helper
+git config --global credential.helper store
+python3 enhanced_npm_compromise_detector_phoenix.py --pull-all --output scan.txt
+```
+
+### **Single Repository GitHub Scan**
+```bash
+# Scan specific GitHub repository
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  https://github.com/Security-Phoenix-demo/Shai-Hulud-Hulud-Shai-npm-tinycolour-compromise-verifier \
+  --output single-repo-scan.txt
+
+# With full tree analysis
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  https://github.com/facebook/react \
+  --full-tree \
+  --organize-folders \
+  --output react-full-tree.txt
+
+# With Phoenix integration
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  https://github.com/vuejs/vue \
+  --enable-phoenix \
+  --organize-folders \
+  --output vue-phoenix-scan.txt
+```
+
+### **GitHub Organization Scanning**
+```bash
+# Scan all repositories from an organization
+# First, get org repos using GitHub CLI
+gh repo list myorg --limit 1000 --json url --jq '.[].url' > org-repos.txt
+
+# Then scan all org repositories
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --repo-list org-repos.txt \
+  --organize-folders \
+  --output org-scan.txt
+
+# Or use --pull-all if you have access to org repos
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --enable-phoenix \
+  --organize-folders \
+  --output org-all-repos-scan.txt
+```
+
+### **Private Repository Scanning**
+```bash
+# Scan private repositories (requires GitHub token with repo scope)
+export GITHUB_TOKEN="ghp_token_with_repo_scope"
+
+# Scan all accessible private repos
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --organize-folders \
+  --output private-repos-scan.txt
+
+# Scan specific private repository
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  https://github.com/company/private-repo \
+  --organize-folders \
+  --output private-repo-scan.txt
+```
+
 ## 🔄 Repository List Commands
 
 ### **Basic Repository List**
@@ -264,7 +363,17 @@ python3 enhanced_npm_compromise_detector_phoenix.py . \
 
 ### **Organization-Wide Scanning**
 ```bash
-# Create comprehensive org repository list
+# Option 1: Automatic discovery and scanning (recommended)
+# Scans ALL repositories your GitHub credentials have access to
+export GITHUB_TOKEN="ghp_your_org_token_here"
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --full-tree \
+  --enable-phoenix \
+  --organize-folders \
+  --output "enterprise-security-audit-$(date +%Y%m%d).txt"
+
+# Option 2: Manual repository list
 cat > org-repos.txt << EOF
 https://github.com/org/frontend-main
 https://github.com/org/frontend-admin
@@ -278,7 +387,7 @@ https://github.com/org/monitoring-stack
 https://github.com/org/documentation-site
 EOF
 
-# Enterprise-grade scanning
+# Enterprise-grade scanning with manual list
 python3 enhanced_npm_compromise_detector_phoenix.py \
   --repo-list org-repos.txt \
   --full-tree \
@@ -286,6 +395,15 @@ python3 enhanced_npm_compromise_detector_phoenix.py \
   --debug \
   --organize-folders \
   --output "enterprise-security-audit-$(date +%Y%m%d).txt"
+
+# Option 3: Use GitHub CLI to generate list
+gh repo list myorg --limit 1000 --json url --jq '.[].url' > org-repos.txt
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --repo-list org-repos.txt \
+  --full-tree \
+  --enable-phoenix \
+  --organize-folders \
+  --output "org-comprehensive-scan-$(date +%Y%m%d).txt"
 ```
 
 ### **Supply Chain Analysis**
@@ -573,6 +691,118 @@ done
 echo "🎉 All environments scanned successfully!"
 ```
 
+## 🚀 Advanced GitHub Scanning Workflows
+
+### **Comprehensive GitHub Security Audit**
+```bash
+#!/bin/bash
+# github-security-audit.sh
+
+echo "🔒 Starting GitHub Security Audit"
+
+# Set GitHub token
+export GITHUB_TOKEN="ghp_your_token_here"
+
+# Step 1: Discover and scan all accessible repositories
+echo "📋 Step 1: Discovering all accessible repositories..."
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --debug \
+  --organize-folders \
+  --output "step1-github-discovery-$(date +%Y%m%d).txt"
+
+# Step 2: Full tree analysis with Phoenix
+echo "🌳 Step 2: Full tree analysis with Phoenix integration..."
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --full-tree \
+  --enable-phoenix \
+  --organize-folders \
+  --output "step2-github-full-analysis-$(date +%Y%m%d).txt"
+
+echo "✅ GitHub Security Audit Complete!"
+```
+
+### **Multi-Team Repository Scanning**
+```bash
+# Scan repositories across multiple teams/organizations
+# Team 1 repositories
+gh repo list team1-org --limit 100 --json url --jq '.[].url' > team1-repos.txt
+
+# Team 2 repositories  
+gh repo list team2-org --limit 100 --json url --jq '.[].url' > team2-repos.txt
+
+# Combine and scan
+cat team1-repos.txt team2-repos.txt > all-teams-repos.txt
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --repo-list all-teams-repos.txt \
+  --full-tree \
+  --enable-phoenix \
+  --organize-folders \
+  --output "multi-team-scan-$(date +%Y%m%d).txt"
+```
+
+### **GitHub Actions Integration**
+```bash
+# .github/workflows/npm-security-scan.yml
+# name: NPM Supply Chain Security Scan
+# 
+# on:
+#   schedule:
+#     - cron: '0 0 * * *'  # Daily at midnight
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+#
+# jobs:
+#   security-scan:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       
+#       - name: Run NPM Security Scanner
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           python3 enhanced_npm_compromise_detector_phoenix.py . \
+#             --full-tree \
+#             --enable-phoenix \
+#             --organize-folders \
+#             --output "security-scan-${GITHUB_SHA}.txt"
+```
+
+### **Continuous Repository Monitoring**
+```bash
+#!/bin/bash
+# monitor-github-repos.sh
+
+# Daily monitoring of all accessible repositories
+export GITHUB_TOKEN="${GITHUB_TOKEN:-ghp_default_token}"
+
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+
+# Run comprehensive scan
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --full-tree \
+  --enable-phoenix \
+  --organize-folders \
+  --output "github-monitoring-$TIMESTAMP.txt"
+
+# Check for critical findings
+RESULT_FILE="result/$(date +%Y%m%d)/github-monitoring-$TIMESTAMP.txt"
+if grep -q "CRITICAL" "$RESULT_FILE"; then
+    echo "🚨 CRITICAL vulnerabilities found!"
+    # Send alert (Slack, email, etc.)
+    # Example: curl -X POST -H 'Content-type: application/json' \
+    #   --data '{"text":"Critical NPM vulnerabilities detected!"}' \
+    #   $SLACK_WEBHOOK_URL
+else
+    echo "✅ No critical vulnerabilities found"
+fi
+```
+
 ---
 
 ## 🎯 Quick Command Reference
@@ -588,6 +818,12 @@ python3 enhanced_npm_compromise_detector_phoenix.py . --enable-phoenix
 # Full tree with Phoenix
 python3 enhanced_npm_compromise_detector_phoenix.py . --full-tree --enable-phoenix
 
+# GitHub: Scan all accessible repos
+python3 enhanced_npm_compromise_detector_phoenix.py --pull-all --organize-folders
+
+# GitHub: Single repository
+python3 enhanced_npm_compromise_detector_phoenix.py https://github.com/user/repo
+
 # Light scan repositories
 python3 enhanced_npm_compromise_detector_phoenix.py --light-scan --repo-list repos.txt
 
@@ -597,13 +833,22 @@ python3 enhanced_npm_compromise_detector_phoenix.py . --organize-folders --outpu
 
 ### **Flag Combinations**
 ```bash
-# Maximum features
+# Maximum features (local)
 python3 enhanced_npm_compromise_detector_phoenix.py . \
   --full-tree \
   --enable-phoenix \
   --debug \
   --organize-folders \
   --output comprehensive-scan.txt
+
+# Maximum features (GitHub)
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --full-tree \
+  --enable-phoenix \
+  --debug \
+  --organize-folders \
+  --output github-comprehensive-scan.txt
 
 # CI/CD optimized
 python3 enhanced_npm_compromise_detector_phoenix.py . \
@@ -615,10 +860,99 @@ python3 enhanced_npm_compromise_detector_phoenix.py . \
 python3 enhanced_npm_compromise_detector_phoenix.py . \
   --organize-folders \
   --output "dev-scan-$(date +%Y%m%d).txt"
+
+# GitHub organization audit
+python3 enhanced_npm_compromise_detector_phoenix.py \
+  --pull-all \
+  --enable-phoenix \
+  --organize-folders \
+  --output "org-audit-$(date +%Y%m%d).txt"
 ```
+
+---
+
+## 📋 GitHub Token Setup Guide
+
+### **Creating a GitHub Personal Access Token**
+
+1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Click "Generate new token (classic)"
+3. Give it a descriptive name: "NPM Security Scanner"
+4. Select scopes:
+   - `repo` (Full control of private repositories)
+   - `read:org` (Read org and team membership, read org projects)
+5. Click "Generate token"
+6. Copy the token (starts with `ghp_`)
+
+### **Setting the Token**
+
+**Option 1: Environment Variable (Recommended)**
+```bash
+# Linux/macOS - Add to ~/.bashrc or ~/.zshrc
+export GITHUB_TOKEN="ghp_your_token_here"
+
+# Windows PowerShell
+$env:GITHUB_TOKEN="ghp_your_token_here"
+
+# Then run scanner
+python3 enhanced_npm_compromise_detector_phoenix.py --pull-all
+```
+
+**Option 2: Git Credential Helper**
+```bash
+# Configure git to store credentials
+git config --global credential.helper store
+
+# Clone a private repo (will prompt for username and token)
+git clone https://github.com/user/private-repo
+
+# Future pulls will use stored credentials
+python3 enhanced_npm_compromise_detector_phoenix.py --pull-all
+```
+
+**Option 3: GitHub CLI**
+```bash
+# Authenticate with GitHub CLI
+gh auth login
+
+# Scanner will use gh credentials automatically
+python3 enhanced_npm_compromise_detector_phoenix.py --pull-all
+```
+
+---
+
+## 🔍 GitHub Scanning Comparison
+
+| Feature | --pull-all | --repo-list | Direct URL |
+|---------|-----------|-------------|------------|
+| **Discovery** | Automatic | Manual | Manual |
+| **Private Repos** | ✅ (with token) | ✅ (with token) | ✅ (with token) |
+| **Rate Limits** | Uses GitHub API | Clone only | Clone only |
+| **Best For** | Organizations, audits | Specific projects | Single repo |
+| **Setup Required** | GitHub token | Repo list file | None |
+
+### **When to Use Each Method**
+
+**Use `--pull-all` when:**
+- You want to scan ALL repositories you have access to
+- Performing organization-wide security audits
+- You have a GitHub token with appropriate scopes
+- You want automatic discovery of new repositories
+
+**Use `--repo-list` when:**
+- You have a specific set of repositories to scan
+- You want to scan repositories from multiple sources
+- You need to mix GitHub and non-GitHub repositories
+- You want fine control over what gets scanned
+
+**Use direct URL when:**
+- You need to scan a single specific repository
+- Quick ad-hoc security check
+- Testing the scanner
+- Scanning public repositories
 
 ---
 
 **💻 Copy, paste, and customize these commands for your specific security scanning needs!**
 
-This reference provides battle-tested commands for every NPM security scanning scenario. Adapt the examples to fit your workflow and security requirements. 🛡️✨
+This reference provides battle-tested commands for every NPM security scanning scenario, including comprehensive GitHub integration with automatic repository discovery and scanning. Adapt the examples to fit your workflow and security requirements. 🛡️✨

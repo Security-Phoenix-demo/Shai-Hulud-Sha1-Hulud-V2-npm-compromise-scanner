@@ -1,1258 +1,5067 @@
 {
   "incident_metadata": {
     "name": "NPM Supply Chain Attack - Extended Package List 2025 - UPDATED",
-    "date": "2025-09-17",
-    "last_update": "2025-11-24",
+    "date": "2025-11-26",
+    "last_update": "2025-11-26",
     "cve_reference": "Multiple CVEs pending",
     "github_issue": "Multiple packages compromised - Comprehensive list",
     "attack_vector": "Supply chain compromise targeting popular packages across multiple organizations",
     "impact": "Potential malicious code injection, data exfiltration, crypto wallet theft",
     "severity": "CRITICAL",
-    "total_packages_confirmed": 208,
-    "total_packages_potentially_compromised": 400,
-    "total_packages": 608,
-    "organizations_affected": ["@ctrl", "@nativescript-community", "@art-ws", "@crowdstrike", "@hestjs", "@operato", "@teselagen", "@things-factory", "@nstudio", "@tnf-dev", "@yoobic", "@rxap", "@teriyakibomb", "@actbase", "@alexcolls", "@asyncapi", "@ensdomains", "@posthog", "@postman", "@zapier", "@trigo", "@kvytech", "@lessondesk", "@mcp-use", "@orbitgtbelgium", "@seung-ju", "@strapbuild", "@quick-start-soft", "@varsityvibe"],
-    "note": "Potentially compromised packages do not have version information available at this time. Exercise extreme caution when using any of these packages."
+    "total_packages_confirmed": 787,
+    "total_packages_potentially_compromised": 0,
+    "total_packages": 787,
+    "organizations_affected": [
+      "@ctrl",
+      "@nativescript-community",
+      "@art-ws",
+      "@crowdstrike",
+      "@hestjs",
+      "@operato",
+      "@teselagen",
+      "@things-factory",
+      "@nstudio",
+      "@tnf-dev",
+      "@yoobic",
+      "@rxap",
+      "@teriyakibomb",
+      "@actbase",
+      "@alexcolls",
+      "@asyncapi",
+      "@ensdomains",
+      "@posthog",
+      "@postman",
+      "@zapier",
+      "@trigo",
+      "@kvytech",
+      "@lessondesk",
+      "@mcp-use",
+      "@orbitgtbelgium",
+      "@seung-ju",
+      "@strapbuild",
+      "@quick-start-soft",
+      "@varsityvibe"
+    ],
+    "note": "5th Wave: Granular version-specific detection from CSV import. Specific compromised versions with safe version recommendations.",
+    "version": "5.0.0"
   },
-  
   "compromised_packages": {
-    "@ahmedhfarag/ngx-perfect-scrollbar": {
-      "compromised_versions": ["20.0.20"],
-      "safe_version": "20.0.19"
+    "@accordproject/concerto-linter": {
+      "compromised_versions": [
+        "3.24.1"
+      ],
+      "safe_version": "3.24.0"
     },
-    "@ahmedhfarag/ngx-virtual-scroller": {
-      "compromised_versions": ["4.0.4"],
-      "safe_version": "4.0.3"
+    "@accordproject/concerto-linter-default-ruleset": {
+      "compromised_versions": [
+        "3.24.1"
+      ],
+      "safe_version": "3.24.0"
     },
-    "@art-ws/common": {
-      "compromised_versions": ["2.0.28"],
-      "safe_version": "2.0.27"
+    "@accordproject/concerto-metamodel": {
+      "compromised_versions": [
+        "3.12.5"
+      ],
+      "safe_version": "3.12.4"
     },
-    "@art-ws/config-eslint": {
-      "compromised_versions": ["2.0.4", "2.0.5"],
+    "@accordproject/concerto-types": {
+      "compromised_versions": [
+        "3.24.1"
+      ],
+      "safe_version": "3.24.0"
+    },
+    "@accordproject/markdown-it-cicero": {
+      "compromised_versions": [
+        "0.16.26"
+      ],
+      "safe_version": "0.16.25"
+    },
+    "@accordproject/template-engine": {
+      "compromised_versions": [
+        "2.7.2"
+      ],
+      "safe_version": "2.7.1"
+    },
+    "@actbase/css-to-react-native-transform": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@actbase/native": {
+      "compromised_versions": [
+        "0.1.32"
+      ],
+      "safe_version": "0.1.31"
+    },
+    "@actbase/node-server": {
+      "compromised_versions": [
+        "1.1.19"
+      ],
+      "safe_version": "1.1.18"
+    },
+    "@actbase/react-absolute": {
+      "compromised_versions": [
+        "0.8.3"
+      ],
+      "safe_version": "0.8.2"
+    },
+    "@actbase/react-daum-postcode": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "@actbase/react-kakaosdk": {
+      "compromised_versions": [
+        "0.9.27"
+      ],
+      "safe_version": "0.9.26"
+    },
+    "@actbase/react-native-actionsheet": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@actbase/react-native-devtools": {
+      "compromised_versions": [
+        "0.1.3"
+      ],
+      "safe_version": "0.1.2"
+    },
+    "@actbase/react-native-fast-image": {
+      "compromised_versions": [
+        "8.5.13"
+      ],
+      "safe_version": "8.5.12"
+    },
+    "@actbase/react-native-kakao-channel": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@actbase/react-native-kakao-navi": {
+      "compromised_versions": [
+        "2.0.4"
+      ],
       "safe_version": "2.0.3"
     },
-    "@art-ws/config-ts": {
-      "compromised_versions": ["2.0.7", "2.0.8"],
-      "safe_version": "2.0.6"
-    },
-    "@art-ws/db-context": {
-      "compromised_versions": ["2.0.24"],
-      "safe_version": "2.0.23"
-    },
-    "@art-ws/di-node": {
-      "compromised_versions": ["2.0.13"],
-      "safe_version": "2.0.12"
-    },
-    "@art-ws/di": {
-      "compromised_versions": ["2.0.28", "2.0.32"],
-      "safe_version": "2.0.27"
-    },
-    "@art-ws/eslint": {
-      "compromised_versions": ["1.0.5", "1.0.6"],
-      "safe_version": "1.0.4"
-    },
-    "@art-ws/fastify-http-server": {
-      "compromised_versions": ["2.0.24", "2.0.27"],
-      "safe_version": "2.0.23"
-    },
-    "@art-ws/http-server": {
-      "compromised_versions": ["2.0.21", "2.0.25"],
-      "safe_version": "2.0.20"
-    },
-    "@art-ws/openapi": {
-      "compromised_versions": ["0.1.12", "0.1.9"],
-      "safe_version": "0.1.8"
-    },
-    "@art-ws/package-base": {
-      "compromised_versions": ["1.0.5", "1.0.6"],
-      "safe_version": "1.0.4"
-    },
-    "@art-ws/prettier": {
-      "compromised_versions": ["1.0.5", "1.0.6"],
-      "safe_version": "1.0.4"
-    },
-    "@art-ws/slf": {
-      "compromised_versions": ["2.0.15", "2.0.22"],
-      "safe_version": "2.0.14"
-    },
-    "@art-ws/ssl-info": {
-      "compromised_versions": ["1.0.10", "1.0.9"],
-      "safe_version": "1.0.8"
-    },
-    "@art-ws/web-app": {
-      "compromised_versions": ["1.0.3", "1.0.4"],
-      "safe_version": "1.0.2"
-    },
-    "@crowdstrike/commitlint": {
-      "compromised_versions": ["8.1.1", "8.1.2"],
-      "safe_version": "8.1.0"
-    },
-    "@crowdstrike/falcon-shoelace": {
-      "compromised_versions": ["0.4.1", "0.4.2"],
-      "safe_version": "0.4.0"
-    },
-    "@crowdstrike/foundry-js": {
-      "compromised_versions": ["0.19.1", "0.19.2"],
-      "safe_version": "0.19.0"
-    },
-    "@crowdstrike/glide-core": {
-      "compromised_versions": ["0.34.2", "0.34.3"],
-      "safe_version": "0.34.1"
-    },
-    "@crowdstrike/logscale-dashboard": {
-      "compromised_versions": ["1.205.1", "1.205.2"],
-      "safe_version": "1.205.0"
-    },
-    "@crowdstrike/logscale-file-editor": {
-      "compromised_versions": ["1.205.1", "1.205.2"],
-      "safe_version": "1.205.0"
-    },
-    "@crowdstrike/logscale-parser-edit": {
-      "compromised_versions": ["1.205.1", "1.205.2"],
-      "safe_version": "1.205.0"
-    },
-    "@crowdstrike/logscale-search": {
-      "compromised_versions": ["1.205.1", "1.205.2"],
-      "safe_version": "1.205.0"
-    },
-    "@crowdstrike/tailwind-toucan-base": {
-      "compromised_versions": ["5.0.1", "5.0.2"],
-      "safe_version": "5.0.0"
-    },
-    "@ctrl/deluge": {
-      "compromised_versions": ["7.2.1", "7.2.2"],
-      "safe_version": "7.2.0"
-    },
-    "@ctrl/golang-template": {
-      "compromised_versions": ["1.4.2", "1.4.3"],
-      "safe_version": "1.4.1"
-    },
-    "@ctrl/magnet-link": {
-      "compromised_versions": ["4.0.3", "4.0.4"],
-      "safe_version": "4.0.2"
-    },
-    "@ctrl/ngx-codemirror": {
-      "compromised_versions": ["7.0.1", "7.0.2"],
-      "safe_version": "7.0.0"
-    },
-    "@ctrl/ngx-csv": {
-      "compromised_versions": ["6.0.1", "6.0.2"],
-      "safe_version": "6.0.0"
-    },
-    "@ctrl/ngx-emoji-mart": {
-      "compromised_versions": ["9.2.1", "9.2.2"],
-      "safe_version": "9.2.0"
-    },
-    "@ctrl/ngx-rightclick": {
-      "compromised_versions": ["4.0.1", "4.0.2"],
-      "safe_version": "4.0.0"
-    },
-    "@ctrl/qbittorrent": {
-      "compromised_versions": ["9.7.1", "9.7.2"],
-      "safe_version": "9.7.0"
-    },
-    "@ctrl/react-adsense": {
-      "compromised_versions": ["2.0.1", "2.0.2"],
-      "safe_version": "2.0.0"
-    },
-    "@ctrl/shared-torrent": {
-      "compromised_versions": ["6.3.1", "6.3.2"],
-      "safe_version": "6.3.0"
-    },
-    "@ctrl/tinycolor": {
-      "compromised_versions": ["4.1.1", "4.1.2"],
-      "safe_version": "4.1.0"
-    },
-    "@ctrl/torrent-file": {
-      "compromised_versions": ["4.1.1", "4.1.2"],
-      "safe_version": "4.1.0"
-    },
-    "@ctrl/transmission": {
-      "compromised_versions": ["7.3.1"],
-      "safe_version": "7.3.0"
-    },
-    "@ctrl/ts-base32": {
-      "compromised_versions": ["4.0.1", "4.0.2"],
-      "safe_version": "4.0.0"
-    },
-    "@hestjs/core": {
-      "compromised_versions": ["0.2.1"],
-      "safe_version": "0.2.0"
-    },
-    "@hestjs/cqrs": {
-      "compromised_versions": ["0.1.6"],
-      "safe_version": "0.1.5"
-    },
-    "@hestjs/demo": {
-      "compromised_versions": ["0.1.2"],
-      "safe_version": "0.1.1"
-    },
-    "@hestjs/eslint-config": {
-      "compromised_versions": ["0.1.2"],
-      "safe_version": "0.1.1"
-    },
-    "@hestjs/logger": {
-      "compromised_versions": ["0.1.6"],
-      "safe_version": "0.1.5"
-    },
-    "@hestjs/scalar": {
-      "compromised_versions": ["0.1.7"],
-      "safe_version": "0.1.6"
-    },
-    "@hestjs/validation": {
-      "compromised_versions": ["0.1.6"],
-      "safe_version": "0.1.5"
-    },
-    "@nativescript-community/arraybuffers": {
-      "compromised_versions": ["1.1.6", "1.1.7", "1.1.8"],
-      "safe_version": "1.1.5"
-    },
-    "@nativescript-community/gesturehandler": {
-      "compromised_versions": ["2.0.35"],
-      "safe_version": "2.0.34"
-    },
-    "@nativescript-community/perms": {
-      "compromised_versions": ["3.0.5", "3.0.6", "3.0.7", "3.0.8", "3.0.9"],
-      "safe_version": "3.0.4"
-    },
-    "@nativescript-community/sentry": {
-      "compromised_versions": ["4.6.43"],
-      "safe_version": "4.6.42"
-    },
-    "@nativescript-community/sqlite": {
-      "compromised_versions": ["3.5.2", "3.5.3", "3.5.4", "3.5.5"],
-      "safe_version": "3.5.1"
-    },
-    "@nativescript-community/text": {
-      "compromised_versions": ["1.6.9", "1.6.10", "1.6.11", "1.6.12", "1.6.13"],
-      "safe_version": "1.6.8"
-    },
-    "@nativescript-community/typeorm": {
-      "compromised_versions": ["0.2.30", "0.2.31", "0.2.32", "0.2.33"],
-      "safe_version": "0.2.29"
-    },
-    "@nativescript-community/ui-collectionview": {
-      "compromised_versions": ["6.0.6"],
-      "safe_version": "6.0.5"
-    },
-    "@nativescript-community/ui-document-picker": {
-      "compromised_versions": ["1.1.27", "1.1.28"],
-      "safe_version": "1.1.26"
-    },
-    "@nativescript-community/ui-drawer": {
-      "compromised_versions": ["0.1.30"],
-      "safe_version": "0.1.29"
-    },
-    "@nativescript-community/ui-image": {
-      "compromised_versions": ["4.5.6"],
-      "safe_version": "4.5.5"
-    },
-    "@nativescript-community/ui-label": {
-      "compromised_versions": ["1.3.35", "1.3.36", "1.3.37"],
-      "safe_version": "1.3.34"
-    },
-    "@nativescript-community/ui-material-bottom-navigation": {
-      "compromised_versions": ["7.2.72", "7.2.73", "7.2.74", "7.2.75"],
-      "safe_version": "7.2.71"
-    },
-    "@nativescript-community/ui-material-bottomsheet": {
-      "compromised_versions": ["7.2.72"],
-      "safe_version": "7.2.71"
-    },
-    "@nativescript-community/ui-material-core-tabs": {
-      "compromised_versions": ["7.2.72", "7.2.73", "7.2.74", "7.2.75", "7.2.76"],
-      "safe_version": "7.2.71"
-    },
-    "@nativescript-community/ui-material-core": {
-      "compromised_versions": ["7.2.72", "7.2.73", "7.2.74", "7.2.75", "7.2.76"],
-      "safe_version": "7.2.71"
-    },
-    "@nativescript-community/ui-material-ripple": {
-      "compromised_versions": ["7.2.72", "7.2.73", "7.2.74", "7.2.75"],
-      "safe_version": "7.2.71"
-    },
-    "@nativescript-community/ui-material-tabs": {
-      "compromised_versions": ["7.2.72", "7.2.73", "7.2.74", "7.2.75"],
-      "safe_version": "7.2.71"
-    },
-    "@nativescript-community/ui-pager": {
-      "compromised_versions": ["14.1.36", "14.1.37", "14.1.38"],
-      "safe_version": "14.1.35"
-    },
-    "@nativescript-community/ui-pulltorefresh": {
-      "compromised_versions": ["2.5.4", "2.5.5", "2.5.6", "2.5.7"],
-      "safe_version": "2.5.3"
-    },
-    "@nexe/config-manager": {
-      "compromised_versions": ["0.1.1"],
-      "safe_version": "0.1.0"
-    },
-    "@nexe/eslint-config": {
-      "compromised_versions": ["0.1.1"],
-      "safe_version": "0.1.0"
-    },
-    "@nexe/logger": {
-      "compromised_versions": ["0.1.3"],
-      "safe_version": "0.1.2"
-    },
-    "@nstudio/angular": {
-      "compromised_versions": ["20.0.4", "20.0.5", "20.0.6"],
-      "safe_version": "20.0.3"
-    },
-    "@nstudio/focus": {
-      "compromised_versions": ["20.0.4", "20.0.5", "20.0.6"],
-      "safe_version": "20.0.3"
-    },
-    "@nstudio/nativescript-checkbox": {
-      "compromised_versions": ["2.0.6", "2.0.7", "2.0.8", "2.0.9"],
-      "safe_version": "2.0.5"
-    },
-    "@nstudio/nativescript-loading-indicator": {
-      "compromised_versions": ["5.0.1", "5.0.2", "5.0.3", "5.0.4"],
-      "safe_version": "5.0.0"
-    },
-    "@nstudio/ui-collectionview": {
-      "compromised_versions": ["5.1.11", "5.1.12", "5.1.13", "5.1.14"],
-      "safe_version": "5.1.10"
-    },
-    "@nstudio/web-angular": {
-      "compromised_versions": ["20.0.4"],
-      "safe_version": "20.0.3"
-    },
-    "@nstudio/web": {
-      "compromised_versions": ["20.0.4"],
-      "safe_version": "20.0.3"
-    },
-    "@nstudio/xplat-utils": {
-      "compromised_versions": ["20.0.5", "20.0.6", "20.0.7"],
-      "safe_version": "20.0.4"
-    },
-    "@nstudio/xplat": {
-      "compromised_versions": ["20.0.5", "20.0.6", "20.0.7"],
-      "safe_version": "20.0.4"
-    },
-    "@operato/board": {
-      "compromised_versions": ["9.0.36", "9.0.37", "9.0.38", "9.0.39", "9.0.40", "9.0.41", "9.0.42", "9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47", "9.0.48", "9.0.49", "9.0.50", "9.0.51"],
-      "safe_version": "9.0.35"
-    },
-    "@operato/data-grist": {
-      "compromised_versions": ["9.0.29", "9.0.35", "9.0.36", "9.0.37"],
-      "safe_version": "9.0.28"
-    },
-    "@operato/graphql": {
-      "compromised_versions": ["9.0.22", "9.0.35", "9.0.36", "9.0.37", "9.0.38", "9.0.39", "9.0.40", "9.0.41", "9.0.42", "9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47", "9.0.48", "9.0.49", "9.0.50", "9.0.51"],
-      "safe_version": "9.0.21"
-    },
-    "@operato/headroom": {
-      "compromised_versions": ["9.0.2", "9.0.35", "9.0.36", "9.0.37"],
-      "safe_version": "9.0.1"
-    },
-    "@operato/help": {
-      "compromised_versions": ["9.0.35", "9.0.36", "9.0.37", "9.0.38", "9.0.39", "9.0.40", "9.0.41", "9.0.42", "9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47", "9.0.48", "9.0.49", "9.0.50", "9.0.51"],
-      "safe_version": "9.0.34"
-    },
-    "@operato/i18n": {
-      "compromised_versions": ["9.0.35", "9.0.36", "9.0.37"],
-      "safe_version": "9.0.34"
-    },
-    "@operato/input": {
-      "compromised_versions": ["9.0.27", "9.0.35", "9.0.36", "9.0.37", "9.0.38", "9.0.39", "9.0.40", "9.0.41", "9.0.42", "9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47", "9.0.48"],
-      "safe_version": "9.0.26"
-    },
-    "@operato/layout": {
-      "compromised_versions": ["9.0.35", "9.0.36", "9.0.37"],
-      "safe_version": "9.0.34"
-    },
-    "@operato/popup": {
-      "compromised_versions": ["9.0.22", "9.0.35", "9.0.36", "9.0.37", "9.0.38", "9.0.39", "9.0.40", "9.0.41", "9.0.42", "9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47", "9.0.48", "9.0.49", "9.0.50", "9.0.51"],
-      "safe_version": "9.0.21"
-    },
-    "@operato/pull-to-refresh": {
-      "compromised_versions": ["9.0.35", "9.0.36", "9.0.37", "9.0.38", "9.0.39", "9.0.40", "9.0.41", "9.0.42", "9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47"],
-      "safe_version": "9.0.34"
-    },
-    "@operato/shell": {
-      "compromised_versions": ["9.0.22", "9.0.35", "9.0.36", "9.0.37", "9.0.38", "9.0.39"],
-      "safe_version": "9.0.21"
-    },
-    "@operato/styles": {
-      "compromised_versions": ["9.0.2", "9.0.35", "9.0.36", "9.0.37"],
-      "safe_version": "9.0.1"
-    },
-    "@operato/utils": {
-      "compromised_versions": ["9.0.22", "9.0.35", "9.0.36", "9.0.37", "9.0.38", "9.0.39", "9.0.40", "9.0.41", "9.0.42", "9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47", "9.0.48", "9.0.49", "9.0.50", "9.0.51"],
-      "safe_version": "9.0.21"
-    },
-    "@teselagen/bio-parsers": {
-      "compromised_versions": ["0.4.30"],
-      "safe_version": "0.4.29"
-    },
-    "@teselagen/bounce-loader": {
-      "compromised_versions": ["0.3.16", "0.3.17"],
-      "safe_version": "0.3.15"
-    },
-    "@teselagen/file-utils": {
-      "compromised_versions": ["0.3.22"],
-      "safe_version": "0.3.21"
-    },
-    "@teselagen/liquibase-tools": {
-      "compromised_versions": ["0.4.1"],
-      "safe_version": "0.4.0"
-    },
-    "@teselagen/ove": {
-      "compromised_versions": ["0.7.40"],
-      "safe_version": "0.7.39"
-    },
-    "@teselagen/range-utils": {
-      "compromised_versions": ["0.3.14", "0.3.15"],
-      "safe_version": "0.3.13"
-    },
-    "@teselagen/react-list": {
-      "compromised_versions": ["0.8.19", "0.8.20"],
-      "safe_version": "0.8.18"
-    },
-    "@teselagen/react-table": {
-      "compromised_versions": ["6.10.19", "6.10.20", "6.10.22"],
-      "safe_version": "6.10.18"
-    },
-    "@teselagen/sequence-utils": {
-      "compromised_versions": ["0.3.34"],
-      "safe_version": "0.3.33"
-    },
-    "@teselagen/ui": {
-      "compromised_versions": ["0.9.10"],
-      "safe_version": "0.9.9"
-    },
-    "@thangved/callback-window": {
-      "compromised_versions": ["1.1.4"],
-      "safe_version": "1.1.3"
-    },
-    "@things-factory/attachment-base": {
-      "compromised_versions": ["9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47", "9.0.48", "9.0.49", "9.0.50", "9.0.51", "9.0.52", "9.0.53", "9.0.54", "9.0.55"],
-      "safe_version": "9.0.42"
-    },
-    "@things-factory/auth-base": {
-      "compromised_versions": ["9.0.43", "9.0.44", "9.0.45"],
-      "safe_version": "9.0.42"
-    },
-    "@things-factory/email-base": {
-      "compromised_versions": ["9.0.42", "9.0.43", "9.0.44", "9.0.45", "9.0.46", "9.0.47", "9.0.48", "9.0.49", "9.0.50", "9.0.51", "9.0.52", "9.0.53", "9.0.54", "9.0.55", "9.0.56", "9.0.57", "9.0.58", "9.0.59"],
-      "safe_version": "9.0.41"
-    },
-    "@things-factory/env": {
-      "compromised_versions": ["9.0.42", "9.0.43", "9.0.44", "9.0.45"],
-      "safe_version": "9.0.41"
-    },
-    "@things-factory/integration-base": {
-      "compromised_versions": ["9.0.43", "9.0.44", "9.0.45"],
-      "safe_version": "9.0.42"
-    },
-    "@things-factory/integration-marketplace": {
-      "compromised_versions": ["9.0.43", "9.0.44", "9.0.45"],
-      "safe_version": "9.0.42"
-    },
-    "@things-factory/shell": {
-      "compromised_versions": ["9.0.43", "9.0.44", "9.0.45"],
-      "safe_version": "9.0.42"
-    },
-    "@tnf-dev/api": {
-      "compromised_versions": ["1.0.8"],
-      "safe_version": "1.0.7"
-    },
-    "@tnf-dev/core": {
-      "compromised_versions": ["1.0.8"],
-      "safe_version": "1.0.7"
-    },
-    "@tnf-dev/js": {
-      "compromised_versions": ["1.0.8"],
-      "safe_version": "1.0.7"
-    },
-    "@tnf-dev/mui": {
-      "compromised_versions": ["1.0.8"],
-      "safe_version": "1.0.7"
-    },
-    "@tnf-dev/react": {
-      "compromised_versions": ["1.0.8"],
-      "safe_version": "1.0.7"
-    },
-    "@ui-ux-gang/devextreme-angular-rpk": {
-      "compromised_versions": ["24.1.7"],
-      "safe_version": "24.1.6"
-    },
-    "@yoobic/design-system": {
-      "compromised_versions": ["6.5.17"],
-      "safe_version": "6.5.16"
-    },
-    "@yoobic/jpeg-camera-es6": {
-      "compromised_versions": ["1.0.13"],
+    "@actbase/react-native-less-transformer": {
+      "compromised_versions": [
+        "1.0.6"
+      ],
+      "safe_version": "1.0.5"
+    },
+    "@actbase/react-native-naver-login": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@actbase/react-native-simple-video": {
+      "compromised_versions": [
+        "1.0.13"
+      ],
       "safe_version": "1.0.12"
     },
-    "@yoobic/yobi": {
-      "compromised_versions": ["8.7.53"],
-      "safe_version": "8.7.52"
+    "@actbase/react-native-tiktok": {
+      "compromised_versions": [
+        "1.1.3"
+      ],
+      "safe_version": "1.1.2"
     },
-    "airchief": {
-      "compromised_versions": ["0.3.1"],
-      "safe_version": "0.3.0"
+    "@afetcan/api": {
+      "compromised_versions": [
+        "0.0.13"
+      ],
+      "safe_version": "0.0.12"
     },
-    "airpilot": {
-      "compromised_versions": ["0.8.8"],
-      "safe_version": "0.8.7"
+    "@afetcan/storage": {
+      "compromised_versions": [
+        "0.0.27"
+      ],
+      "safe_version": "0.0.26"
     },
-    "angulartics2": {
-      "compromised_versions": ["14.1.1", "14.1.2"],
-      "safe_version": "14.1.0"
+    "@alaan/s2s-auth": {
+      "compromised_versions": [
+        "2.0.3"
+      ],
+      "safe_version": "2.0.2"
     },
-    "browser-webdriver-downloader": {
-      "compromised_versions": ["3.0.8"],
-      "safe_version": "3.0.7"
+    "@alexadark/amadeus-api": {
+      "compromised_versions": [
+        "1.0.4"
+      ],
+      "safe_version": "1.0.3"
     },
-    "capacitor-notificationhandler": {
-      "compromised_versions": ["0.0.2", "0.0.3"],
-      "safe_version": "0.0.1"
-    },
-    "capacitor-plugin-healthapp": {
-      "compromised_versions": ["0.0.2", "0.0.3"],
-      "safe_version": "0.0.1"
-    },
-    "capacitor-plugin-ihealth": {
-      "compromised_versions": ["1.1.8", "1.1.9"],
-      "safe_version": "1.1.7"
-    },
-    "capacitor-plugin-vonage": {
-      "compromised_versions": ["1.0.2", "1.0.3"],
-      "safe_version": "1.0.1"
-    },
-    "capacitorandroidpermissions": {
-      "compromised_versions": ["0.0.4", "0.0.5"],
-      "safe_version": "0.0.3"
-    },
-    "config-cordova": {
-      "compromised_versions": ["0.8.5"],
-      "safe_version": "0.8.4"
-    },
-    "cordova-plugin-voxeet2": {
-      "compromised_versions": ["1.0.24"],
-      "safe_version": "1.0.23"
-    },
-    "cordova-voxeet": {
-      "compromised_versions": ["1.0.32"],
-      "safe_version": "1.0.31"
-    },
-    "create-hest-app": {
-      "compromised_versions": ["0.1.9"],
-      "safe_version": "0.1.8"
-    },
-    "db-evo": {
-      "compromised_versions": ["1.1.4", "1.1.5"],
-      "safe_version": "1.1.3"
-    },
-    "devextreme-angular-rpk": {
-      "compromised_versions": ["21.2.8"],
-      "safe_version": "21.2.7"
-    },
-    "ember-browser-services": {
-      "compromised_versions": ["5.0.2", "5.0.3"],
-      "safe_version": "5.0.1"
-    },
-    "ember-headless-form-yup": {
-      "compromised_versions": ["1.0.1"],
+    "@alexadark/gatsby-theme-events": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
       "safe_version": "1.0.0"
     },
-    "ember-headless-form": {
-      "compromised_versions": ["1.1.2", "1.1.3"],
-      "safe_version": "1.1.1"
+    "@alexadark/gatsby-theme-wordpress-blog": {
+      "compromised_versions": [
+        "2.0.1"
+      ],
+      "safe_version": "2.0.0"
     },
-    "ember-headless-table": {
-      "compromised_versions": ["2.1.5", "2.1.6"],
-      "safe_version": "2.1.4"
+    "@alexadark/reusable-functions": {
+      "compromised_versions": [
+        "1.5.1"
+      ],
+      "safe_version": "1.5.0"
     },
-    "ember-url-hash-polyfill": {
-      "compromised_versions": ["1.0.12", "1.0.13"],
-      "safe_version": "1.0.11"
-    },
-    "ember-velcro": {
-      "compromised_versions": ["2.2.1", "2.2.2"],
-      "safe_version": "2.2.0"
-    },
-    "encounter-playground": {
-      "compromised_versions": ["0.0.2", "0.0.3", "0.0.4", "0.0.5"],
-      "safe_version": "0.0.1"
-    },
-    "eslint-config-crowdstrike-node": {
-      "compromised_versions": ["4.0.3", "4.0.4"],
-      "safe_version": "4.0.2"
-    },
-    "eslint-config-crowdstrike": {
-      "compromised_versions": ["11.0.2", "11.0.3"],
-      "safe_version": "11.0.1"
-    },
-    "eslint-config-teselagen": {
-      "compromised_versions": ["6.1.7", "6.1.8"],
-      "safe_version": "6.1.6"
-    },
-    "globalize-rpk": {
-      "compromised_versions": ["1.7.4"],
-      "safe_version": "1.7.3"
-    },
-    "graphql-sequelize-teselagen": {
-      "compromised_versions": ["5.3.8", "5.3.9"],
-      "safe_version": "5.3.7"
-    },
-    "html-to-base64-image": {
-      "compromised_versions": ["1.0.2"],
-      "safe_version": "1.0.1"
-    },
-    "json-rules-engine-simplified": {
-      "compromised_versions": ["0.2.1", "0.2.4"],
-      "safe_version": "0.2.0"
-    },
-    "jumpgate": {
-      "compromised_versions": ["0.0.2"],
-      "safe_version": "0.0.1"
-    },
-    "koa2-swagger-ui": {
-      "compromised_versions": ["5.11.1", "5.11.2"],
-      "safe_version": "5.11.0"
-    },
-    "mcfly-semantic-release": {
-      "compromised_versions": ["1.3.1"],
-      "safe_version": "1.3.0"
-    },
-    "mcp-knowledge-base": {
-      "compromised_versions": ["0.0.2"],
-      "safe_version": "0.0.1"
-    },
-    "mcp-knowledge-graph": {
-      "compromised_versions": ["1.2.1"],
-      "safe_version": "1.2.0"
-    },
-    "mobioffice-cli": {
-      "compromised_versions": ["1.0.3"],
-      "safe_version": "1.0.2"
-    },
-    "monorepo-next": {
-      "compromised_versions": ["13.0.1", "13.0.2"],
-      "safe_version": "13.0.0"
-    },
-    "mstate-angular": {
-      "compromised_versions": ["0.4.4"],
-      "safe_version": "0.4.3"
-    },
-    "mstate-cli": {
-      "compromised_versions": ["0.4.7"],
-      "safe_version": "0.4.6"
-    },
-    "mstate-dev-react": {
-      "compromised_versions": ["1.1.1"],
-      "safe_version": "1.1.0"
-    },
-    "mstate-react": {
-      "compromised_versions": ["1.6.5"],
-      "safe_version": "1.6.4"
-    },
-    "ng2-file-upload": {
-      "compromised_versions": ["7.0.2", "7.0.3", "8.0.1", "8.0.2", "8.0.3", "9.0.1"],
-      "safe_version": "7.0.1"
-    },
-    "ngx-bootstrap": {
-      "compromised_versions": ["18.1.4", "19.0.3", "19.0.4", "20.0.3", "20.0.4", "20.0.5"],
-      "safe_version": "18.1.3"
-    },
-    "ngx-color": {
-      "compromised_versions": ["10.0.1", "10.0.2"],
-      "safe_version": "10.0.0"
-    },
-    "ngx-toastr": {
-      "compromised_versions": ["19.0.1", "19.0.2"],
-      "safe_version": "19.0.0"
-    },
-    "ngx-trend": {
-      "compromised_versions": ["8.0.1"],
-      "safe_version": "8.0.0"
-    },
-    "ngx-ws": {
-      "compromised_versions": ["1.1.5", "1.1.6"],
-      "safe_version": "1.1.4"
-    },
-    "oradm-to-gql": {
-      "compromised_versions": ["35.0.14", "35.0.15"],
-      "safe_version": "35.0.13"
-    },
-    "oradm-to-sqlz": {
-      "compromised_versions": ["1.1.2"],
-      "safe_version": "1.1.1"
-    },
-    "ove-auto-annotate": {
-      "compromised_versions": ["0.0.9", "0.0.10"],
-      "safe_version": "0.0.8"
-    },
-    "pm2-gelf-json": {
-      "compromised_versions": ["1.0.4", "1.0.5"],
-      "safe_version": "1.0.3"
-    },
-    "printjs-rpk": {
-      "compromised_versions": ["1.6.1"],
-      "safe_version": "1.6.0"
-    },
-    "react-complaint-image": {
-      "compromised_versions": ["0.0.32", "0.0.35"],
-      "safe_version": "0.0.31"
-    },
-    "react-jsonschema-form-conditionals": {
-      "compromised_versions": ["0.3.18", "0.3.21"],
-      "safe_version": "0.3.17"
-    },
-    "react-jsonschema-form-extras": {
-      "compromised_versions": ["1.0.4"],
-      "safe_version": "1.0.3"
-    },
-    "react-jsonschema-rxnt-extras": {
-      "compromised_versions": ["0.4.9"],
-      "safe_version": "0.4.8"
-    },
-    "remark-preset-lint-crowdstrike": {
-      "compromised_versions": ["4.0.1", "4.0.2"],
-      "safe_version": "4.0.0"
-    },
-    "rxnt-authentication": {
-      "compromised_versions": ["0.0.3", "0.0.4", "0.0.5", "0.0.6"],
+    "@antstackio/eslint-config-antstack": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
       "safe_version": "0.0.2"
     },
-    "rxnt-healthchecks-nestjs": {
-      "compromised_versions": ["1.0.2", "1.0.3", "1.0.4", "1.0.5"],
-      "safe_version": "1.0.1"
+    "@antstackio/express-graphql-proxy": {
+      "compromised_versions": [
+        "0.2.8"
+      ],
+      "safe_version": "0.2.7"
     },
-    "rxnt-kue": {
-      "compromised_versions": ["1.0.4", "1.0.5", "1.0.6", "1.0.7"],
-      "safe_version": "1.0.3"
+    "@antstackio/graphql-body-parser": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
     },
-    "swc-plugin-component-annotate": {
-      "compromised_versions": ["1.9.1", "1.9.2"],
-      "safe_version": "1.9.0"
-    },
-    "tbssnch": {
-      "compromised_versions": ["1.0.2"],
-      "safe_version": "1.0.1"
-    },
-    "teselagen-interval-tree": {
-      "compromised_versions": ["1.1.2"],
-      "safe_version": "1.1.1"
-    },
-    "tg-client-query-builder": {
-      "compromised_versions": ["2.14.4", "2.14.5"],
-      "safe_version": "2.14.3"
-    },
-    "tg-redbird": {
-      "compromised_versions": ["1.3.1", "1.3.2"],
-      "safe_version": "1.3.0"
-    },
-    "tg-seq-gen": {
-      "compromised_versions": ["1.0.9", "1.0.10"],
-      "safe_version": "1.0.8"
-    },
-    "thangved-react-grid": {
-      "compromised_versions": ["1.0.3"],
+    "@antstackio/json-to-graphql": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
       "safe_version": "1.0.2"
     },
-    "ts-gaussian": {
-      "compromised_versions": ["3.0.5", "3.0.6"],
-      "safe_version": "3.0.4"
+    "@antstackio/shelbysam": {
+      "compromised_versions": [
+        "1.1.7"
+      ],
+      "safe_version": "1.1.6"
     },
-    "ts-imports": {
-      "compromised_versions": ["1.0.1", "1.0.2"],
+    "@aryanhussain/my-angular-lib": {
+      "compromised_versions": [
+        "0.0.23"
+      ],
+      "safe_version": "0.0.22"
+    },
+    "@asyncapi/avro-schema-parser": {
+      "compromised_versions": [
+        "3.0.25",
+        "3.0.26"
+      ],
+      "safe_version": "3.0.24"
+    },
+    "@asyncapi/bundler": {
+      "compromised_versions": [
+        "0.6.5",
+        "0.6.6"
+      ],
+      "safe_version": "0.6.4"
+    },
+    "@asyncapi/cli": {
+      "compromised_versions": [
+        "4.1.2",
+        "4.1.3"
+      ],
+      "safe_version": "4.1.1"
+    },
+    "@asyncapi/converter": {
+      "compromised_versions": [
+        "1.6.3",
+        "1.6.4"
+      ],
+      "safe_version": "1.6.2"
+    },
+    "@asyncapi/diff": {
+      "compromised_versions": [
+        "0.5.1",
+        "0.5.2"
+      ],
+      "safe_version": "0.5.0"
+    },
+    "@asyncapi/dotnet-rabbitmq-template": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
       "safe_version": "1.0.0"
     },
-    "tvi-cli": {
-      "compromised_versions": ["0.1.5"],
-      "safe_version": "0.1.4"
+    "@asyncapi/edavisualiser": {
+      "compromised_versions": [
+        "1.2.1",
+        "1.2.2"
+      ],
+      "safe_version": "1.2.0"
     },
-    "ve-bamreader": {
-      "compromised_versions": ["0.2.6", "0.2.7"],
-      "safe_version": "0.2.5"
+    "@asyncapi/generator": {
+      "compromised_versions": [
+        "2.8.5",
+        "2.8.6"
+      ],
+      "safe_version": "2.8.4"
     },
-    "ve-editor": {
-      "compromised_versions": ["1.0.1", "1.0.2"],
-      "safe_version": "1.0.0"
+    "@asyncapi/generator-components": {
+      "compromised_versions": [
+        "0.3.2",
+        "0.3.3"
+      ],
+      "safe_version": "0.3.1"
     },
-    "verror-extra": {
-      "compromised_versions": ["6.0.1"],
-      "safe_version": "6.0.0"
+    "@asyncapi/generator-helpers": {
+      "compromised_versions": [
+        "0.2.1",
+        "0.2.2"
+      ],
+      "safe_version": "0.2.0"
     },
-    "voip-callkit": {
-      "compromised_versions": ["1.0.2", "1.0.3"],
-      "safe_version": "1.0.1"
+    "@asyncapi/generator-react-sdk": {
+      "compromised_versions": [
+        "1.1.4",
+        "1.1.5"
+      ],
+      "safe_version": "1.1.3"
     },
-    "wdio-web-reporter": {
-      "compromised_versions": ["0.1.3"],
-      "safe_version": "0.1.2"
+    "@asyncapi/go-watermill-template": {
+      "compromised_versions": [
+        "0.2.76",
+        "0.2.77"
+      ],
+      "safe_version": "0.2.75"
     },
-    "yargs-help-output": {
-      "compromised_versions": ["5.0.3"],
-      "safe_version": "5.0.2"
+    "@asyncapi/html-template": {
+      "compromised_versions": [
+        "3.3.2",
+        "3.3.3"
+      ],
+      "safe_version": "3.3.1"
     },
-    "yoo-styles": {
-      "compromised_versions": ["6.0.326"],
-      "safe_version": "6.0.325"
+    "@asyncapi/java-spring-cloud-stream-template": {
+      "compromised_versions": [
+        "0.13.5",
+        "0.13.6"
+      ],
+      "safe_version": "0.13.4"
     },
-    "another-shai": {
-      "compromised_versions": ["1.0.1"],
-      "safe_version": "1.0.0"
+    "@asyncapi/java-spring-template": {
+      "compromised_versions": [
+        "1.6.1",
+        "1.6.2"
+      ],
+      "safe_version": "1.6.0"
     },
-    "@rxap/ngx-bootstrap": {
-      "compromised_versions": ["19.0.3", "19.0.4"],
-      "safe_version": "19.0.2"
+    "@asyncapi/java-template": {
+      "compromised_versions": [
+        "0.3.5",
+        "0.3.6"
+      ],
+      "safe_version": "0.3.4"
     },
-    "@teriyakibomb/ember-velcro": {
-      "compromised_versions": ["2.2.1"],
+    "@asyncapi/keeper": {
+      "compromised_versions": [
+        "0.0.2",
+        "0.0.3"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@asyncapi/modelina": {
+      "compromised_versions": [
+        "5.10.2",
+        "5.10.3"
+      ],
+      "safe_version": "5.10.1"
+    },
+    "@asyncapi/modelina-cli": {
+      "compromised_versions": [
+        "5.10.2",
+        "5.10.3"
+      ],
+      "safe_version": "5.10.1"
+    },
+    "@asyncapi/multi-parser": {
+      "compromised_versions": [
+        "2.2.1",
+        "2.2.2"
+      ],
       "safe_version": "2.2.0"
     },
-    "@zapier/zapier-sdk": {
-      "compromised_versions": ["0.15.5", "0.15.6", "0.15.7"],
-      "safe_version": "0.15.4"
+    "@asyncapi/nodejs-template": {
+      "compromised_versions": [
+        "3.0.5",
+        "3.0.6"
+      ],
+      "safe_version": "3.0.4"
     },
-    "zapier-platform-core": {
-      "compromised_versions": ["18.0.2", "18.0.3", "18.0.4"],
-      "safe_version": "18.0.1"
+    "@asyncapi/nodejs-ws-template": {
+      "compromised_versions": [
+        "0.10.1",
+        "0.10.2"
+      ],
+      "safe_version": "0.10.0"
     },
-    "zapier-platform-cli": {
-      "compromised_versions": ["18.0.2", "18.0.3", "18.0.4"],
-      "safe_version": "18.0.1"
+    "@asyncapi/nunjucks-filters": {
+      "compromised_versions": [
+        "2.1.1",
+        "2.1.2"
+      ],
+      "safe_version": "2.1.0"
     },
-    "zapier-platform-schema": {
-      "compromised_versions": ["18.0.2", "18.0.3", "18.0.4"],
-      "safe_version": "18.0.1"
+    "@asyncapi/openapi-schema-parser": {
+      "compromised_versions": [
+        "3.0.25",
+        "3.0.26"
+      ],
+      "safe_version": "3.0.24"
+    },
+    "@asyncapi/optimizer": {
+      "compromised_versions": [
+        "1.0.5",
+        "1.0.6"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "@asyncapi/parser": {
+      "compromised_versions": [
+        "3.4.1",
+        "3.4.2"
+      ],
+      "safe_version": "3.4.0"
+    },
+    "@asyncapi/php-template": {
+      "compromised_versions": [
+        "0.1.1",
+        "0.1.2"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "@asyncapi/problem": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@asyncapi/protobuf-schema-parser": {
+      "compromised_versions": [
+        "3.5.2",
+        "3.5.3",
+        "3.6.1"
+      ],
+      "safe_version": "3.5.1"
+    },
+    "@asyncapi/python-paho-template": {
+      "compromised_versions": [
+        "0.2.14",
+        "0.2.15"
+      ],
+      "safe_version": "0.2.13"
+    },
+    "@asyncapi/react-component": {
+      "compromised_versions": [
+        "2.6.6",
+        "2.6.7"
+      ],
+      "safe_version": "2.6.5"
+    },
+    "@asyncapi/server-api": {
+      "compromised_versions": [
+        "0.16.24",
+        "0.16.25"
+      ],
+      "safe_version": "0.16.23"
+    },
+    "@asyncapi/specs": {
+      "compromised_versions": [
+        "6.8.2",
+        "6.8.3",
+        "6.9.1",
+        "6.10.1"
+      ],
+      "safe_version": "6.8.1"
+    },
+    "@asyncapi/studio": {
+      "compromised_versions": [
+        "1.0.2",
+        "1.0.3"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@asyncapi/web-component": {
+      "compromised_versions": [
+        "2.6.6",
+        "2.6.7"
+      ],
+      "safe_version": "2.6.5"
+    },
+    "@bdkinc/knex-ibmi": {
+      "compromised_versions": [
+        "0.5.7"
+      ],
+      "safe_version": "0.5.6"
+    },
+    "@browserbasehq/bb9": {
+      "compromised_versions": [
+        "1.2.21"
+      ],
+      "safe_version": "1.2.20"
+    },
+    "@browserbasehq/director-ai": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@browserbasehq/mcp": {
+      "compromised_versions": [
+        "2.1.1"
+      ],
+      "safe_version": "2.1.0"
+    },
+    "@browserbasehq/mcp-server-browserbase": {
+      "compromised_versions": [
+        "2.4.2"
+      ],
+      "safe_version": "2.4.1"
+    },
+    "@browserbasehq/sdk-functions": {
+      "compromised_versions": [
+        "0.0.4"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "@browserbasehq/stagehand": {
+      "compromised_versions": [
+        "3.0.4"
+      ],
+      "safe_version": "3.0.3"
+    },
+    "@browserbasehq/stagehand-docs": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@caretive/caret-cli": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@chtijs/eslint-config": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@clausehq/flows-step-httprequest": {
+      "compromised_versions": [
+        "0.1.14"
+      ],
+      "safe_version": "0.1.13"
+    },
+    "@clausehq/flows-step-jsontoxml": {
+      "compromised_versions": [
+        "0.1.14"
+      ],
+      "safe_version": "0.1.13"
+    },
+    "@clausehq/flows-step-mqtt": {
+      "compromised_versions": [
+        "0.1.14"
+      ],
+      "safe_version": "0.1.13"
+    },
+    "@clausehq/flows-step-sendgridemail": {
+      "compromised_versions": [
+        "0.1.14"
+      ],
+      "safe_version": "0.1.13"
+    },
+    "@clausehq/flows-step-taskscreateurl": {
+      "compromised_versions": [
+        "0.1.14"
+      ],
+      "safe_version": "0.1.13"
+    },
+    "@cllbk/ghl": {
+      "compromised_versions": [
+        "1.3.1"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "@commute/bloom": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@commute/market-data": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@commute/market-data-chartjs": {
+      "compromised_versions": [
+        "2.3.1"
+      ],
+      "safe_version": "2.3.0"
+    },
+    "@dev-blinq/ai-qa-logic": {
+      "compromised_versions": [
+        "1.0.19"
+      ],
+      "safe_version": "1.0.18"
+    },
+    "@dev-blinq/blinqioclient": {
+      "compromised_versions": [
+        "1.0.21"
+      ],
+      "safe_version": "1.0.20"
+    },
+    "@dev-blinq/cucumber_client": {
+      "compromised_versions": [
+        "1.0.738"
+      ],
+      "safe_version": "1.0.737"
+    },
+    "@dev-blinq/cucumber-js": {
+      "compromised_versions": [
+        "1.0.131"
+      ],
+      "safe_version": "1.0.130"
+    },
+    "@dev-blinq/ui-systems": {
+      "compromised_versions": [
+        "1.0.93"
+      ],
+      "safe_version": "1.0.92"
+    },
+    "@ensdomains/address-encoder": {
+      "compromised_versions": [
+        "1.1.5"
+      ],
+      "safe_version": "1.1.4"
+    },
+    "@ensdomains/blacklist": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@ensdomains/buffer": {
+      "compromised_versions": [
+        "0.1.2"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "@ensdomains/ccip-read-cf-worker": {
+      "compromised_versions": [
+        "0.0.4"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "@ensdomains/ccip-read-dns-gateway": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "@ensdomains/ccip-read-router": {
+      "compromised_versions": [
+        "0.0.7"
+      ],
+      "safe_version": "0.0.6"
+    },
+    "@ensdomains/ccip-read-worker-viem": {
+      "compromised_versions": [
+        "0.0.4"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "@ensdomains/content-hash": {
+      "compromised_versions": [
+        "3.0.1"
+      ],
+      "safe_version": "3.0.0"
+    },
+    "@ensdomains/curvearithmetics": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@ensdomains/cypress-metamask": {
+      "compromised_versions": [
+        "1.2.1"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "@ensdomains/dnsprovejs": {
+      "compromised_versions": [
+        "0.5.3"
+      ],
+      "safe_version": "0.5.2"
+    },
+    "@ensdomains/dnssec-oracle-anchors": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@ensdomains/dnssecoraclejs": {
+      "compromised_versions": [
+        "0.2.9"
+      ],
+      "safe_version": "0.2.8"
+    },
+    "@ensdomains/durin": {
+      "compromised_versions": [
+        "0.1.2"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "@ensdomains/durin-middleware": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@ensdomains/ens-archived-contracts": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "@ensdomains/ens-avatar": {
+      "compromised_versions": [
+        "1.0.4"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "@ensdomains/ens-contracts": {
+      "compromised_versions": [
+        "1.6.1"
+      ],
+      "safe_version": "1.6.0"
+    },
+    "@ensdomains/ens-test-env": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@ensdomains/ens-validation": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "@ensdomains/ensjs": {
+      "compromised_versions": [
+        "4.0.3"
+      ],
+      "safe_version": "4.0.2"
+    },
+    "@ensdomains/ensjs-react": {
+      "compromised_versions": [
+        "0.0.5"
+      ],
+      "safe_version": "0.0.4"
+    },
+    "@ensdomains/eth-ens-namehash": {
+      "compromised_versions": [
+        "2.0.16"
+      ],
+      "safe_version": "2.0.15"
+    },
+    "@ensdomains/hackathon-registrar": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "@ensdomains/hardhat-chai-matchers-viem": {
+      "compromised_versions": [
+        "0.1.15"
+      ],
+      "safe_version": "0.1.14"
+    },
+    "@ensdomains/hardhat-toolbox-viem-extended": {
+      "compromised_versions": [
+        "0.0.6"
+      ],
+      "safe_version": "0.0.5"
+    },
+    "@ensdomains/mock": {
+      "compromised_versions": [
+        "2.1.52"
+      ],
+      "safe_version": "2.1.51"
+    },
+    "@ensdomains/name-wrapper": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@ensdomains/offchain-resolver-contracts": {
+      "compromised_versions": [
+        "0.2.2"
+      ],
+      "safe_version": "0.2.1"
+    },
+    "@ensdomains/op-resolver-contracts": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@ensdomains/react-ens-address": {
+      "compromised_versions": [
+        "0.0.32"
+      ],
+      "safe_version": "0.0.31"
+    },
+    "@ensdomains/renewal": {
+      "compromised_versions": [
+        "0.0.13"
+      ],
+      "safe_version": "0.0.12"
+    },
+    "@ensdomains/renewal-widget": {
+      "compromised_versions": [
+        "0.1.10"
+      ],
+      "safe_version": "0.1.9"
+    },
+    "@ensdomains/reverse-records": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@ensdomains/server-analytics": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@ensdomains/solsha1": {
+      "compromised_versions": [
+        "0.0.4"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "@ensdomains/subdomain-registrar": {
+      "compromised_versions": [
+        "0.2.4"
+      ],
+      "safe_version": "0.2.3"
+    },
+    "@ensdomains/test-utils": {
+      "compromised_versions": [
+        "1.3.1"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "@ensdomains/thorin": {
+      "compromised_versions": [
+        "0.6.51"
+      ],
+      "safe_version": "0.6.50"
+    },
+    "@ensdomains/ui": {
+      "compromised_versions": [
+        "3.4.6"
+      ],
+      "safe_version": "3.4.5"
+    },
+    "@ensdomains/unicode-confusables": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "@ensdomains/unruggable-gateways": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "@ensdomains/vite-plugin-i18next-loader": {
+      "compromised_versions": [
+        "4.0.4"
+      ],
+      "safe_version": "4.0.3"
+    },
+    "@ensdomains/web3modal": {
+      "compromised_versions": [
+        "1.10.2"
+      ],
+      "safe_version": "1.10.1"
+    },
+    "@everreal/react-charts": {
+      "compromised_versions": [
+        "2.0.2"
+      ],
+      "safe_version": "2.0.1"
+    },
+    "@faq-component/core": {
+      "compromised_versions": [
+        "0.0.4"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "@faq-component/react": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@fishingbooker/browser-sync-plugin": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "@fishingbooker/react-loader": {
+      "compromised_versions": [
+        "1.0.7"
+      ],
+      "safe_version": "1.0.6"
+    },
+    "@fishingbooker/react-pagination": {
+      "compromised_versions": [
+        "2.0.6"
+      ],
+      "safe_version": "2.0.5"
+    },
+    "@fishingbooker/react-raty": {
+      "compromised_versions": [
+        "2.0.1"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "@fishingbooker/react-swiper": {
+      "compromised_versions": [
+        "0.1.5"
+      ],
+      "safe_version": "0.1.4"
+    },
+    "@hapheus/n8n-nodes-pgp": {
+      "compromised_versions": [
+        "1.5.1"
+      ],
+      "safe_version": "1.5.0"
+    },
+    "@hover-design/core": {
+      "compromised_versions": [
+        "0.0.1"
+      ],
+      "safe_version": "0.0.0"
+    },
+    "@hover-design/react": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "@huntersofbook/auth-vue": {
+      "compromised_versions": [
+        "0.4.2"
+      ],
+      "safe_version": "0.4.1"
+    },
+    "@huntersofbook/core": {
+      "compromised_versions": [
+        "0.5.1"
+      ],
+      "safe_version": "0.5.0"
+    },
+    "@huntersofbook/core-nuxt": {
+      "compromised_versions": [
+        "0.4.2"
+      ],
+      "safe_version": "0.4.1"
+    },
+    "@huntersofbook/form-naiveui": {
+      "compromised_versions": [
+        "0.5.1"
+      ],
+      "safe_version": "0.5.0"
+    },
+    "@huntersofbook/i18n": {
+      "compromised_versions": [
+        "0.8.2"
+      ],
+      "safe_version": "0.8.1"
+    },
+    "@huntersofbook/ui": {
+      "compromised_versions": [
+        "0.5.1"
+      ],
+      "safe_version": "0.5.0"
+    },
+    "@hyperlook/telemetry-sdk": {
+      "compromised_versions": [
+        "1.0.19"
+      ],
+      "safe_version": "1.0.18"
+    },
+    "@ifelsedeveloper/protocol-contracts-svm-idl": {
+      "compromised_versions": [
+        "0.1.2",
+        "0.1.3"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "@ifings/design-system": {
+      "compromised_versions": [
+        "4.9.2"
+      ],
+      "safe_version": "4.9.1"
+    },
+    "@ifings/metatron3": {
+      "compromised_versions": [
+        "0.1.5"
+      ],
+      "safe_version": "0.1.4"
+    },
+    "@jayeshsadhwani/telemetry-sdk": {
+      "compromised_versions": [
+        "1.0.14"
+      ],
+      "safe_version": "1.0.13"
+    },
+    "@kvytech/cli": {
+      "compromised_versions": [
+        "0.0.7"
+      ],
+      "safe_version": "0.0.6"
+    },
+    "@kvytech/components": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@kvytech/habbit-e2e-test": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@kvytech/medusa-plugin-announcement": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@kvytech/medusa-plugin-management": {
+      "compromised_versions": [
+        "0.0.5"
+      ],
+      "safe_version": "0.0.4"
+    },
+    "@kvytech/medusa-plugin-newsletter": {
+      "compromised_versions": [
+        "0.0.5"
+      ],
+      "safe_version": "0.0.4"
+    },
+    "@kvytech/medusa-plugin-product-reviews": {
+      "compromised_versions": [
+        "0.0.9"
+      ],
+      "safe_version": "0.0.8"
+    },
+    "@kvytech/medusa-plugin-promotion": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@kvytech/web": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@lessondesk/api-client": {
+      "compromised_versions": [
+        "9.12.3"
+      ],
+      "safe_version": "9.12.2"
+    },
+    "@lessondesk/babel-preset": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@lessondesk/electron-group-api-client": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@lessondesk/eslint-config": {
+      "compromised_versions": [
+        "1.4.2"
+      ],
+      "safe_version": "1.4.1"
+    },
+    "@lessondesk/material-icons": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@lessondesk/react-table-context": {
+      "compromised_versions": [
+        "2.0.4"
+      ],
+      "safe_version": "2.0.3"
+    },
+    "@livecms/live-edit": {
+      "compromised_versions": [
+        "0.0.32"
+      ],
+      "safe_version": "0.0.31"
+    },
+    "@livecms/nuxt-live-edit": {
+      "compromised_versions": [
+        "1.9.2"
+      ],
+      "safe_version": "1.9.1"
+    },
+    "@lokeswari-satyanarayanan/rn-zustand-expo-template": {
+      "compromised_versions": [
+        "1.0.9"
+      ],
+      "safe_version": "1.0.8"
+    },
+    "@louisle2/core": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@louisle2/cortex-js": {
+      "compromised_versions": [
+        "0.1.6"
+      ],
+      "safe_version": "0.1.5"
+    },
+    "@lpdjs/firestore-repo-service": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@lui-ui/lui-nuxt": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "@lui-ui/lui-tailwindcss": {
+      "compromised_versions": [
+        "0.1.2"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "@lui-ui/lui-vue": {
+      "compromised_versions": [
+        "1.0.13"
+      ],
+      "safe_version": "1.0.12"
+    },
+    "@micado-digital/stadtmarketing-kufstein-external": {
+      "compromised_versions": [
+        "1.9.1"
+      ],
+      "safe_version": "1.9.0"
+    },
+    "@mizzle-dev/orm": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@ntnx/passport-wso2": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "@ntnx/t": {
+      "compromised_versions": [
+        "0.0.101"
+      ],
+      "safe_version": "0.0.100"
+    },
+    "@oku-ui/accordion": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/alert-dialog": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/arrow": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/aspect-ratio": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/avatar": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/checkbox": {
+      "compromised_versions": [
+        "0.6.3"
+      ],
+      "safe_version": "0.6.2"
+    },
+    "@oku-ui/collapsible": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/collection": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/dialog": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/direction": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/dismissable-layer": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/focus-guards": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/focus-scope": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/hover-card": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/label": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/menu": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/motion": {
+      "compromised_versions": [
+        "0.4.4"
+      ],
+      "safe_version": "0.4.3"
+    },
+    "@oku-ui/motion-nuxt": {
+      "compromised_versions": [
+        "0.2.2"
+      ],
+      "safe_version": "0.2.1"
+    },
+    "@oku-ui/popover": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/popper": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/portal": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/presence": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/primitive": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/primitives": {
+      "compromised_versions": [
+        "0.7.9"
+      ],
+      "safe_version": "0.7.8"
+    },
+    "@oku-ui/primitives-nuxt": {
+      "compromised_versions": [
+        "0.3.1"
+      ],
+      "safe_version": "0.3.0"
+    },
+    "@oku-ui/progress": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/provide": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/radio-group": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/roving-focus": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/scroll-area": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/separator": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/slider": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/slot": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/switch": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/tabs": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/toast": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/toggle": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/toggle-group": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/toolbar": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/tooltip": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/use-composable": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/utils": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@oku-ui/visually-hidden": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@orbitgtbelgium/mapbox-gl-draw-cut-polygon-mode": {
+      "compromised_versions": [
+        "2.0.5"
+      ],
+      "safe_version": "2.0.4"
+    },
+    "@orbitgtbelgium/mapbox-gl-draw-scale-rotate-mode": {
+      "compromised_versions": [
+        "1.1.1"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "@orbitgtbelgium/orbit-components": {
+      "compromised_versions": [
+        "1.2.9"
+      ],
+      "safe_version": "1.2.8"
+    },
+    "@orbitgtbelgium/time-slider": {
+      "compromised_versions": [
+        "1.0.187"
+      ],
+      "safe_version": "1.0.186"
+    },
+    "@osmanekrem/bmad": {
+      "compromised_versions": [
+        "1.0.6"
+      ],
+      "safe_version": "1.0.5"
+    },
+    "@osmanekrem/error-handler": {
+      "compromised_versions": [
+        "1.2.2"
+      ],
+      "safe_version": "1.2.1"
+    },
+    "@pergel/cli": {
+      "compromised_versions": [
+        "0.11.1"
+      ],
+      "safe_version": "0.11.0"
+    },
+    "@pergel/module-box": {
+      "compromised_versions": [
+        "0.6.1"
+      ],
+      "safe_version": "0.6.0"
+    },
+    "@pergel/module-graphql": {
+      "compromised_versions": [
+        "0.6.1"
+      ],
+      "safe_version": "0.6.0"
+    },
+    "@pergel/module-ui": {
+      "compromised_versions": [
+        "0.0.9"
+      ],
+      "safe_version": "0.0.8"
+    },
+    "@pergel/nuxt": {
+      "compromised_versions": [
+        "0.25.5"
+      ],
+      "safe_version": "0.25.4"
+    },
+    "@posthog/agent": {
+      "compromised_versions": [
+        "1.24.1"
+      ],
+      "safe_version": "1.24.0"
+    },
+    "@posthog/ai": {
+      "compromised_versions": [
+        "7.1.2"
+      ],
+      "safe_version": "7.1.1"
+    },
+    "@posthog/automatic-cohorts-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/bitbucket-release-tracker": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/cli": {
+      "compromised_versions": [
+        "0.5.15"
+      ],
+      "safe_version": "0.5.14"
+    },
+    "@posthog/clickhouse": {
+      "compromised_versions": [
+        "1.7.1"
+      ],
+      "safe_version": "1.7.0"
+    },
+    "@posthog/core": {
+      "compromised_versions": [
+        "1.5.6"
+      ],
+      "safe_version": "1.5.5"
+    },
+    "@posthog/currency-normalization-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/customerio-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/databricks-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/drop-events-on-property-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/event-sequence-timer-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/filter-out-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/first-time-event-tracker": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/geoip-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/github-release-tracking-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/gitub-star-sync-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/heartbeat-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/hedgehog-mode": {
+      "compromised_versions": [
+        "0.0.42"
+      ],
+      "safe_version": "0.0.41"
+    },
+    "@posthog/icons": {
+      "compromised_versions": [
+        "0.36.1"
+      ],
+      "safe_version": "0.36.0"
+    },
+    "@posthog/ingestion-alert-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/intercom-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/kinesis-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/laudspeaker-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/lemon-ui": {
+      "compromised_versions": [
+        "0.0.1"
+      ],
+      "safe_version": "0.0.0"
+    },
+    "@posthog/maxmind-plugin": {
+      "compromised_versions": [
+        "0.1.6"
+      ],
+      "safe_version": "0.1.5"
+    },
+    "@posthog/migrator3000-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/netdata-event-processing": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/nextjs": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "@posthog/nextjs-config": {
+      "compromised_versions": [
+        "1.5.1"
+      ],
+      "safe_version": "1.5.0"
+    },
+    "@posthog/nuxt": {
+      "compromised_versions": [
+        "1.2.9"
+      ],
+      "safe_version": "1.2.8"
+    },
+    "@posthog/pagerduty-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/piscina": {
+      "compromised_versions": [
+        "3.2.1"
+      ],
+      "safe_version": "3.2.0"
+    },
+    "@posthog/plugin-contrib": {
+      "compromised_versions": [
+        "0.0.6"
+      ],
+      "safe_version": "0.0.5"
+    },
+    "@posthog/plugin-server": {
+      "compromised_versions": [
+        "1.10.8"
+      ],
+      "safe_version": "1.10.7"
+    },
+    "@posthog/plugin-unduplicates": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/postgres-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/rrdom": {
+      "compromised_versions": [
+        "0.0.31"
+      ],
+      "safe_version": "0.0.30"
+    },
+    "@posthog/rrweb": {
+      "compromised_versions": [
+        "0.0.31"
+      ],
+      "safe_version": "0.0.30"
+    },
+    "@posthog/rrweb-player": {
+      "compromised_versions": [
+        "0.0.31"
+      ],
+      "safe_version": "0.0.30"
+    },
+    "@posthog/rrweb-record": {
+      "compromised_versions": [
+        "0.0.31"
+      ],
+      "safe_version": "0.0.30"
+    },
+    "@posthog/rrweb-replay": {
+      "compromised_versions": [
+        "0.0.19"
+      ],
+      "safe_version": "0.0.18"
+    },
+    "@posthog/rrweb-snapshot": {
+      "compromised_versions": [
+        "0.0.31"
+      ],
+      "safe_version": "0.0.30"
+    },
+    "@posthog/rrweb-utils": {
+      "compromised_versions": [
+        "0.0.31"
+      ],
+      "safe_version": "0.0.30"
+    },
+    "@posthog/sendgrid-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/siphash": {
+      "compromised_versions": [
+        "1.1.2"
+      ],
+      "safe_version": "1.1.1"
+    },
+    "@posthog/snowflake-export-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/taxonomy-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/twilio-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/twitter-followers-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/url-normalizer-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/variance-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@posthog/web-dev-server": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "@posthog/wizard": {
+      "compromised_versions": [
+        "1.18.1"
+      ],
+      "safe_version": "1.18.0"
+    },
+    "@posthog/zendesk-plugin": {
+      "compromised_versions": [
+        "0.0.8"
+      ],
+      "safe_version": "0.0.7"
+    },
+    "@pradhumngautam/common-app": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@productdevbook/animejs-vue": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "@productdevbook/auth": {
+      "compromised_versions": [
+        "0.2.2"
+      ],
+      "safe_version": "0.2.1"
+    },
+    "@productdevbook/chatwoot": {
+      "compromised_versions": [
+        "2.0.1"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "@productdevbook/motion": {
+      "compromised_versions": [
+        "1.0.4"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "@productdevbook/ts-i18n": {
+      "compromised_versions": [
+        "1.4.2"
+      ],
+      "safe_version": "1.4.1"
+    },
+    "@pruthvi21/use-debounce": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@quick-start-soft/quick-document-translator": {
+      "compromised_versions": [
+        "1.4.2511142126"
+      ],
+      "safe_version": "1.4.2511142125"
+    },
+    "@quick-start-soft/quick-git-clean-markdown": {
+      "compromised_versions": [
+        "1.4.2511142126"
+      ],
+      "safe_version": "1.4.2511142125"
+    },
+    "@quick-start-soft/quick-markdown": {
+      "compromised_versions": [
+        "1.4.2511142126"
+      ],
+      "safe_version": "1.4.2511142125"
+    },
+    "@quick-start-soft/quick-markdown-compose": {
+      "compromised_versions": [
+        "1.4.2506300029"
+      ],
+      "safe_version": "1.4.2506300028"
+    },
+    "@quick-start-soft/quick-markdown-image": {
+      "compromised_versions": [
+        "1.4.2511142126"
+      ],
+      "safe_version": "1.4.2511142125"
+    },
+    "@quick-start-soft/quick-markdown-print": {
+      "compromised_versions": [
+        "1.4.2511142126"
+      ],
+      "safe_version": "1.4.2511142125"
+    },
+    "@quick-start-soft/quick-markdown-translator": {
+      "compromised_versions": [
+        "1.4.2509202331"
+      ],
+      "safe_version": "1.4.2509202330"
+    },
+    "@quick-start-soft/quick-remove-image-background": {
+      "compromised_versions": [
+        "1.4.2511142126"
+      ],
+      "safe_version": "1.4.2511142125"
+    },
+    "@quick-start-soft/quick-task-refine": {
+      "compromised_versions": [
+        "1.4.2511142126"
+      ],
+      "safe_version": "1.4.2511142125"
+    },
+    "@relyt/claude-context-core": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "@relyt/claude-context-mcp": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "@relyt/mcp-server-relytone": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "@seezo/sdr-mcp-server": {
+      "compromised_versions": [
+        "0.0.5"
+      ],
+      "safe_version": "0.0.4"
+    },
+    "@seung-ju/next": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@seung-ju/openapi-generator": {
+      "compromised_versions": [
+        "0.0.4"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "@seung-ju/react-hooks": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "@seung-ju/react-native-action-sheet": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "@silgi/better-auth": {
+      "compromised_versions": [
+        "0.8.1"
+      ],
+      "safe_version": "0.8.0"
+    },
+    "@silgi/drizzle": {
+      "compromised_versions": [
+        "0.8.4"
+      ],
+      "safe_version": "0.8.3"
+    },
+    "@silgi/ecosystem": {
+      "compromised_versions": [
+        "0.7.6"
+      ],
+      "safe_version": "0.7.5"
+    },
+    "@silgi/graphql": {
+      "compromised_versions": [
+        "0.7.15"
+      ],
+      "safe_version": "0.7.14"
+    },
+    "@silgi/module-builder": {
+      "compromised_versions": [
+        "0.8.8"
+      ],
+      "safe_version": "0.8.7"
+    },
+    "@silgi/openapi": {
+      "compromised_versions": [
+        "0.7.4"
+      ],
+      "safe_version": "0.7.3"
+    },
+    "@silgi/permission": {
+      "compromised_versions": [
+        "0.6.8"
+      ],
+      "safe_version": "0.6.7"
+    },
+    "@silgi/ratelimit": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "@silgi/scalar": {
+      "compromised_versions": [
+        "0.6.2"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@silgi/yoga": {
+      "compromised_versions": [
+        "0.7.1"
+      ],
+      "safe_version": "0.7.0"
+    },
+    "@sme-ui/aoma-vevasound-metadata-lib": {
+      "compromised_versions": [
+        "0.1.3"
+      ],
+      "safe_version": "0.1.2"
+    },
+    "@strapbuild/react-native-date-time-picker": {
+      "compromised_versions": [
+        "2.0.4"
+      ],
+      "safe_version": "2.0.3"
+    },
+    "@strapbuild/react-native-perspective-image-cropper": {
+      "compromised_versions": [
+        "0.4.15"
+      ],
+      "safe_version": "0.4.14"
+    },
+    "@strapbuild/react-native-perspective-image-cropper-2": {
+      "compromised_versions": [
+        "0.4.7"
+      ],
+      "safe_version": "0.4.6"
+    },
+    "@strapbuild/react-native-perspective-image-cropper-poojan31": {
+      "compromised_versions": [
+        "0.4.6"
+      ],
+      "safe_version": "0.4.5"
+    },
+    "@suraj_h/medium-common": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "@thedelta/eslint-config": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@trackstar/angular-trackstar-link": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@trackstar/react-trackstar-link": {
+      "compromised_versions": [
+        "2.0.21"
+      ],
+      "safe_version": "2.0.20"
+    },
+    "@trackstar/react-trackstar-link-upgrade": {
+      "compromised_versions": [
+        "1.1.10"
+      ],
+      "safe_version": "1.1.9"
+    },
+    "@trackstar/test-angular-package": {
+      "compromised_versions": [
+        "0.0.9"
+      ],
+      "safe_version": "0.0.8"
+    },
+    "@trackstar/test-package": {
+      "compromised_versions": [
+        "1.1.5"
+      ],
+      "safe_version": "1.1.4"
+    },
+    "@trefox/sleekshop-js": {
+      "compromised_versions": [
+        "0.1.6"
+      ],
+      "safe_version": "0.1.5"
+    },
+    "@trigo/atrix": {
+      "compromised_versions": [
+        "7.0.1"
+      ],
+      "safe_version": "7.0.0"
+    },
+    "@trigo/atrix-acl": {
+      "compromised_versions": [
+        "4.0.2"
+      ],
+      "safe_version": "4.0.1"
+    },
+    "@trigo/atrix-elasticsearch": {
+      "compromised_versions": [
+        "2.0.1"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "@trigo/atrix-mongoose": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@trigo/atrix-orientdb": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@trigo/atrix-postgres": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@trigo/atrix-pubsub": {
+      "compromised_versions": [
+        "4.0.3"
+      ],
+      "safe_version": "4.0.2"
+    },
+    "@trigo/atrix-redis": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@trigo/atrix-soap": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "@trigo/atrix-swagger": {
+      "compromised_versions": [
+        "3.0.1"
+      ],
+      "safe_version": "3.0.0"
+    },
+    "@trigo/bool-expressions": {
+      "compromised_versions": [
+        "4.1.3"
+      ],
+      "safe_version": "4.1.2"
+    },
+    "@trigo/eslint-config-trigo": {
+      "compromised_versions": [
+        "3.3.1"
+      ],
+      "safe_version": "3.3.0"
+    },
+    "@trigo/fsm": {
+      "compromised_versions": [
+        "3.4.2"
+      ],
+      "safe_version": "3.4.1"
+    },
+    "@trigo/hapi-auth-signedlink": {
+      "compromised_versions": [
+        "1.3.1"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "@trigo/jsdt": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "@trigo/keycloak-api": {
+      "compromised_versions": [
+        "1.3.1"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "@trigo/node-soap": {
+      "compromised_versions": [
+        "0.5.4"
+      ],
+      "safe_version": "0.5.3"
+    },
+    "@trigo/pathfinder-ui-css": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "@trigo/trigo-hapijs": {
+      "compromised_versions": [
+        "5.0.1"
+      ],
+      "safe_version": "5.0.0"
+    },
+    "@trpc-rate-limiter/cloudflare": {
+      "compromised_versions": [
+        "0.1.4"
+      ],
+      "safe_version": "0.1.3"
+    },
+    "@trpc-rate-limiter/hono": {
+      "compromised_versions": [
+        "0.1.4"
+      ],
+      "safe_version": "0.1.3"
+    },
+    "@varsityvibe/api-client": {
+      "compromised_versions": [
+        "1.3.37"
+      ],
+      "safe_version": "1.3.36"
+    },
+    "@varsityvibe/utils": {
+      "compromised_versions": [
+        "5.0.6"
+      ],
+      "safe_version": "5.0.5"
+    },
+    "@viapip/eslint-config": {
+      "compromised_versions": [
+        "0.2.4"
+      ],
+      "safe_version": "0.2.3"
+    },
+    "@vishadtyagi/full-year-calendar": {
+      "compromised_versions": [
+        "0.1.11"
+      ],
+      "safe_version": "0.1.10"
+    },
+    "@vucod/email": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "02-echo": {
+      "compromised_versions": [
+        "0.0.7"
+      ],
+      "safe_version": "0.0.6"
+    },
+    "ai-crowl-shield": {
+      "compromised_versions": [
+        "1.0.7"
+      ],
+      "safe_version": "1.0.6"
+    },
+    "arc-cli-fc": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "asciitranslator": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "asyncapi-preview": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "atrix": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "atrix-mongoose": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "automation_model": {
+      "compromised_versions": [
+        "1.0.491"
+      ],
+      "safe_version": "1.0.490"
+    },
+    "avvvatars-vue": {
+      "compromised_versions": [
+        "1.1.2"
+      ],
+      "safe_version": "1.1.1"
+    },
+    "axios-builder": {
+      "compromised_versions": [
+        "1.2.1"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "babel-preset-kinvey-flex-service": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "benmostyn-frame-print": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "best_gpio_controller": {
+      "compromised_versions": [
+        "1.0.10"
+      ],
+      "safe_version": "1.0.9"
+    },
+    "better-auth-nuxt": {
+      "compromised_versions": [
+        "0.0.10"
+      ],
+      "safe_version": "0.0.9"
+    },
+    "better-queue-nedb": {
+      "compromised_versions": [
+        "0.1.5"
+      ],
+      "safe_version": "0.1.4"
+    },
+    "blinqio-executions-cli": {
+      "compromised_versions": [
+        "1.0.41"
+      ],
+      "safe_version": "1.0.40"
+    },
+    "blob-to-base64": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "bool-expressions": {
+      "compromised_versions": [
+        "0.1.2"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "buffered-interpolation-babylon6": {
+      "compromised_versions": [
+        "0.2.8"
+      ],
+      "safe_version": "0.2.7"
+    },
+    "bun-plugin-httpfile": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "bytes-to-x": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "calc-loan-interest": {
+      "compromised_versions": [
+        "1.0.4"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "capacitor-plugin-apptrackingios": {
+      "compromised_versions": [
+        "0.0.21"
+      ],
+      "safe_version": "0.0.20"
+    },
+    "capacitor-plugin-purchase": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "capacitor-plugin-scgssigninwithgoogle": {
+      "compromised_versions": [
+        "0.0.5"
+      ],
+      "safe_version": "0.0.4"
+    },
+    "capacitor-purchase-history": {
+      "compromised_versions": [
+        "0.0.10"
+      ],
+      "safe_version": "0.0.9"
+    },
+    "capacitor-voice-recorder-wav": {
+      "compromised_versions": [
+        "6.0.3"
+      ],
+      "safe_version": "6.0.2"
+    },
+    "ceviz": {
+      "compromised_versions": [
+        "0.0.5"
+      ],
+      "safe_version": "0.0.4"
+    },
+    "claude-token-updater": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "colors-regex": {
+      "compromised_versions": [
+        "2.0.1"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "command-irail": {
+      "compromised_versions": [
+        "0.5.4"
+      ],
+      "safe_version": "0.5.3"
+    },
+    "cpu-instructions": {
+      "compromised_versions": [
+        "0.0.14"
+      ],
+      "safe_version": "0.0.13"
+    },
+    "create-director-app": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "create-glee-app": {
+      "compromised_versions": [
+        "0.2.2",
+        "0.2.3"
+      ],
+      "safe_version": "0.2.1"
+    },
+    "create-kinvey-flex-service": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "create-silgi": {
+      "compromised_versions": [
+        "0.3.1"
+      ],
+      "safe_version": "0.3.0"
+    },
+    "crypto-addr-codec": {
+      "compromised_versions": [
+        "0.1.9"
+      ],
+      "safe_version": "0.1.8"
+    },
+    "css-dedoupe": {
+      "compromised_versions": [
+        "0.1.2"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "csv-tool-cli": {
+      "compromised_versions": [
+        "1.2.1"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "dashboard-empty-state": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "designstudiouiux": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "devstart-cli": {
+      "compromised_versions": [
+        "1.0.6"
+      ],
+      "safe_version": "1.0.5"
+    },
+    "discord-bot-server": {
+      "compromised_versions": [
+        "0.1.2"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "docusaurus-plugin-vanilla-extract": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "dont-go": {
+      "compromised_versions": [
+        "1.1.2"
+      ],
+      "safe_version": "1.1.1"
+    },
+    "dotnet-template": {
+      "compromised_versions": [
+        "0.0.3",
+        "0.0.4"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "drop-events-on-property-plugin": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "easypanel-sdk": {
+      "compromised_versions": [
+        "0.3.2"
+      ],
+      "safe_version": "0.3.1"
+    },
+    "electron-volt": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "email-deliverability-tester": {
+      "compromised_versions": [
+        "1.1.1"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "enforce-branch-name": {
+      "compromised_versions": [
+        "1.1.3"
+      ],
+      "safe_version": "1.1.2"
+    },
+    "esbuild-plugin-brotli": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "esbuild-plugin-eta": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "esbuild-plugin-httpfile": {
+      "compromised_versions": [
+        "0.4.1"
+      ],
+      "safe_version": "0.4.0"
+    },
+    "eslint-config-kinvey-flex-service": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "eslint-config-nitpicky": {
+      "compromised_versions": [
+        "4.0.1"
+      ],
+      "safe_version": "4.0.0"
+    },
+    "eslint-config-trigo": {
+      "compromised_versions": [
+        "22.0.2"
+      ],
+      "safe_version": "22.0.1"
+    },
+    "eslint-config-zeallat-base": {
+      "compromised_versions": [
+        "1.0.4"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "ethereum-ens": {
+      "compromised_versions": [
+        "0.8.1"
+      ],
+      "safe_version": "0.8.0"
+    },
+    "exact-ticker": {
+      "compromised_versions": [
+        "0.3.5"
+      ],
+      "safe_version": "0.3.4"
+    },
+    "expo-audio-session": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "expo-router-on-rails": {
+      "compromised_versions": [
+        "0.0.4"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "express-starter-template": {
+      "compromised_versions": [
+        "1.0.10"
+      ],
+      "safe_version": "1.0.9"
+    },
+    "expressos": {
+      "compromised_versions": [
+        "1.1.3"
+      ],
+      "safe_version": "1.1.2"
+    },
+    "firestore-search-engine": {
+      "compromised_versions": [
+        "1.2.3"
+      ],
+      "safe_version": "1.2.2"
+    },
+    "formik-error-focus": {
+      "compromised_versions": [
+        "2.0.1"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "formik-store": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "frontity-starter-theme": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "gatsby-plugin-antd": {
+      "compromised_versions": [
+        "2.2.1"
+      ],
+      "safe_version": "2.2.0"
+    },
+    "generator-meteor-stock": {
+      "compromised_versions": [
+        "0.1.6"
+      ],
+      "safe_version": "0.1.5"
+    },
+    "generator-ng-itobuz": {
+      "compromised_versions": [
+        "0.0.15"
+      ],
+      "safe_version": "0.0.14"
+    },
+    "get-them-args": {
+      "compromised_versions": [
+        "1.3.3"
+      ],
+      "safe_version": "1.3.2"
+    },
+    "github-action-for-generator": {
+      "compromised_versions": [
+        "2.1.27",
+        "2.1.28"
+      ],
+      "safe_version": "2.1.26"
+    },
+    "gitsafe": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "go-template": {
+      "compromised_versions": [
+        "0.1.8",
+        "0.1.9"
+      ],
+      "safe_version": "0.1.7"
+    },
+    "hope-mapboxdraw": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "hopedraw": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "hover-design-prototype": {
+      "compromised_versions": [
+        "0.0.5"
+      ],
+      "safe_version": "0.0.4"
+    },
+    "hyper-fullfacing": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "hyperterm-hipster": {
+      "compromised_versions": [
+        "1.0.7"
+      ],
+      "safe_version": "1.0.6"
+    },
+    "ids-css": {
+      "compromised_versions": [
+        "1.5.1"
+      ],
+      "safe_version": "1.5.0"
+    },
+    "ids-enterprise-mcp-server": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "ids-enterprise-ng": {
+      "compromised_versions": [
+        "20.1.6"
+      ],
+      "safe_version": "20.1.5"
+    },
+    "ids-enterprise-typings": {
+      "compromised_versions": [
+        "20.1.6"
+      ],
+      "safe_version": "20.1.5"
+    },
+    "insomnia-plugin-random-pick": {
+      "compromised_versions": [
+        "1.0.4"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "invo": {
+      "compromised_versions": [
+        "0.2.2"
+      ],
+      "safe_version": "0.2.1"
+    },
+    "iron-shield-miniapp": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "ito-button": {
+      "compromised_versions": [
+        "8.0.3"
+      ],
+      "safe_version": "8.0.2"
+    },
+    "itobuz-angular": {
+      "compromised_versions": [
+        "0.0.1"
+      ],
+      "safe_version": "0.0.0"
+    },
+    "itobuz-angular-auth": {
+      "compromised_versions": [
+        "8.0.11"
+      ],
+      "safe_version": "8.0.10"
+    },
+    "itobuz-angular-button": {
+      "compromised_versions": [
+        "8.0.11"
+      ],
+      "safe_version": "8.0.10"
+    },
+    "jaetut-varit-test": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "jan-browser": {
+      "compromised_versions": [
+        "0.13.1"
+      ],
+      "safe_version": "0.13.0"
+    },
+    "jsonsurge": {
+      "compromised_versions": [
+        "1.0.7"
+      ],
+      "safe_version": "1.0.6"
+    },
+    "just-toasty": {
+      "compromised_versions": [
+        "1.7.1"
+      ],
+      "safe_version": "1.7.0"
+    },
+    "kinetix-default-token-list": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "kinvey-cli-wrapper": {
+      "compromised_versions": [
+        "0.3.1"
+      ],
+      "safe_version": "0.3.0"
+    },
+    "kinvey-flex-scripts": {
+      "compromised_versions": [
+        "0.5.1"
+      ],
+      "safe_version": "0.5.0"
+    },
+    "kns-error-code": {
+      "compromised_versions": [
+        "1.0.8"
+      ],
+      "safe_version": "1.0.7"
+    },
+    "korea-administrative-area-geo-json-util": {
+      "compromised_versions": [
+        "1.0.7"
+      ],
+      "safe_version": "1.0.6"
+    },
+    "lite-serper-mcp-server": {
+      "compromised_versions": [
+        "0.2.2"
+      ],
+      "safe_version": "0.2.1"
+    },
+    "lui-vue-test": {
+      "compromised_versions": [
+        "0.70.9"
+      ],
+      "safe_version": "0.70.8"
+    },
+    "luno-api": {
+      "compromised_versions": [
+        "1.2.3"
+      ],
+      "safe_version": "1.2.2"
+    },
+    "m25-transaction-utils": {
+      "compromised_versions": [
+        "1.1.16"
+      ],
+      "safe_version": "1.1.15"
+    },
+    "manual-billing-system-miniapp-api": {
+      "compromised_versions": [
+        "1.3.1"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "medusa-plugin-announcement": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "medusa-plugin-logs": {
+      "compromised_versions": [
+        "0.0.17"
+      ],
+      "safe_version": "0.0.16"
+    },
+    "medusa-plugin-momo": {
+      "compromised_versions": [
+        "0.0.68"
+      ],
+      "safe_version": "0.0.67"
+    },
+    "medusa-plugin-product-reviews-kvy": {
+      "compromised_versions": [
+        "0.0.4"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "medusa-plugin-zalopay": {
+      "compromised_versions": [
+        "0.0.40"
+      ],
+      "safe_version": "0.0.39"
+    },
+    "mod10-check-digit": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "mon-package-react-typescript": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "my-saeed-lib": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "n8n-nodes-tmdb": {
+      "compromised_versions": [
+        "0.5.1"
+      ],
+      "safe_version": "0.5.0"
+    },
+    "n8n-nodes-vercel-ai-sdk": {
+      "compromised_versions": [
+        "0.1.7"
+      ],
+      "safe_version": "0.1.6"
+    },
+    "n8n-nodes-viral-app": {
+      "compromised_versions": [
+        "0.2.5"
+      ],
+      "safe_version": "0.2.4"
+    },
+    "ngx-useful-swiper-prosenjit": {
+      "compromised_versions": [
+        "9.0.2"
+      ],
+      "safe_version": "9.0.1"
+    },
+    "ngx-wooapi": {
+      "compromised_versions": [
+        "12.0.1"
+      ],
+      "safe_version": "12.0.0"
+    },
+    "nitro-graphql": {
+      "compromised_versions": [
+        "1.5.12"
+      ],
+      "safe_version": "1.5.11"
+    },
+    "nitro-kutu": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "nitrodeploy": {
+      "compromised_versions": [
+        "1.0.8"
+      ],
+      "safe_version": "1.0.7"
+    },
+    "nitroping": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "nuxt-keycloak": {
+      "compromised_versions": [
+        "0.2.2"
+      ],
+      "safe_version": "0.2.1"
+    },
+    "okta-react-router-6": {
+      "compromised_versions": [
+        "5.0.1"
+      ],
+      "safe_version": "5.0.0"
+    },
+    "open2internet": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "orbit-boxicons": {
+      "compromised_versions": [
+        "2.1.3"
+      ],
+      "safe_version": "2.1.2"
+    },
+    "orbit-nebula-draw-tools": {
+      "compromised_versions": [
+        "1.0.10"
+      ],
+      "safe_version": "1.0.9"
+    },
+    "orbit-nebula-editor": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "orbit-soap": {
+      "compromised_versions": [
+        "0.43.13"
+      ],
+      "safe_version": "0.43.12"
+    },
+    "orchestrix": {
+      "compromised_versions": [
+        "12.1.2"
+      ],
+      "safe_version": "12.1.1"
+    },
+    "package-tester": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "pdf-annotation": {
+      "compromised_versions": [
+        "0.0.2"
+      ],
+      "safe_version": "0.0.1"
+    },
+    "pergel": {
+      "compromised_versions": [
+        "0.13.2"
+      ],
+      "safe_version": "0.13.1"
+    },
+    "pergeltest": {
+      "compromised_versions": [
+        "0.0.25"
+      ],
+      "safe_version": "0.0.24"
+    },
+    "piclite": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "pkg-readme": {
+      "compromised_versions": [
+        "1.1.1"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "poper-react-sdk": {
+      "compromised_versions": [
+        "0.1.2"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "posthog-docusaurus": {
+      "compromised_versions": [
+        "2.0.6"
+      ],
+      "safe_version": "2.0.5"
+    },
+    "posthog-js": {
+      "compromised_versions": [
+        "1.297.3"
+      ],
+      "safe_version": "1.297.2"
+    },
+    "posthog-node": {
+      "compromised_versions": [
+        "4.18.1",
+        "5.11.3",
+        "5.13.3"
+      ],
+      "safe_version": "4.18.0"
+    },
+    "posthog-plugin-hello-world": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "prime-one-table": {
+      "compromised_versions": [
+        "0.0.19"
+      ],
+      "safe_version": "0.0.18"
+    },
+    "prompt-eng": {
+      "compromised_versions": [
+        "1.0.50"
+      ],
+      "safe_version": "1.0.49"
+    },
+    "prompt-eng-server": {
+      "compromised_versions": [
+        "1.0.18"
+      ],
+      "safe_version": "1.0.17"
+    },
+    "puny-req": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "quickswap-default-staking-list": {
+      "compromised_versions": [
+        "1.0.11"
+      ],
+      "safe_version": "1.0.10"
+    },
+    "quickswap-default-staking-list-address": {
+      "compromised_versions": [
+        "1.0.55"
+      ],
+      "safe_version": "1.0.54"
+    },
+    "quickswap-default-token-list": {
+      "compromised_versions": [
+        "1.5.16"
+      ],
+      "safe_version": "1.5.15"
+    },
+    "quickswap-router-sdk": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "quickswap-sdk": {
+      "compromised_versions": [
+        "3.0.44"
+      ],
+      "safe_version": "3.0.43"
+    },
+    "quickswap-smart-order-router": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "quickswap-token-lists": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "quickswap-v2-sdk": {
+      "compromised_versions": [
+        "2.0.1"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "ra-auth-firebase": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "react-component-taggers": {
+      "compromised_versions": [
+        "0.1.9"
+      ],
+      "safe_version": "0.1.8"
+    },
+    "react-data-to-export": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "react-element-prompt-inspector": {
+      "compromised_versions": [
+        "0.1.18"
+      ],
+      "safe_version": "0.1.17"
+    },
+    "react-favic": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "react-library-setup": {
+      "compromised_versions": [
+        "0.0.6"
+      ],
+      "safe_version": "0.0.5"
+    },
+    "react-linear-loader": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "react-native-google-maps-directions": {
+      "compromised_versions": [
+        "2.1.2"
+      ],
+      "safe_version": "2.1.1"
+    },
+    "react-native-modest-checkbox": {
+      "compromised_versions": [
+        "3.3.1"
+      ],
+      "safe_version": "3.3.0"
+    },
+    "react-native-modest-storage": {
+      "compromised_versions": [
+        "2.1.1"
+      ],
+      "safe_version": "2.1.0"
+    },
+    "react-native-use-modal": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "react-native-worklet-functions": {
+      "compromised_versions": [
+        "3.3.3"
+      ],
+      "safe_version": "3.3.2"
+    },
+    "react-packery-component": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "react-qr-image": {
+      "compromised_versions": [
+        "1.1.1"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "rediff": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "rediff-viewer": {
+      "compromised_versions": [
+        "0.0.7"
+      ],
+      "safe_version": "0.0.6"
+    },
+    "redux-forge": {
+      "compromised_versions": [
+        "2.5.3"
+      ],
+      "safe_version": "2.5.2"
+    },
+    "revenuecat": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "rollup-plugin-httpfile": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "samesame": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "scgs-capacitor-subscribe": {
+      "compromised_versions": [
+        "1.0.11"
+      ],
+      "safe_version": "1.0.10"
+    },
+    "scgsffcreator": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "schob": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "selenium-session": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "selenium-session-client": {
+      "compromised_versions": [
+        "1.0.4"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "shelf-jwt-sessions": {
+      "compromised_versions": [
+        "0.1.2"
+      ],
+      "safe_version": "0.1.1"
+    },
+    "shinhan-limit-scrap": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "silgi": {
+      "compromised_versions": [
+        "0.43.30"
+      ],
+      "safe_version": "0.43.29"
+    },
+    "simplejsonform": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "solomon-api-stories": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "solomon-v3-stories": {
+      "compromised_versions": [
+        "1.15.6"
+      ],
+      "safe_version": "1.15.5"
+    },
+    "solomon-v3-ui-wrapper": {
+      "compromised_versions": [
+        "1.6.1"
+      ],
+      "safe_version": "1.6.0"
+    },
+    "soneium-acs": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "sort-by-distance": {
+      "compromised_versions": [
+        "2.0.1"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "south-african-id-info": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "stat-fns": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "stoor": {
+      "compromised_versions": [
+        "2.3.2"
+      ],
+      "safe_version": "2.3.1"
+    },
+    "sufetch": {
+      "compromised_versions": [
+        "0.4.1"
+      ],
+      "safe_version": "0.4.0"
+    },
+    "super-commit": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "svelte-autocomplete-select": {
+      "compromised_versions": [
+        "1.1.1"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "tanstack-shadcn-table": {
+      "compromised_versions": [
+        "1.1.5"
+      ],
+      "safe_version": "1.1.4"
+    },
+    "tavily-module": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "tcsp": {
+      "compromised_versions": [
+        "2.0.2"
+      ],
+      "safe_version": "2.0.1"
+    },
+    "tcsp-draw-test": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "tcsp-test-vd": {
+      "compromised_versions": [
+        "2.4.4"
+      ],
+      "safe_version": "2.4.3"
+    },
+    "test23112222-api": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "tiaan": {
+      "compromised_versions": [
+        "1.0.2"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "tiptap-shadcn-vue": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "token.js-fork": {
+      "compromised_versions": [
+        "0.7.32"
+      ],
+      "safe_version": "0.7.31"
+    },
+    "toonfetch": {
+      "compromised_versions": [
+        "0.3.2"
+      ],
+      "safe_version": "0.3.1"
+    },
+    "trigo-react-app": {
+      "compromised_versions": [
+        "4.1.2"
+      ],
+      "safe_version": "4.1.1"
+    },
+    "ts-relay-cursor-paging": {
+      "compromised_versions": [
+        "2.1.1"
+      ],
+      "safe_version": "2.1.0"
+    },
+    "typeface-antonio-complete": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "typeorm-orbit": {
+      "compromised_versions": [
+        "0.2.27"
+      ],
+      "safe_version": "0.2.26"
+    },
+    "unadapter": {
+      "compromised_versions": [
+        "0.1.3"
+      ],
+      "safe_version": "0.1.2"
+    },
+    "unemail": {
+      "compromised_versions": [
+        "0.3.1"
+      ],
+      "safe_version": "0.3.0"
+    },
+    "uniswap-router-sdk": {
+      "compromised_versions": [
+        "1.6.2"
+      ],
+      "safe_version": "1.6.1"
+    },
+    "uniswap-smart-order-router": {
+      "compromised_versions": [
+        "3.16.26"
+      ],
+      "safe_version": "3.16.25"
+    },
+    "uniswap-test-sdk-core": {
+      "compromised_versions": [
+        "4.0.8"
+      ],
+      "safe_version": "4.0.7"
+    },
+    "unsearch": {
+      "compromised_versions": [
+        "0.0.3"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "uplandui": {
+      "compromised_versions": [
+        "0.5.4"
+      ],
+      "safe_version": "0.5.3"
+    },
+    "use-unsaved-changes": {
+      "compromised_versions": [
+        "1.0.9"
+      ],
+      "safe_version": "1.0.8"
+    },
+    "v-plausible": {
+      "compromised_versions": [
+        "1.2.1"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "valid-south-african-id": {
+      "compromised_versions": [
+        "1.0.3"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "valuedex-sdk": {
+      "compromised_versions": [
+        "3.0.5"
+      ],
+      "safe_version": "3.0.4"
+    },
+    "vite-plugin-httpfile": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "vue-browserupdate-nuxt": {
+      "compromised_versions": [
+        "1.0.5"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "web-scraper-mcp": {
+      "compromised_versions": [
+        "1.1.4"
+      ],
+      "safe_version": "1.1.3"
+    },
+    "web-types-htmx": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "web-types-lit": {
+      "compromised_versions": [
+        "0.1.1"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "webpack-loader-httpfile": {
+      "compromised_versions": [
+        "0.2.1"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "wellness-expert-ng-gallery": {
+      "compromised_versions": [
+        "5.1.1"
+      ],
+      "safe_version": "5.1.0"
+    },
+    "zuper-cli": {
+      "compromised_versions": [
+        "1.0.1"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "zuper-sdk": {
+      "compromised_versions": [
+        "1.0.57"
+      ],
+      "safe_version": "1.0.56"
+    },
+    "zuper-stream": {
+      "compromised_versions": [
+        "2.0.9"
+      ],
+      "safe_version": "2.0.8"
+    },
+    "@alexcolls/nuxt-socket.io": {
+      "compromised_versions": [
+        "0.0.7",
+        "0.0.8"
+      ],
+      "safe_version": "0.0.6"
+    },
+    "@alexcolls/nuxt-ux": {
+      "compromised_versions": [
+        "0.6.1",
+        "0.6.2"
+      ],
+      "safe_version": "0.6.0"
+    },
+    "@asyncapi/markdown-template": {
+      "compromised_versions": [
+        "1.6.8",
+        "1.6.9"
+      ],
+      "safe_version": "1.6.7"
+    },
+    "@everreal/validate-esmoduleinterop-imports": {
+      "compromised_versions": [
+        "1.4.4",
+        "1.4.5"
+      ],
+      "safe_version": "1.4.3"
+    },
+    "@everreal/web-analytics": {
+      "compromised_versions": [
+        "0.0.1",
+        "0.0.2"
+      ],
+      "safe_version": "0.0.0"
+    },
+    "@lessondesk/schoolbus": {
+      "compromised_versions": [
+        "5.2.2",
+        "5.2.3"
+      ],
+      "safe_version": "5.2.1"
+    },
+    "@markvivanco/app-version-checker": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@mcp-use/cli": {
+      "compromised_versions": [
+        "2.2.6",
+        "2.2.7"
+      ],
+      "safe_version": "2.2.5"
+    },
+    "@mcp-use/inspector": {
+      "compromised_versions": [
+        "0.6.2",
+        "0.6.3"
+      ],
+      "safe_version": "0.6.1"
+    },
+    "@mcp-use/mcp-use": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@postman/aether-icons": {
+      "compromised_versions": [
+        "2.23.2",
+        "2.23.3",
+        "2.23.4"
+      ],
+      "safe_version": "2.23.1"
+    },
+    "@postman/csv-parse": {
+      "compromised_versions": [
+        "4.0.3",
+        "4.0.4",
+        "4.0.5"
+      ],
+      "safe_version": "4.0.2"
+    },
+    "@postman/final-node-keytar": {
+      "compromised_versions": [
+        "7.9.1",
+        "7.9.2",
+        "7.9.3"
+      ],
+      "safe_version": "7.9.0"
+    },
+    "@postman/mcp-ui-client": {
+      "compromised_versions": [
+        "5.5.1",
+        "5.5.2",
+        "5.5.3"
+      ],
+      "safe_version": "5.5.0"
+    },
+    "@postman/node-keytar": {
+      "compromised_versions": [
+        "7.9.4",
+        "7.9.5",
+        "7.9.6"
+      ],
+      "safe_version": "7.9.3"
+    },
+    "@postman/pm-bin-linux-x64": {
+      "compromised_versions": [
+        "1.24.4",
+        "1.24.5"
+      ],
+      "safe_version": "1.24.3"
+    },
+    "@postman/pm-bin-macos-arm64": {
+      "compromised_versions": [
+        "1.24.3",
+        "1.24.4",
+        "1.24.5"
+      ],
+      "safe_version": "1.24.2"
+    },
+    "@postman/pm-bin-macos-x64": {
+      "compromised_versions": [
+        "1.24.3",
+        "1.24.4"
+      ],
+      "safe_version": "1.24.2"
+    },
+    "@postman/pm-bin-windows-x64": {
+      "compromised_versions": [
+        "1.24.3",
+        "1.24.4",
+        "1.24.5"
+      ],
+      "safe_version": "1.24.2"
+    },
+    "@postman/postman-collection-fork": {
+      "compromised_versions": [
+        "4.3.3",
+        "4.3.4",
+        "4.3.5"
+      ],
+      "safe_version": "4.3.2"
+    },
+    "@postman/postman-mcp-cli": {
+      "compromised_versions": [
+        "1.0.3",
+        "1.0.4",
+        "1.0.5"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@postman/postman-mcp-server": {
+      "compromised_versions": [
+        "2.4.10",
+        "2.4.11",
+        "2.4.12"
+      ],
+      "safe_version": "2.4.9"
+    },
+    "@postman/pretty-ms": {
+      "compromised_versions": [
+        "6.1.1",
+        "6.1.2",
+        "6.1.3"
+      ],
+      "safe_version": "6.1.0"
+    },
+    "@postman/secret-scanner-wasm": {
+      "compromised_versions": [
+        "2.1.2",
+        "2.1.3",
+        "2.1.4"
+      ],
+      "safe_version": "2.1.1"
+    },
+    "@postman/tunnel-agent": {
+      "compromised_versions": [
+        "0.6.5",
+        "0.6.6",
+        "0.6.7"
+      ],
+      "safe_version": "0.6.4"
+    },
+    "@postman/wdio-allure-reporter": {
+      "compromised_versions": [
+        "0.0.7",
+        "0.0.8",
+        "0.0.9"
+      ],
+      "safe_version": "0.0.6"
+    },
+    "@postman/wdio-junit-reporter": {
+      "compromised_versions": [
+        "0.0.4",
+        "0.0.5",
+        "0.0.6"
+      ],
+      "safe_version": "0.0.3"
+    },
+    "@sameepsi/sor": {
+      "compromised_versions": [
+        "1.0.3",
+        "2.0.2"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@tiaanduplessis/json": {
+      "compromised_versions": [
+        "2.0.2",
+        "2.0.3"
+      ],
+      "safe_version": "2.0.1"
+    },
+    "@tiaanduplessis/react-progressbar": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "@varsityvibe/validation-schemas": {
+      "compromised_versions": [
+        "0.6.7",
+        "0.6.8"
+      ],
+      "safe_version": "0.6.6"
+    },
+    "@voiceflow/alexa-types": {
+      "compromised_versions": [
+        "2.15.60",
+        "2.15.61"
+      ],
+      "safe_version": "2.15.59"
+    },
+    "@voiceflow/anthropic": {
+      "compromised_versions": [
+        "0.4.4",
+        "0.4.5"
+      ],
+      "safe_version": "0.4.3"
+    },
+    "@voiceflow/api-sdk": {
+      "compromised_versions": [
+        "3.28.58",
+        "3.28.59"
+      ],
+      "safe_version": "3.28.57"
+    },
+    "@voiceflow/backend-utils": {
+      "compromised_versions": [
+        "5.0.1",
+        "5.0.2"
+      ],
+      "safe_version": "5.0.0"
+    },
+    "@voiceflow/base-types": {
+      "compromised_versions": [
+        "2.136.2",
+        "2.136.3"
+      ],
+      "safe_version": "2.136.1"
+    },
+    "@voiceflow/body-parser": {
+      "compromised_versions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "safe_version": "1.21.1"
+    },
+    "@voiceflow/chat-types": {
+      "compromised_versions": [
+        "2.14.58",
+        "2.14.59"
+      ],
+      "safe_version": "2.14.57"
+    },
+    "@voiceflow/circleci-config-sdk-orb-import": {
+      "compromised_versions": [
+        "0.2.1",
+        "0.2.2"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "@voiceflow/commitlint-config": {
+      "compromised_versions": [
+        "2.6.1",
+        "2.6.2"
+      ],
+      "safe_version": "2.6.0"
+    },
+    "@voiceflow/common": {
+      "compromised_versions": [
+        "8.9.1",
+        "8.9.2"
+      ],
+      "safe_version": "8.9.0"
+    },
+    "@voiceflow/default-prompt-wrappers": {
+      "compromised_versions": [
+        "1.7.3",
+        "1.7.4"
+      ],
+      "safe_version": "1.7.2"
+    },
+    "@voiceflow/dependency-cruiser-config": {
+      "compromised_versions": [
+        "1.8.11",
+        "1.8.12"
+      ],
+      "safe_version": "1.8.10"
+    },
+    "@voiceflow/dtos-interact": {
+      "compromised_versions": [
+        "1.40.1",
+        "1.40.2"
+      ],
+      "safe_version": "1.40.0"
+    },
+    "@voiceflow/encryption": {
+      "compromised_versions": [
+        "0.3.2",
+        "0.3.3"
+      ],
+      "safe_version": "0.3.1"
+    },
+    "@voiceflow/eslint-config": {
+      "compromised_versions": [
+        "7.16.4",
+        "7.16.5"
+      ],
+      "safe_version": "7.16.3"
+    },
+    "@voiceflow/eslint-plugin": {
+      "compromised_versions": [
+        "1.6.1",
+        "1.6.2"
+      ],
+      "safe_version": "1.6.0"
+    },
+    "@voiceflow/exception": {
+      "compromised_versions": [
+        "1.10.1",
+        "1.10.2"
+      ],
+      "safe_version": "1.10.0"
+    },
+    "@voiceflow/fetch": {
+      "compromised_versions": [
+        "1.11.1",
+        "1.11.2"
+      ],
+      "safe_version": "1.11.0"
+    },
+    "@voiceflow/general-types": {
+      "compromised_versions": [
+        "3.2.22",
+        "3.2.23"
+      ],
+      "safe_version": "3.2.21"
+    },
+    "@voiceflow/git-branch-check": {
+      "compromised_versions": [
+        "1.4.3",
+        "1.4.4"
+      ],
+      "safe_version": "1.4.2"
+    },
+    "@voiceflow/google-dfes-types": {
+      "compromised_versions": [
+        "2.17.12",
+        "2.17.13"
+      ],
+      "safe_version": "2.17.11"
+    },
+    "@voiceflow/google-types": {
+      "compromised_versions": [
+        "2.21.12",
+        "2.21.13"
+      ],
+      "safe_version": "2.21.11"
+    },
+    "@voiceflow/husky-config": {
+      "compromised_versions": [
+        "1.3.1",
+        "1.3.2"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "@voiceflow/logger": {
+      "compromised_versions": [
+        "2.4.2",
+        "2.4.3"
+      ],
+      "safe_version": "2.4.1"
+    },
+    "@voiceflow/metrics": {
+      "compromised_versions": [
+        "1.5.1",
+        "1.5.2"
+      ],
+      "safe_version": "1.5.0"
+    },
+    "@voiceflow/natural-language-commander": {
+      "compromised_versions": [
+        "0.5.2",
+        "0.5.3"
+      ],
+      "safe_version": "0.5.1"
+    },
+    "@voiceflow/nestjs-common": {
+      "compromised_versions": [
+        "2.75.2",
+        "2.75.3"
+      ],
+      "safe_version": "2.75.1"
+    },
+    "@voiceflow/nestjs-mongodb": {
+      "compromised_versions": [
+        "1.3.1",
+        "1.3.2"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "@voiceflow/nestjs-rate-limit": {
+      "compromised_versions": [
+        "1.3.2",
+        "1.3.3"
+      ],
+      "safe_version": "1.3.1"
+    },
+    "@voiceflow/nestjs-redis": {
+      "compromised_versions": [
+        "1.3.1",
+        "1.3.2"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "@voiceflow/nestjs-timeout": {
+      "compromised_versions": [
+        "1.3.1",
+        "1.3.2"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "@voiceflow/npm-package-json-lint-config": {
+      "compromised_versions": [
+        "1.1.1",
+        "1.1.2"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "@voiceflow/openai": {
+      "compromised_versions": [
+        "3.2.2",
+        "3.2.3"
+      ],
+      "safe_version": "3.2.1"
+    },
+    "@voiceflow/pino": {
+      "compromised_versions": [
+        "6.11.3",
+        "6.11.4"
+      ],
+      "safe_version": "6.11.2"
+    },
+    "@voiceflow/pino-pretty": {
+      "compromised_versions": [
+        "4.4.1",
+        "4.4.2"
+      ],
+      "safe_version": "4.4.0"
+    },
+    "@voiceflow/prettier-config": {
+      "compromised_versions": [
+        "1.10.1",
+        "1.10.2"
+      ],
+      "safe_version": "1.10.0"
+    },
+    "@voiceflow/react-chat": {
+      "compromised_versions": [
+        "1.65.3",
+        "1.65.4"
+      ],
+      "safe_version": "1.65.2"
+    },
+    "@voiceflow/runtime": {
+      "compromised_versions": [
+        "1.29.1",
+        "1.29.2"
+      ],
+      "safe_version": "1.29.0"
+    },
+    "@voiceflow/runtime-client-js": {
+      "compromised_versions": [
+        "1.17.2",
+        "1.17.3"
+      ],
+      "safe_version": "1.17.1"
+    },
+    "@voiceflow/sdk-runtime": {
+      "compromised_versions": [
+        "1.43.1",
+        "1.43.2"
+      ],
+      "safe_version": "1.43.0"
+    },
+    "@voiceflow/secrets-provider": {
+      "compromised_versions": [
+        "1.9.2",
+        "1.9.3"
+      ],
+      "safe_version": "1.9.1"
+    },
+    "@voiceflow/semantic-release-config": {
+      "compromised_versions": [
+        "1.4.1",
+        "1.4.2"
+      ],
+      "safe_version": "1.4.0"
+    },
+    "@voiceflow/serverless-plugin-typescript": {
+      "compromised_versions": [
+        "2.1.7",
+        "2.1.8"
+      ],
+      "safe_version": "2.1.6"
+    },
+    "@voiceflow/slate-serializer": {
+      "compromised_versions": [
+        "1.7.3",
+        "1.7.4"
+      ],
+      "safe_version": "1.7.2"
+    },
+    "@voiceflow/stitches-react": {
+      "compromised_versions": [
+        "2.3.2",
+        "2.3.3"
+      ],
+      "safe_version": "2.3.1"
+    },
+    "@voiceflow/storybook-config": {
+      "compromised_versions": [
+        "1.2.2",
+        "1.2.3"
+      ],
+      "safe_version": "1.2.1"
+    },
+    "@voiceflow/stylelint-config": {
+      "compromised_versions": [
+        "1.1.1",
+        "1.1.2"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "@voiceflow/test-common": {
+      "compromised_versions": [
+        "2.1.1",
+        "2.1.2"
+      ],
+      "safe_version": "2.1.0"
+    },
+    "@voiceflow/tsconfig": {
+      "compromised_versions": [
+        "1.12.1",
+        "1.12.2"
+      ],
+      "safe_version": "1.12.0"
+    },
+    "@voiceflow/tsconfig-paths": {
+      "compromised_versions": [
+        "1.1.4",
+        "1.1.5"
+      ],
+      "safe_version": "1.1.3"
+    },
+    "@voiceflow/utils-designer": {
+      "compromised_versions": [
+        "1.74.19",
+        "1.74.20"
+      ],
+      "safe_version": "1.74.18"
+    },
+    "@voiceflow/verror": {
+      "compromised_versions": [
+        "1.1.4",
+        "1.1.5"
+      ],
+      "safe_version": "1.1.3"
+    },
+    "@voiceflow/vite-config": {
+      "compromised_versions": [
+        "2.6.2",
+        "2.6.3"
+      ],
+      "safe_version": "2.6.1"
+    },
+    "@voiceflow/vitest-config": {
+      "compromised_versions": [
+        "1.10.2",
+        "1.10.3"
+      ],
+      "safe_version": "1.10.1"
+    },
+    "@voiceflow/voice-types": {
+      "compromised_versions": [
+        "2.10.58",
+        "2.10.59"
+      ],
+      "safe_version": "2.10.57"
+    },
+    "@voiceflow/voiceflow-types": {
+      "compromised_versions": [
+        "3.32.45",
+        "3.32.46"
+      ],
+      "safe_version": "3.32.44"
+    },
+    "@voiceflow/widget": {
+      "compromised_versions": [
+        "1.7.18",
+        "1.7.19"
+      ],
+      "safe_version": "1.7.17"
+    },
+    "@zapier/ai-actions": {
+      "compromised_versions": [
+        "0.1.18",
+        "0.1.19",
+        "0.1.20"
+      ],
+      "safe_version": "0.1.17"
+    },
+    "@zapier/ai-actions-react": {
+      "compromised_versions": [
+        "0.1.12",
+        "0.1.13",
+        "0.1.14"
+      ],
+      "safe_version": "0.1.11"
+    },
+    "@zapier/babel-preset-zapier": {
+      "compromised_versions": [
+        "6.4.1",
+        "6.4.2",
+        "6.4.3"
+      ],
+      "safe_version": "6.4.0"
+    },
+    "@zapier/browserslist-config-zapier": {
+      "compromised_versions": [
+        "1.0.3",
+        "1.0.4",
+        "1.0.5"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "@zapier/eslint-plugin-zapier": {
+      "compromised_versions": [
+        "11.0.3",
+        "11.0.4",
+        "11.0.5"
+      ],
+      "safe_version": "11.0.2"
     },
     "@zapier/mcp-integration": {
-      "compromised_versions": ["3.0.1", "3.0.2", "3.0.3"],
+      "compromised_versions": [
+        "3.0.1",
+        "3.0.2",
+        "3.0.3"
+      ],
       "safe_version": "3.0.0"
     },
     "@zapier/secret-scrubber": {
-      "compromised_versions": ["1.1.3", "1.1.4", "1.1.5"],
+      "compromised_versions": [
+        "1.1.3",
+        "1.1.4",
+        "1.1.5"
+      ],
       "safe_version": "1.1.2"
     },
-    "@zapier/ai-actions-react": {
-      "compromised_versions": ["0.1.12", "0.1.13", "0.1.14"],
-      "safe_version": "0.1.11"
+    "@zapier/spectral-api-ruleset": {
+      "compromised_versions": [
+        "1.9.1",
+        "1.9.2",
+        "1.9.3"
+      ],
+      "safe_version": "1.9.0"
     },
     "@zapier/stubtree": {
-      "compromised_versions": ["0.1.2", "0.1.3", "0.1.4"],
+      "compromised_versions": [
+        "0.1.2",
+        "0.1.3",
+        "0.1.4"
+      ],
       "safe_version": "0.1.1"
     },
-    "@zapier/babel-preset-zapier": {
-      "compromised_versions": ["all"],
-      "safe_version": "none - all versions affected"
+    "@zapier/zapier-sdk": {
+      "compromised_versions": [
+        "0.15.5",
+        "0.15.6",
+        "0.15.7"
+      ],
+      "safe_version": "0.15.4"
     },
-    "@zapier/eslint-plugin-zapier": {
-      "compromised_versions": ["all"],
-      "safe_version": "none - all versions affected"
+    "axios-cancelable": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "axios-timed": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "barebones-css": {
+      "compromised_versions": [
+        "1.1.3",
+        "1.1.4"
+      ],
+      "safe_version": "1.1.2"
+    },
+    "bidirectional-adapter": {
+      "compromised_versions": [
+        "1.2.2",
+        "1.2.3",
+        "1.2.4",
+        "1.2.5"
+      ],
+      "safe_version": "1.2.1"
+    },
+    "bytecode-checker-cli": {
+      "compromised_versions": [
+        "1.0.8",
+        "1.0.9",
+        "1.0.10",
+        "1.0.11"
+      ],
+      "safe_version": "1.0.7"
+    },
+    "chrome-extension-downloads": {
+      "compromised_versions": [
+        "0.0.3",
+        "0.0.4"
+      ],
+      "safe_version": "0.0.2"
+    },
+    "coinmarketcap-api": {
+      "compromised_versions": [
+        "3.1.2",
+        "3.1.3"
+      ],
+      "safe_version": "3.1.1"
+    },
+    "compare-obj": {
+      "compromised_versions": [
+        "1.1.1",
+        "1.1.2"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "composite-reducer": {
+      "compromised_versions": [
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "count-it-down": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "create-hardhat3-app": {
+      "compromised_versions": [
+        "1.1.1",
+        "1.1.2",
+        "1.1.3",
+        "1.1.4"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "create-mcp-use-app": {
+      "compromised_versions": [
+        "0.5.3",
+        "0.5.4"
+      ],
+      "safe_version": "0.5.2"
+    },
+    "dialogflow-es": {
+      "compromised_versions": [
+        "1.1.1",
+        "1.1.2",
+        "1.1.3",
+        "1.1.4"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "evm-checkcode-cli": {
+      "compromised_versions": [
+        "1.0.12",
+        "1.0.13",
+        "1.0.14",
+        "1.0.15"
+      ],
+      "safe_version": "1.0.11"
+    },
+    "fat-fingered": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "feature-flip": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "fittxt": {
+      "compromised_versions": [
+        "1.0.2",
+        "1.0.3"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "flapstacks": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "flatten-unflatten": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "fuzzy-finder": {
+      "compromised_versions": [
+        "1.0.5",
+        "1.0.6"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "gate-evm-check-code2": {
+      "compromised_versions": [
+        "2.0.3",
+        "2.0.4",
+        "2.0.5",
+        "2.0.6"
+      ],
+      "safe_version": "2.0.2"
+    },
+    "gate-evm-tools-test": {
+      "compromised_versions": [
+        "1.0.5",
+        "1.0.6",
+        "1.0.7",
+        "1.0.8"
+      ],
+      "safe_version": "1.0.4"
+    },
+    "gatsby-plugin-cname": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "gulp-inject-envs": {
+      "compromised_versions": [
+        "1.2.1",
+        "1.2.2"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "haufe-axera-api-client": {
+      "compromised_versions": [
+        "0.0.1",
+        "0.0.2"
+      ],
+      "safe_version": "0.0.0"
+    },
+    "httpness": {
+      "compromised_versions": [
+        "1.0.2",
+        "1.0.3"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "image-to-uri": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "jacob-zuma": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "jquery-bindings": {
+      "compromised_versions": [
+        "1.1.2",
+        "1.1.3"
+      ],
+      "safe_version": "1.1.1"
+    },
+    "kill-port": {
+      "compromised_versions": [
+        "2.0.2",
+        "2.0.3"
+      ],
+      "safe_version": "2.0.1"
+    },
+    "kwami": {
+      "compromised_versions": [
+        "1.5.9",
+        "1.5.10"
+      ],
+      "safe_version": "1.5.8"
+    },
+    "lang-codes": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "license-o-matic": {
+      "compromised_versions": [
+        "1.2.1",
+        "1.2.2"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "lint-staged-imagemin": {
+      "compromised_versions": [
+        "1.3.1",
+        "1.3.2"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "mcp-use": {
+      "compromised_versions": [
+        "1.4.2",
+        "1.4.3"
+      ],
+      "safe_version": "1.4.1"
+    },
+    "nanoreset": {
+      "compromised_versions": [
+        "7.0.1",
+        "7.0.2"
+      ],
+      "safe_version": "7.0.0"
+    },
+    "next-circular-dependency": {
+      "compromised_versions": [
+        "1.0.2",
+        "1.0.3"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "next-simple-google-analytics": {
+      "compromised_versions": [
+        "1.1.1",
+        "1.1.2"
+      ],
+      "safe_version": "1.1.0"
+    },
+    "next-styled-nprogress": {
+      "compromised_versions": [
+        "1.0.4",
+        "1.0.5"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "normal-store": {
+      "compromised_versions": [
+        "1.3.1",
+        "1.3.2",
+        "1.3.3",
+        "1.3.4"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "obj-to-css": {
+      "compromised_versions": [
+        "1.0.2",
+        "1.0.3"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "parcel-plugin-asset-copier": {
+      "compromised_versions": [
+        ".1.1.3",
+        "1.1.2",
+        "1.1.3"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "pico-uid": {
+      "compromised_versions": [
+        "1.0.3",
+        "1.0.4"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "posthog-react-native": {
+      "compromised_versions": [
+        "4.11.1",
+        "4.12.5"
+      ],
+      "safe_version": "4.11.0"
+    },
+    "ra-data-firebase": {
+      "compromised_versions": [
+        "1.0.7",
+        "1.0.8"
+      ],
+      "safe_version": "1.0.6"
+    },
+    "react-hook-form-persist": {
+      "compromised_versions": [
+        "3.0.1",
+        "3.0.2"
+      ],
+      "safe_version": "3.0.0"
+    },
+    "react-jam-icons": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "react-keycloak-context": {
+      "compromised_versions": [
+        "1.0.8",
+        "1.0.9"
+      ],
+      "safe_version": "1.0.7"
+    },
+    "react-micromodal.js": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "react-native-datepicker-modal": {
+      "compromised_versions": [
+        "1.3.1",
+        "1.3.2"
+      ],
+      "safe_version": "1.3.0"
+    },
+    "react-native-email": {
+      "compromised_versions": [
+        "2.1.1",
+        "2.1.2"
+      ],
+      "safe_version": "2.1.0"
+    },
+    "react-native-fetch": {
+      "compromised_versions": [
+        "2.0.1",
+        "2.0.2"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "react-native-get-pixel-dimensions": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "react-native-jam-icons": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "react-native-log-level": {
+      "compromised_versions": [
+        "1.2.1",
+        "1.2.2"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "react-native-phone-call": {
+      "compromised_versions": [
+        "1.2.1",
+        "1.2.2"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "react-native-retriable-fetch": {
+      "compromised_versions": [
+        "2.0.1",
+        "2.0.2"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "react-native-view-finder": {
+      "compromised_versions": [
+        "1.2.1",
+        "1.2.2"
+      ],
+      "safe_version": "1.2.0"
+    },
+    "react-native-websocket": {
+      "compromised_versions": [
+        "1.0.3",
+        "1.0.4"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "react-scrambled-text": {
+      "compromised_versions": [
+        "1.0.4",
+        "1.0.5"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "redux-router-kit": {
+      "compromised_versions": [
+        "1.2.2",
+        "1.2.3",
+        "1.2.4"
+      ],
+      "safe_version": "1.2.1"
+    },
+    "sa-company-registration-number-regex": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "sa-id-gen": {
+      "compromised_versions": [
+        "1.0.4",
+        "1.0.5"
+      ],
+      "safe_version": "1.0.3"
+    },
+    "set-nested-prop": {
+      "compromised_versions": [
+        "2.0.1",
+        "2.0.2"
+      ],
+      "safe_version": "2.0.0"
+    },
+    "shell-exec": {
+      "compromised_versions": [
+        "1.1.3",
+        "1.1.4"
+      ],
+      "safe_version": "1.1.2"
+    },
+    "skills-use": {
+      "compromised_versions": [
+        "0.1.1",
+        "0.1.2"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "svelte-toasty": {
+      "compromised_versions": [
+        "1.1.2",
+        "1.1.3"
+      ],
+      "safe_version": "1.1.1"
+    },
+    "template-lib": {
+      "compromised_versions": [
+        "1.1.3",
+        "1.1.4"
+      ],
+      "safe_version": "1.1.2"
+    },
+    "template-micro-service": {
+      "compromised_versions": [
+        "1.0.2",
+        "1.0.3"
+      ],
+      "safe_version": "1.0.1"
+    },
+    "tenacious-fetch": {
+      "compromised_versions": [
+        "2.3.2",
+        "2.3.3"
+      ],
+      "safe_version": "2.3.1"
+    },
+    "test-foundry-app": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "test-hardhat-app": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "typefence": {
+      "compromised_versions": [
+        "1.2.2",
+        "1.2.3"
+      ],
+      "safe_version": "1.2.1"
+    },
+    "undefsafe-typed": {
+      "compromised_versions": [
+        "1.0.3",
+        "1.0.4"
+      ],
+      "safe_version": "1.0.2"
+    },
+    "upload-to-play-store": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "url-encode-decode": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "vf-oss-template": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "victoria-wallet-constants": {
+      "compromised_versions": [
+        "0.1.1",
+        "0.1.2"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "victoria-wallet-core": {
+      "compromised_versions": [
+        "0.1.1",
+        "0.1.2"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "victoria-wallet-type": {
+      "compromised_versions": [
+        "0.1.1",
+        "0.1.2"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "victoria-wallet-utils": {
+      "compromised_versions": [
+        "0.1.1",
+        "0.1.2"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "victoria-wallet-validator": {
+      "compromised_versions": [
+        "0.1.1",
+        "0.1.2"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "victoriaxoaquyet-wallet-core": {
+      "compromised_versions": [
+        "0.2.1",
+        "0.2.2"
+      ],
+      "safe_version": "0.2.0"
+    },
+    "wallet-evm": {
+      "compromised_versions": [
+        "0.3.1",
+        "0.3.2"
+      ],
+      "safe_version": "0.3.0"
+    },
+    "wallet-type": {
+      "compromised_versions": [
+        "0.1.1",
+        "0.1.2"
+      ],
+      "safe_version": "0.1.0"
+    },
+    "wenk": {
+      "compromised_versions": [
+        "1.0.9",
+        "1.0.10"
+      ],
+      "safe_version": "1.0.8"
+    },
+    "zapier-async-storage": {
+      "compromised_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3"
+      ],
+      "safe_version": "1.0.0"
+    },
+    "zapier-platform-cli": {
+      "compromised_versions": [
+        "18.0.2",
+        "18.0.3",
+        "18.0.4"
+      ],
+      "safe_version": "18.0.1"
+    },
+    "zapier-platform-core": {
+      "compromised_versions": [
+        "18.0.2",
+        "18.0.3",
+        "18.0.4"
+      ],
+      "safe_version": "18.0.1"
+    },
+    "zapier-platform-legacy-scripting-runner": {
+      "compromised_versions": [
+        "4.0.2",
+        "4.0.3",
+        "4.0.4"
+      ],
+      "safe_version": "4.0.1"
+    },
+    "zapier-platform-schema": {
+      "compromised_versions": [
+        "18.0.2",
+        "18.0.3",
+        "18.0.4"
+      ],
+      "safe_version": "18.0.1"
+    },
+    "zapier-scripts": {
+      "compromised_versions": [
+        "7.8.3",
+        "7.8.4"
+      ],
+      "safe_version": "7.8.2"
     }
   },
-  
-  "potentially_compromised_packages": [
-    "@actbase/css-to-react-native-transform",
-    "@actbase/native",
-    "@actbase/node-server",
-    "@actbase/react-absolute",
-    "@actbase/react-daum-postcode",
-    "@actbase/react-kakaosdk",
-    "@actbase/react-native-actionsheet",
-    "@actbase/react-native-devtools",
-    "@actbase/react-native-fast-image",
-    "@actbase/react-native-kakao-channel",
-    "@actbase/react-native-kakao-navi",
-    "@actbase/react-native-less-transformer",
-    "@actbase/react-native-naver-login",
-    "@actbase/react-native-simple-video",
-    "@actbase/react-native-tiktok",
-    "@alexcolls/nuxt-socket.io",
-    "@alexcolls/nuxt-ux",
-    "@aryanhussain/my-angular-lib",
-    "@asyncapi/avro-schema-parser",
-    "@asyncapi/bundler",
-    "@asyncapi/cli",
-    "@asyncapi/converter",
-    "@asyncapi/diff",
-    "@asyncapi/dotnet-rabbitmq-template",
-    "@asyncapi/edavisualiser",
-    "@asyncapi/generator",
-    "@asyncapi/generator-components",
-    "@asyncapi/generator-helpers",
-    "@asyncapi/generator-react-sdk",
-    "@asyncapi/go-watermill-template",
-    "@asyncapi/html-template",
-    "@asyncapi/java-spring-cloud-stream-template",
-    "@asyncapi/java-spring-template",
-    "@asyncapi/java-template",
-    "@asyncapi/keeper",
-    "@asyncapi/markdown-template",
-    "@asyncapi/modelina",
-    "@asyncapi/modelina-cli",
-    "@asyncapi/multi-parser",
-    "@asyncapi/nodejs-template",
-    "@asyncapi/nodejs-ws-template",
-    "@asyncapi/nunjucks-filters",
-    "@asyncapi/openapi-schema-parser",
-    "@asyncapi/optimizer",
-    "@asyncapi/parser",
-    "@asyncapi/php-template",
-    "@asyncapi/problem",
-    "@asyncapi/protobuf-schema-parser",
-    "@asyncapi/python-paho-template",
-    "@asyncapi/react-component",
-    "@asyncapi/server-api",
-    "@asyncapi/specs",
-    "@asyncapi/studio",
-    "@asyncapi/web-component",
-    "@caretive/caret-cli",
-    "@clausehq/flows-step-jsontoxml",
-    "@commute/bloom",
-    "@commute/market-data",
-    "@dev-blinq/ai-qa-logic",
-    "@dev-blinq/cucumber_client",
-    "@ensdomains/address-encoder",
-    "@ensdomains/blacklist",
-    "@ensdomains/buffer",
-    "@ensdomains/ccip-read-cf-worker",
-    "@ensdomains/ccip-read-dns-gateway",
-    "@ensdomains/ccip-read-router",
-    "@ensdomains/ccip-read-worker-viem",
-    "@ensdomains/content-hash",
-    "@ensdomains/curvearithmetics",
-    "@ensdomains/cypress-metamask",
-    "@ensdomains/dnsprovejs",
-    "@ensdomains/dnssec-oracle-anchors",
-    "@ensdomains/dnssecoraclejs",
-    "@ensdomains/durin",
-    "@ensdomains/durin-middleware",
-    "@ensdomains/ens-archived-contracts",
-    "@ensdomains/ens-avatar",
-    "@ensdomains/ens-contracts",
-    "@ensdomains/ens-test-env",
-    "@ensdomains/ens-validation",
-    "@ensdomains/ensjs",
-    "@ensdomains/ensjs-react",
-    "@ensdomains/eth-ens-namehash",
-    "@ensdomains/hackathon-registrar",
-    "@ensdomains/hardhat-chai-matchers-viem",
-    "@ensdomains/hardhat-toolbox-viem-extended",
-    "@ensdomains/mock",
-    "@ensdomains/name-wrapper",
-    "@ensdomains/offchain-resolver-contracts",
-    "@ensdomains/op-resolver-contracts",
-    "@ensdomains/react-ens-address",
-    "@ensdomains/renewal",
-    "@ensdomains/renewal-widget",
-    "@ensdomains/reverse-records",
-    "@ensdomains/server-analytics",
-    "@ensdomains/solsha1",
-    "@ensdomains/subdomain-registrar",
-    "@ensdomains/test-utils",
-    "@ensdomains/thorin",
-    "@ensdomains/ui",
-    "@ensdomains/unicode-confusables",
-    "@ensdomains/unruggable-gateways",
-    "@ensdomains/vite-plugin-i18next-loader",
-    "@ensdomains/web3modal",
-    "@everreal/web-analytics",
-    "@hapheus/n8n-nodes-pgp",
-    "@ifelsedeveloper/protocol-contracts-svm-idl",
-    "@ifings/design-system",
-    "@kvytech/cli",
-    "@kvytech/components",
-    "@kvytech/habbit-e2e-test",
-    "@kvytech/medusa-plugin-announcement",
-    "@kvytech/medusa-plugin-management",
-    "@kvytech/medusa-plugin-newsletter",
-    "@kvytech/medusa-plugin-product-reviews",
-    "@kvytech/medusa-plugin-promotion",
-    "@kvytech/web",
-    "@lessondesk/api-client",
-    "@lessondesk/babel-preset",
-    "@lessondesk/eslint-config",
-    "@lessondesk/schoolbus",
-    "@louisle2/core",
-    "@louisle2/cortex-js",
-    "@markvivanco/app-version-checker",
-    "@mcp-use/cli",
-    "@mcp-use/inspector",
-    "@mcp-use/mcp-use",
-    "@mparpaillon/connector-parse",
-    "@mparpaillon/imagesloaded",
-    "@orbitgtbelgium/mapbox-gl-draw-cut-polygon-mode",
-    "@orbitgtbelgium/mapbox-gl-draw-scale-rotate-mode",
-    "@orbitgtbelgium/orbit-components",
-    "@orbitgtbelgium/time-slider",
-    "@osmanekrem/error-handler",
-    "@posthog/agent",
-    "@posthog/ai",
-    "@posthog/automatic-cohorts-plugin",
-    "@posthog/bitbucket-release-tracker",
-    "@posthog/cli",
-    "@posthog/clickhouse",
-    "@posthog/core",
-    "@posthog/currency-normalization-plugin",
-    "@posthog/customerio-plugin",
-    "@posthog/databricks-plugin",
-    "@posthog/drop-events-on-property-plugin",
-    "@posthog/event-sequence-timer-plugin",
-    "@posthog/filter-out-plugin",
-    "@posthog/first-time-event-tracker",
-    "@posthog/geoip-plugin",
-    "@posthog/github-release-tracking-plugin",
-    "@posthog/gitub-star-sync-plugin",
-    "@posthog/heartbeat-plugin",
-    "@posthog/hedgehog-mode",
-    "@posthog/icons",
-    "@posthog/ingestion-alert-plugin",
-    "@posthog/intercom-plugin",
-    "@posthog/kinesis-plugin",
-    "@posthog/laudspeaker-plugin",
-    "@posthog/lemon-ui",
-    "@posthog/maxmind-plugin",
-    "@posthog/migrator3000-plugin",
-    "@posthog/netdata-event-processing",
-    "@posthog/nextjs",
-    "@posthog/nextjs-config",
-    "@posthog/nuxt",
-    "@posthog/pagerduty-plugin",
-    "@posthog/piscina",
-    "@posthog/plugin-contrib",
-    "@posthog/plugin-server",
-    "@posthog/plugin-unduplicates",
-    "@posthog/postgres-plugin",
-    "@posthog/react-rrweb-player",
-    "@posthog/rrdom",
-    "@posthog/rrweb",
-    "@posthog/rrweb-player",
-    "@posthog/rrweb-record",
-    "@posthog/rrweb-replay",
-    "@posthog/rrweb-snapshot",
-    "@posthog/rrweb-utils",
-    "@posthog/sendgrid-plugin",
-    "@posthog/siphash",
-    "@posthog/snowflake-export-plugin",
-    "@posthog/taxonomy-plugin",
-    "@posthog/twilio-plugin",
-    "@posthog/twitter-followers-plugin",
-    "@posthog/url-normalizer-plugin",
-    "@posthog/variance-plugin",
-    "@posthog/web-dev-server",
-    "@posthog/wizard",
-    "@posthog/zendesk-plugin",
-    "@postman/aether-icons",
-    "@postman/csv-parse",
-    "@postman/final-node-keytar",
-    "@postman/mcp-ui-client",
-    "@postman/node-keytar",
-    "@postman/pm-bin-linux-x64",
-    "@postman/pm-bin-macos-arm64",
-    "@postman/pm-bin-macos-x64",
-    "@postman/pm-bin-windows-x64",
-    "@postman/postman-collection-fork",
-    "@postman/postman-mcp-cli",
-    "@postman/postman-mcp-server",
-    "@postman/pretty-ms",
-    "@postman/secret-scanner-wasm",
-    "@postman/tunnel-agent",
-    "@postman/wdio-allure-reporter",
-    "@postman/wdio-junit-reporter",
-    "@quick-start-soft/quick-document-translator",
-    "@quick-start-soft/quick-git-clean-markdown",
-    "@quick-start-soft/quick-markdown",
-    "@quick-start-soft/quick-markdown-compose",
-    "@quick-start-soft/quick-markdown-image",
-    "@quick-start-soft/quick-markdown-print",
-    "@quick-start-soft/quick-markdown-translator",
-    "@quick-start-soft/quick-remove-image-background",
-    "@quick-start-soft/quick-task-refine",
-    "@seung-ju/next",
-    "@seung-ju/openapi-generator",
-    "@seung-ju/react-hooks",
-    "@seung-ju/react-native-action-sheet",
-    "@strapbuild/react-native-date-time-picker",
-    "@strapbuild/react-native-perspective-image-cropper",
-    "@strapbuild/react-native-perspective-image-cropper-2",
-    "@strapbuild/react-native-perspective-image-cropper-poojan31",
-    "@thedelta/eslint-config",
-    "@tiaanduplessis/json",
-    "@tiaanduplessis/react-progressbar",
-    "@trefox/sleekshop-js",
-    "@trigo/atrix",
-    "@trigo/atrix-acl",
-    "@trigo/atrix-elasticsearch",
-    "@trigo/atrix-mongoose",
-    "@trigo/atrix-orientdb",
-    "@trigo/atrix-postgres",
-    "@trigo/atrix-pubsub",
-    "@trigo/atrix-redis",
-    "@trigo/atrix-soap",
-    "@trigo/atrix-swagger",
-    "@trigo/bool-expressions",
-    "@trigo/eslint-config-trigo",
-    "@trigo/fsm",
-    "@trigo/hapi-auth-signedlink",
-    "@trigo/jsdt",
-    "@trigo/keycloak-api",
-    "@trigo/node-soap",
-    "@trigo/pathfinder-ui-css",
-    "@trigo/trigo-hapijs",
-    "@varsityvibe/api-client",
-    "@varsityvibe/validation-schemas",
-    "@zapier/ai-actions",
-    "@zapier/browserslist-config-zapier",
-    "@zapier/spectral-api-ruleset",
-    "asyncapi-preview",
-    "atrix",
-    "atrix-mongoose",
-    "axios-builder",
-    "axios-cancelable",
-    "axios-timed",
-    "barebones-css",
-    "blinqio-executions-cli",
-    "bool-expressions",
-    "bun-plugin-httpfile",
-    "bytecode-checker-cli",
-    "bytes-to-x",
-    "calc-loan-interest",
-    "capacitor-plugin-apptrackingios",
-    "capacitor-plugin-purchase",
-    "capacitor-plugin-scgssigninwithgoogle",
-    "capacitor-purchase-history",
-    "capacitor-voice-recorder-wav",
-    "chrome-extension-downloads",
-    "claude-token-updater",
-    "coinmarketcap-api",
-    "command-irail",
-    "compare-obj",
-    "cpu-instructions",
-    "create-glee-app",
-    "create-hardhat3-app",
-    "create-mcp-use-app",
-    "crypto-addr-codec",
-    "designstudiouiux",
-    "devstart-cli",
-    "discord-bot-server",
-    "dotnet-template",
-    "drop-events-on-property-plugin",
-    "enforce-branch-name",
-    "eslint-config-trigo",
-    "eslint-config-zeallat-base",
-    "ethereum-ens",
-    "evm-checkcode-cli",
-    "exact-ticker",
-    "expo-audio-session",
-    "feature-flip",
-    "fittxt",
-    "flapstacks",
-    "flatten-unflatten",
-    "formik-error-focus",
-    "formik-store",
-    "fuzzy-finder",
-    "gate-evm-check-code2",
-    "gate-evm-tools-test",
-    "gatsby-plugin-cname",
-    "get-them-args",
-    "github-action-for-generator",
-    "gitsafe",
-    "go-template",
-    "haufe-axera-api-client",
-    "hyperterm-hipster",
-    "image-to-uri",
-    "iron-shield-miniapp",
-    "ito-button",
-    "itobuz-angular",
-    "itobuz-angular-auth",
-    "jacob-zuma",
-    "jan-browser",
-    "jquery-bindings",
-    "just-toasty",
-    "kill-port",
-    "korea-administrative-area-geo-json-util",
-    "license-o-matic",
-    "lint-staged-imagemin",
-    "lite-serper-mcp-server",
-    "luno-api",
-    "manual-billing-system-miniapp-api",
-    "mcp-use",
-    "medusa-plugin-announcement",
-    "medusa-plugin-logs",
-    "medusa-plugin-momo",
-    "medusa-plugin-product-reviews-kvy",
-    "medusa-plugin-zalopay",
-    "n8n-nodes-tmdb",
-    "nanoreset",
-    "next-circular-dependency",
-    "obj-to-css",
-    "okta-react-router-6",
-    "open2internet",
-    "orbit-boxicons",
-    "orbit-nebula-draw-tools",
-    "orbit-nebula-editor",
-    "orbit-soap",
-    "parcel-plugin-asset-copier",
-    "pico-uid",
-    "poper-react-sdk",
-    "posthog-docusaurus",
-    "posthog-js",
-    "posthog-node",
-    "posthog-plugin-hello-world",
-    "posthog-react-native",
-    "posthog-react-native-session-replay",
-    "ra-data-firebase",
-    "react-component-taggers",
-    "react-element-prompt-inspector",
-    "react-jam-icons",
-    "react-keycloak-context",
-    "react-library-setup",
-    "react-native-datepicker-modal",
-    "react-native-email",
-    "react-native-fetch",
-    "react-native-get-pixel-dimensions",
-    "react-native-jam-icons",
-    "react-native-log-level",
-    "react-native-phone-call",
-    "react-native-retriable-fetch",
-    "react-native-use-modal",
-    "react-native-view-finder",
-    "react-native-websocket",
-    "react-native-worklet-functions",
-    "react-qr-image",
-    "redux-forge",
-    "redux-router-kit",
-    "sa-company-registration-number-regex",
-    "sa-id-gen",
-    "scgs-capacitor-subscribe",
-    "scgsffcreator",
-    "set-nested-prop",
-    "shell-exec",
-    "shinhan-limit-scrap",
-    "skills-use",
-    "sort-by-distance",
-    "stoor",
-    "svelte-autocomplete-select",
-    "tenacious-fetch",
-    "test-foundry-app",
-    "test-hardhat-app",
-    "test23112222-api",
-    "token.js-fork",
-    "trigo-react-app",
-    "typeorm-orbit",
-    "undefsafe-typed",
-    "url-encode-decode",
-    "vite-plugin-httpfile",
-    "web-types-htmx",
-    "web-types-lit",
-    "wenk",
-    "zapier-async-storage",
-    "zapier-platform-legacy-scripting-runner",
-    "zapier-scripts",
-    "zuper-cli",
-    "zuper-sdk",
-    "zuper-stream"
-  ],
-  
+  "potentially_compromised_packages": [],
   "malicious_indicators": {
     "domains": [
       "npmjs.help",
@@ -1275,7 +5084,6 @@
       "build/index.js"
     ]
   },
-  
   "crypto_indicators": [
     "cryptocurrency",
     "wallet",
@@ -1301,7 +5109,6 @@
     "hdwallet",
     "cryptowallet"
   ],
-  
   "browser_apis": [
     "window.crypto",
     "localStorage",
@@ -1312,7 +5119,6 @@
     "window.ethereum",
     "web3"
   ],
-  
   "suspicious_patterns": [
     "fetch\\s*\\(",
     "XMLHttpRequest",
@@ -1327,7 +5133,6 @@
     "unescape\\s*\\(",
     "decodeURIComponent\\s*\\("
   ],
-  
   "remediation": {
     "immediate_actions": [
       "Stop all running applications immediately",
