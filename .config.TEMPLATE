@@ -1,0 +1,25 @@
+[phoenix]
+# ⚠️ SECURITY WARNING: Replace these placeholder values with your actual credentials
+# DO NOT commit real credentials to version control!
+#phoenix-config
+#client_id = ****
+#client_secret = ****
+#api_base_url = https://api.demo.appsecphx.io
+
+#optim config
+#client_id = f1706e12-0736-4d60-9a5d-955305065706
+#client_secret = pat1_&&&&&
+#api_base_url = https://api.poc1.appsecphx.io
+
+assessment_name = NPM Compromise Detection - Local Scan
+import_type = new
+
+# GitHub token for enhanced API rate limits (optional but recommended)
+# For public repositories: token is optional, script will try without authentication first
+# For private repositories: token is required
+# Get token from: GitHub.com → Settings → Developer settings → Personal access tokens
+# Required permissions: public_repo (for public repos) or repo (for private repos)
+
+# phoenix security token
+github_token = github_pat******
+
