@@ -1,0 +1,1081 @@
+﻿25-Nov,@accordproject/concerto-analysis@v3.24.1,@accordproject,concerto-analysis,v3.24.1,NEW FINDING
+,@accordproject/concerto-linter@v3.24.1,@accordproject,concerto-linter,v3.24.1,N/A
+,@accordproject/concerto-linter-default-ruleset@v3.24.1,@accordproject,concerto-linter-default-ruleset,v3.24.1,N/A
+,@accordproject/concerto-metamodel@v3.12.5,@accordproject,concerto-metamodel,v3.12.5,N/A
+,@accordproject/concerto-types@v3.24.1,@accordproject,concerto-types,v3.24.1,N/A
+25-Nov,@accordproject/markdown-it-cicero@v0.16.26,@accordproject,markdown-it-cicero,v0.16.26,NEW FINDING
+,@accordproject/template-engine@v2.7.2,@accordproject,template-engine,v2.7.2,N/A
+25-Nov,@actbase/css-to-react-native-transform@v1.0.3,@actbase,css-to-react-native-transform,v1.0.3,NEW FINDING
+25-Nov,@actbase/native@v0.1.32,@actbase,native,v0.1.32,NEW FINDING
+25-Nov,@actbase/node-server@v1.1.19,@actbase,node-server,v1.1.19,NEW FINDING
+25-Nov,@actbase/react-absolute@v0.8.3,@actbase,react-absolute,v0.8.3,NEW FINDING
+25-Nov,@actbase/react-daum-postcode@v1.0.5,@actbase,react-daum-postcode,v1.0.5,NEW FINDING
+25-Nov,@actbase/react-kakaosdk@v0.9.27,@actbase,react-kakaosdk,v0.9.27,NEW FINDING
+25-Nov,@actbase/react-native-actionsheet@v1.0.3,@actbase,react-native-actionsheet,v1.0.3,NEW FINDING
+25-Nov,@actbase/react-native-devtools@v0.1.3,@actbase,react-native-devtools,v0.1.3,NEW FINDING
+25-Nov,@actbase/react-native-fast-image@v8.5.13,@actbase,react-native-fast-image,v8.5.13,NEW FINDING
+25-Nov,@actbase/react-native-kakao-channel@v1.0.2,@actbase,react-native-kakao-channel,v1.0.2,NEW FINDING
+25-Nov,@actbase/react-native-kakao-navi@v2.0.4,@actbase,react-native-kakao-navi,v2.0.4,NEW FINDING
+25-Nov,@actbase/react-native-less-transformer@v1.0.6,@actbase,react-native-less-transformer,v1.0.6,NEW FINDING
+25-Nov,@actbase/react-native-naver-login@v1.0.1,@actbase,react-native-naver-login,v1.0.1,NEW FINDING
+25-Nov,@actbase/react-native-simple-video@v1.0.13,@actbase,react-native-simple-video,v1.0.13,NEW FINDING
+25-Nov,@actbase/react-native-tiktok@v1.1.3,@actbase,react-native-tiktok,v1.1.3,NEW FINDING
+20 September Shai Hulud + Crowdstrike + Mass Exploit - Consolidation,@afetcan/api@v0.0.13,@afetcan,api,v0.0.13,PREVOUS REPORT
+,@afetcan/storage@v0.0.27,@afetcan,storage,v0.0.27,N/A
+,@alaan/s2s-auth@v2.0.3,@alaan,s2s-auth,v2.0.3,N/A
+,@alexadark/amadeus-api@v1.0.4,@alexadark,amadeus-api,v1.0.4,N/A
+,@alexadark/gatsby-theme-events@v1.0.1,@alexadark,gatsby-theme-events,v1.0.1,N/A
+,@alexadark/gatsby-theme-wordpress-blog@v2.0.1,@alexadark,gatsby-theme-wordpress-blog,v2.0.1,N/A
+,@alexadark/reusable-functions@v1.5.1,@alexadark,reusable-functions,v1.5.1,N/A
+25-Nov,@antstackio/eslint-config-antstack@v0.0.3,@antstackio,eslint-config-antstack,v0.0.3,NEW FINDING
+25-Nov,@antstackio/express-graphql-proxy@v0.2.8,@antstackio,express-graphql-proxy,v0.2.8,NEW FINDING
+,@antstackio/graphql-body-parser@v0.1.1,@antstackio,graphql-body-parser,v0.1.1,N/A
+25-Nov,@antstackio/json-to-graphql@v1.0.3,@antstackio,json-to-graphql,v1.0.3,NEW FINDING
+,@antstackio/shelbysam@v1.1.7,@antstackio,shelbysam,v1.1.7,N/A
+25-Nov,@aryanhussain/my-angular-lib@v0.0.23,@aryanhussain,my-angular-lib,v0.0.23,NEW FINDING
+25-Nov,@asyncapi/avro-schema-parser@v3.0.25,@asyncapi,avro-schema-parser,v3.0.25,NEW FINDING
+25-Nov,@asyncapi/avro-schema-parser@v3.0.26,@asyncapi,avro-schema-parser,v3.0.26,NEW FINDING
+25-Nov,@asyncapi/bundler@v0.6.6,@asyncapi,bundler,v0.6.6,NEW FINDING
+25-Nov,@asyncapi/cli@v4.1.2,@asyncapi,cli,v4.1.2,NEW FINDING
+25-Nov,@asyncapi/cli@v4.1.3,@asyncapi,cli,v4.1.3,NEW FINDING
+25-Nov,@asyncapi/converter@v1.6.3,@asyncapi,converter,v1.6.3,NEW FINDING
+25-Nov,@asyncapi/converter@v1.6.4,@asyncapi,converter,v1.6.4,NEW FINDING
+25-Nov,@asyncapi/diff@v0.5.1,@asyncapi,diff,v0.5.1,NEW FINDING
+25-Nov,@asyncapi/diff@v0.5.2,@asyncapi,diff,v0.5.2,NEW FINDING
+25-Nov,@asyncapi/dotnet-rabbitmq-template@v1.0.1,@asyncapi,dotnet-rabbitmq-template,v1.0.1,NEW FINDING
+25-Nov,@asyncapi/dotnet-rabbitmq-template@v1.0.2,@asyncapi,dotnet-rabbitmq-template,v1.0.2,NEW FINDING
+25-Nov,@asyncapi/edavisualiser@v1.2.1,@asyncapi,edavisualiser,v1.2.1,NEW FINDING
+25-Nov,@asyncapi/edavisualiser@v1.2.2,@asyncapi,edavisualiser,v1.2.2,NEW FINDING
+25-Nov,@asyncapi/generator@v2.8.5,@asyncapi,generator,v2.8.5,NEW FINDING
+25-Nov,@asyncapi/generator@v2.8.6,@asyncapi,generator,v2.8.6,NEW FINDING
+25-Nov,@asyncapi/generator-components@v0.3.2,@asyncapi,generator-components,v0.3.2,NEW FINDING
+25-Nov,@asyncapi/generator-components@v0.3.3,@asyncapi,generator-components,v0.3.3,NEW FINDING
+25-Nov,@asyncapi/generator-helpers@v0.2.1,@asyncapi,generator-helpers,v0.2.1,NEW FINDING
+25-Nov,@asyncapi/generator-helpers@v0.2.2,@asyncapi,generator-helpers,v0.2.2,NEW FINDING
+25-Nov,@asyncapi/generator-react-sdk@v1.1.4,@asyncapi,generator-react-sdk,v1.1.4,NEW FINDING
+25-Nov,@asyncapi/generator-react-sdk@v1.1.5,@asyncapi,generator-react-sdk,v1.1.5,NEW FINDING
+25-Nov,@asyncapi/go-watermill-template@v0.2.76,@asyncapi,go-watermill-template,v0.2.76,NEW FINDING
+25-Nov,@asyncapi/go-watermill-template@v0.2.77,@asyncapi,go-watermill-template,v0.2.77,NEW FINDING
+25-Nov,@asyncapi/html-template@v3.3.2,@asyncapi,html-template,v3.3.2,NEW FINDING
+25-Nov,@asyncapi/html-template@v3.3.3,@asyncapi,html-template,v3.3.3,NEW FINDING
+25-Nov,@asyncapi/java-spring-cloud-stream-template@v0.13.5,@asyncapi,java-spring-cloud-stream-template,v0.13.5,NEW FINDING
+25-Nov,@asyncapi/java-spring-cloud-stream-template@v0.13.6,@asyncapi,java-spring-cloud-stream-template,v0.13.6,NEW FINDING
+25-Nov,@asyncapi/java-spring-template@v1.6.1,@asyncapi,java-spring-template,v1.6.1,NEW FINDING
+25-Nov,@asyncapi/java-spring-template@v1.6.2,@asyncapi,java-spring-template,v1.6.2,NEW FINDING
+25-Nov,@asyncapi/java-template@v0.3.5,@asyncapi,java-template,v0.3.5,NEW FINDING
+25-Nov,@asyncapi/java-template@v0.3.6,@asyncapi,java-template,v0.3.6,NEW FINDING
+25-Nov,@asyncapi/keeper@v0.0.2,@asyncapi,keeper,v0.0.2,NEW FINDING
+25-Nov,@asyncapi/keeper@v0.0.3,@asyncapi,keeper,v0.0.3,NEW FINDING
+25-Nov,@asyncapi/modelina@v5.10.2,@asyncapi,modelina,v5.10.2,NEW FINDING
+25-Nov,@asyncapi/modelina@v5.10.3,@asyncapi,modelina,v5.10.3,NEW FINDING
+25-Nov,@asyncapi/modelina-cli@v5.10.2,@asyncapi,modelina-cli,v5.10.2,NEW FINDING
+25-Nov,@asyncapi/modelina-cli@v5.10.3,@asyncapi,modelina-cli,v5.10.3,NEW FINDING
+25-Nov,@asyncapi/multi-parser@v2.2.1,@asyncapi,multi-parser,v2.2.1,NEW FINDING
+25-Nov,@asyncapi/multi-parser@v2.2.2,@asyncapi,multi-parser,v2.2.2,NEW FINDING
+25-Nov,@asyncapi/nodejs-template@v3.0.5,@asyncapi,nodejs-template,v3.0.5,NEW FINDING
+25-Nov,@asyncapi/nodejs-template@v3.0.6,@asyncapi,nodejs-template,v3.0.6,NEW FINDING
+25-Nov,@asyncapi/nodejs-ws-template@v0.10.1,@asyncapi,nodejs-ws-template,v0.10.1,NEW FINDING
+25-Nov,@asyncapi/nodejs-ws-template@v0.10.2,@asyncapi,nodejs-ws-template,v0.10.2,NEW FINDING
+25-Nov,@asyncapi/nunjucks-filters@v2.1.1,@asyncapi,nunjucks-filters,v2.1.1,NEW FINDING
+25-Nov,@asyncapi/nunjucks-filters@v2.1.2,@asyncapi,nunjucks-filters,v2.1.2,NEW FINDING
+25-Nov,@asyncapi/openapi-schema-parser@v3.0.25,@asyncapi,openapi-schema-parser,v3.0.25,NEW FINDING
+25-Nov,@asyncapi/openapi-schema-parser@v3.0.26,@asyncapi,openapi-schema-parser,v3.0.26,NEW FINDING
+25-Nov,@asyncapi/optimizer@v1.0.5,@asyncapi,optimizer,v1.0.5,NEW FINDING
+25-Nov,@asyncapi/optimizer@v1.0.6,@asyncapi,optimizer,v1.0.6,NEW FINDING
+25-Nov,@asyncapi/parser@v3.4.1,@asyncapi,parser,v3.4.1,NEW FINDING
+25-Nov,@asyncapi/parser@v3.4.2,@asyncapi,parser,v3.4.2,NEW FINDING
+25-Nov,@asyncapi/php-template@v0.1.1,@asyncapi,php-template,v0.1.1,NEW FINDING
+25-Nov,@asyncapi/php-template@v0.1.2,@asyncapi,php-template,v0.1.2,NEW FINDING
+25-Nov,@asyncapi/problem@v1.0.1,@asyncapi,problem,v1.0.1,NEW FINDING
+25-Nov,@asyncapi/problem@v1.0.2,@asyncapi,problem,v1.0.2,NEW FINDING
+25-Nov,@asyncapi/protobuf-schema-parser@v3.5.3,@asyncapi,protobuf-schema-parser,v3.5.3,NEW FINDING
+25-Nov,@asyncapi/python-paho-template@v0.2.14,@asyncapi,python-paho-template,v0.2.14,NEW FINDING
+25-Nov,@asyncapi/python-paho-template@v0.2.15,@asyncapi,python-paho-template,v0.2.15,NEW FINDING
+25-Nov,@asyncapi/react-component@v2.6.6,@asyncapi,react-component,v2.6.6,NEW FINDING
+25-Nov,@asyncapi/react-component@v2.6.7,@asyncapi,react-component,v2.6.7,NEW FINDING
+25-Nov,@asyncapi/server-api@v0.16.24,@asyncapi,server-api,v0.16.24,NEW FINDING
+25-Nov,@asyncapi/server-api@v0.16.25,@asyncapi,server-api,v0.16.25,NEW FINDING
+25-Nov,@asyncapi/specs@v6.8.3,@asyncapi,specs,v6.8.3,NEW FINDING
+25-Nov,@asyncapi/studio@v1.0.2,@asyncapi,studio,v1.0.2,NEW FINDING
+25-Nov,@asyncapi/studio@v1.0.3,@asyncapi,studio,v1.0.3,NEW FINDING
+25-Nov,@asyncapi/web-component@v2.6.6,@asyncapi,web-component,v2.6.6,NEW FINDING
+25-Nov,@asyncapi/web-component@v2.6.7,@asyncapi,web-component,v2.6.7,NEW FINDING
+,@bdkinc/knex-ibmi@v0.5.7,@bdkinc,knex-ibmi,v0.5.7,N/A
+,@browserbasehq/bb9@v1.2.21,@browserbasehq,bb9,v1.2.21,N/A
+,@browserbasehq/director-ai@v1.0.3,@browserbasehq,director-ai,v1.0.3,N/A
+,@browserbasehq/mcp@v2.1.1,@browserbasehq,mcp,v2.1.1,N/A
+,@browserbasehq/mcp-server-browserbase@v2.4.2,@browserbasehq,mcp-server-browserbase,v2.4.2,N/A
+,@browserbasehq/sdk-functions@v0.0.4,@browserbasehq,sdk-functions,v0.0.4,N/A
+,@browserbasehq/stagehand@v3.0.4,@browserbasehq,stagehand,v3.0.4,N/A
+,@browserbasehq/stagehand-docs@v1.0.1,@browserbasehq,stagehand-docs,v1.0.1,N/A
+25-Nov,@caretive/caret-cli@v0.0.2,@caretive,caret-cli,v0.0.2,NEW FINDING
+25-Nov,@chtijs/eslint-config@v1.0.1,@chtijs,eslint-config,v1.0.1,NEW FINDING
+,@clausehq/flows-step-httprequest@v0.1.14,@clausehq,flows-step-httprequest,v0.1.14,N/A
+25-Nov,@clausehq/flows-step-jsontoxml@v0.1.14,@clausehq,flows-step-jsontoxml,v0.1.14,NEW FINDING
+,@clausehq/flows-step-mqtt@v0.1.14,@clausehq,flows-step-mqtt,v0.1.14,N/A
+25-Nov,@clausehq/flows-step-sendgridemail@v0.1.14,@clausehq,flows-step-sendgridemail,v0.1.14,NEW FINDING
+,@clausehq/flows-step-taskscreateurl@v0.1.14,@clausehq,flows-step-taskscreateurl,v0.1.14,N/A
+,@cllbk/ghl@v1.3.1,@cllbk,ghl,v1.3.1,N/A
+25-Nov,@commute/bloom@v1.0.3,@commute,bloom,v1.0.3,NEW FINDING
+25-Nov,@commute/market-data@v1.0.2,@commute,market-data,v1.0.2,NEW FINDING
+,@commute/market-data-chartjs@v2.3.1,@commute,market-data-chartjs,v2.3.1,N/A
+25-Nov,@dev-blinq/ai-qa-logic@v1.0.19,@dev-blinq,ai-qa-logic,v1.0.19,NEW FINDING
+,@dev-blinq/blinqioclient@v1.0.21,@dev-blinq,blinqioclient,v1.0.21,N/A
+25-Nov,@dev-blinq/cucumber_client@v1.0.738,@dev-blinq,cucumber_client,v1.0.738,NEW FINDING
+,@dev-blinq/cucumber-js@v1.0.131,@dev-blinq,cucumber-js,v1.0.131,N/A
+,@dev-blinq/ui-systems@v1.0.93,@dev-blinq,ui-systems,v1.0.93,N/A
+25-Nov,@ensdomains/address-encoder@v1.1.5,@ensdomains,address-encoder,v1.1.5,NEW FINDING
+25-Nov,@ensdomains/blacklist@v1.0.1,@ensdomains,blacklist,v1.0.1,NEW FINDING
+25-Nov,@ensdomains/buffer@v0.1.2,@ensdomains,buffer,v0.1.2,NEW FINDING
+25-Nov,@ensdomains/ccip-read-cf-worker@v0.0.4,@ensdomains,ccip-read-cf-worker,v0.0.4,NEW FINDING
+25-Nov,@ensdomains/ccip-read-dns-gateway@v0.1.1,@ensdomains,ccip-read-dns-gateway,v0.1.1,NEW FINDING
+25-Nov,@ensdomains/ccip-read-router@v0.0.7,@ensdomains,ccip-read-router,v0.0.7,NEW FINDING
+25-Nov,@ensdomains/ccip-read-worker-viem@v0.0.4,@ensdomains,ccip-read-worker-viem,v0.0.4,NEW FINDING
+25-Nov,@ensdomains/content-hash@v3.0.1,@ensdomains,content-hash,v3.0.1,NEW FINDING
+25-Nov,@ensdomains/curvearithmetics@v1.0.1,@ensdomains,curvearithmetics,v1.0.1,NEW FINDING
+25-Nov,@ensdomains/cypress-metamask@v1.2.1,@ensdomains,cypress-metamask,v1.2.1,NEW FINDING
+25-Nov,@ensdomains/dnsprovejs@v0.5.3,@ensdomains,dnsprovejs,v0.5.3,NEW FINDING
+25-Nov,@ensdomains/dnssec-oracle-anchors@v0.0.2,@ensdomains,dnssec-oracle-anchors,v0.0.2,NEW FINDING
+25-Nov,@ensdomains/dnssecoraclejs@v0.2.9,@ensdomains,dnssecoraclejs,v0.2.9,NEW FINDING
+25-Nov,@ensdomains/durin@v0.1.2,@ensdomains,durin,v0.1.2,NEW FINDING
+25-Nov,@ensdomains/durin-middleware@v0.0.2,@ensdomains,durin-middleware,v0.0.2,NEW FINDING
+25-Nov,@ensdomains/ens-archived-contracts@v0.0.3,@ensdomains,ens-archived-contracts,v0.0.3,NEW FINDING
+25-Nov,@ensdomains/ens-avatar@v1.0.4,@ensdomains,ens-avatar,v1.0.4,NEW FINDING
+25-Nov,@ensdomains/ens-contracts@v1.6.1,@ensdomains,ens-contracts,v1.6.1,NEW FINDING
+25-Nov,@ensdomains/ens-test-env@v1.0.2,@ensdomains,ens-test-env,v1.0.2,NEW FINDING
+25-Nov,@ensdomains/ens-validation@v0.1.1,@ensdomains,ens-validation,v0.1.1,NEW FINDING
+25-Nov,@ensdomains/ensjs@v4.0.3,@ensdomains,ensjs,v4.0.3,NEW FINDING
+25-Nov,@ensdomains/ensjs-react@v0.0.5,@ensdomains,ensjs-react,v0.0.5,NEW FINDING
+25-Nov,@ensdomains/eth-ens-namehash@v2.0.16,@ensdomains,eth-ens-namehash,v2.0.16,NEW FINDING
+25-Nov,@ensdomains/hackathon-registrar@v1.0.5,@ensdomains,hackathon-registrar,v1.0.5,NEW FINDING
+25-Nov,@ensdomains/hardhat-chai-matchers-viem@v0.1.15,@ensdomains,hardhat-chai-matchers-viem,v0.1.15,NEW FINDING
+25-Nov,@ensdomains/hardhat-toolbox-viem-extended@v0.0.6,@ensdomains,hardhat-toolbox-viem-extended,v0.0.6,NEW FINDING
+25-Nov,@ensdomains/mock@v2.1.52,@ensdomains,mock,v2.1.52,NEW FINDING
+25-Nov,@ensdomains/name-wrapper@v1.0.1,@ensdomains,name-wrapper,v1.0.1,NEW FINDING
+25-Nov,@ensdomains/offchain-resolver-contracts@v0.2.2,@ensdomains,offchain-resolver-contracts,v0.2.2,NEW FINDING
+25-Nov,@ensdomains/op-resolver-contracts@v0.0.2,@ensdomains,op-resolver-contracts,v0.0.2,NEW FINDING
+25-Nov,@ensdomains/react-ens-address@v0.0.32,@ensdomains,react-ens-address,v0.0.32,NEW FINDING
+25-Nov,@ensdomains/renewal@v0.0.13,@ensdomains,renewal,v0.0.13,NEW FINDING
+25-Nov,@ensdomains/renewal-widget@v0.1.10,@ensdomains,renewal-widget,v0.1.10,NEW FINDING
+25-Nov,@ensdomains/reverse-records@v1.0.1,@ensdomains,reverse-records,v1.0.1,NEW FINDING
+25-Nov,@ensdomains/server-analytics@v0.0.2,@ensdomains,server-analytics,v0.0.2,NEW FINDING
+25-Nov,@ensdomains/solsha1@v0.0.4,@ensdomains,solsha1,v0.0.4,NEW FINDING
+25-Nov,@ensdomains/subdomain-registrar@v0.2.4,@ensdomains,subdomain-registrar,v0.2.4,NEW FINDING
+25-Nov,@ensdomains/test-utils@v1.3.1,@ensdomains,test-utils,v1.3.1,NEW FINDING
+25-Nov,@ensdomains/thorin@v0.6.51,@ensdomains,thorin,v0.6.51,NEW FINDING
+25-Nov,@ensdomains/ui@v3.4.6,@ensdomains,ui,v3.4.6,NEW FINDING
+25-Nov,@ensdomains/unicode-confusables@v0.1.1,@ensdomains,unicode-confusables,v0.1.1,NEW FINDING
+25-Nov,@ensdomains/unruggable-gateways@v0.0.3,@ensdomains,unruggable-gateways,v0.0.3,NEW FINDING
+25-Nov,@ensdomains/vite-plugin-i18next-loader@v4.0.4,@ensdomains,vite-plugin-i18next-loader,v4.0.4,NEW FINDING
+25-Nov,@ensdomains/web3modal@v1.10.2,@ensdomains,web3modal,v1.10.2,NEW FINDING
+,@everreal/react-charts@v2.0.2,@everreal,react-charts,v2.0.2,N/A
+25-Nov,@faq-component/core@v0.0.4,@faq-component,core,v0.0.4,NEW FINDING
+25-Nov,@faq-component/react@v1.0.1,@faq-component,react,v1.0.1,NEW FINDING
+25-Nov,@fishingbooker/browser-sync-plugin@v1.0.5,@fishingbooker,browser-sync-plugin,v1.0.5,NEW FINDING
+25-Nov,@fishingbooker/react-loader@v1.0.7,@fishingbooker,react-loader,v1.0.7,NEW FINDING
+25-Nov,@fishingbooker/react-pagination@v2.0.6,@fishingbooker,react-pagination,v2.0.6,NEW FINDING
+,@fishingbooker/react-raty@v2.0.1,@fishingbooker,react-raty,v2.0.1,N/A
+25-Nov,@fishingbooker/react-swiper@v0.1.5,@fishingbooker,react-swiper,v0.1.5,NEW FINDING
+25-Nov,@hapheus/n8n-nodes-pgp@v1.5.1,@hapheus,n8n-nodes-pgp,v1.5.1,NEW FINDING
+25-Nov,@hover-design/core@v0.0.1,@hover-design,core,v0.0.1,NEW FINDING
+25-Nov,@hover-design/react@v0.2.1,@hover-design,react,v0.2.1,NEW FINDING
+,@huntersofbook/auth-vue@v0.4.2,@huntersofbook,auth-vue,v0.4.2,N/A
+25-Nov,@huntersofbook/core@v0.5.1,@huntersofbook,core,v0.5.1,NEW FINDING
+,@huntersofbook/core-nuxt@v0.4.2,@huntersofbook,core-nuxt,v0.4.2,N/A
+,@huntersofbook/form-naiveui@v0.5.1,@huntersofbook,form-naiveui,v0.5.1,N/A
+20 September Shai Hulud + Crowdstrike + Mass Exploit - Consolidation,@huntersofbook/i18n@v0.8.2,@huntersofbook,i18n,v0.8.2,PREVOUS REPORT
+25-Nov,@huntersofbook/ui@v0.5.1,@huntersofbook,ui,v0.5.1,NEW FINDING
+,@hyperlook/telemetry-sdk@v1.0.19,@hyperlook,telemetry-sdk,v1.0.19,N/A
+25-Nov,@ifelsedeveloper/protocol-contracts-svm-idl@v0.1.2,@ifelsedeveloper,protocol-contracts-svm-idl,v0.1.2,NEW FINDING
+25-Nov,@ifelsedeveloper/protocol-contracts-svm-idl@v0.1.3,@ifelsedeveloper,protocol-contracts-svm-idl,v0.1.3,NEW FINDING
+25-Nov,@ifings/design-system@v4.9.2,@ifings,design-system,v4.9.2,NEW FINDING
+,@ifings/metatron3@v0.1.5,@ifings,metatron3,v0.1.5,N/A
+,@jayeshsadhwani/telemetry-sdk@v1.0.14,@jayeshsadhwani,telemetry-sdk,v1.0.14,N/A
+25-Nov,@kvytech/cli@v0.0.7,@kvytech,cli,v0.0.7,NEW FINDING
+25-Nov,@kvytech/components@v0.0.2,@kvytech,components,v0.0.2,NEW FINDING
+25-Nov,@kvytech/habbit-e2e-test@v0.0.2,@kvytech,habbit-e2e-test,v0.0.2,NEW FINDING
+25-Nov,@kvytech/medusa-plugin-announcement@v0.0.8,@kvytech,medusa-plugin-announcement,v0.0.8,NEW FINDING
+25-Nov,@kvytech/medusa-plugin-management@v0.0.5,@kvytech,medusa-plugin-management,v0.0.5,NEW FINDING
+25-Nov,@kvytech/medusa-plugin-newsletter@v0.0.5,@kvytech,medusa-plugin-newsletter,v0.0.5,NEW FINDING
+25-Nov,@kvytech/medusa-plugin-product-reviews@v0.0.9,@kvytech,medusa-plugin-product-reviews,v0.0.9,NEW FINDING
+25-Nov,@kvytech/medusa-plugin-promotion@v0.0.2,@kvytech,medusa-plugin-promotion,v0.0.2,NEW FINDING
+25-Nov,@kvytech/web@v0.0.2,@kvytech,web,v0.0.2,NEW FINDING
+25-Nov,@lessondesk/api-client@v9.12.3,@lessondesk,api-client,v9.12.3,NEW FINDING
+25-Nov,@lessondesk/babel-preset@v1.0.1,@lessondesk,babel-preset,v1.0.1,NEW FINDING
+,@lessondesk/electron-group-api-client@v1.0.3,@lessondesk,electron-group-api-client,v1.0.3,N/A
+25-Nov,@lessondesk/eslint-config@v1.4.2,@lessondesk,eslint-config,v1.4.2,NEW FINDING
+,@lessondesk/material-icons@v1.0.3,@lessondesk,material-icons,v1.0.3,N/A
+,@lessondesk/react-table-context@v2.0.4,@lessondesk,react-table-context,v2.0.4,N/A
+,@livecms/live-edit@v0.0.32,@livecms,live-edit,v0.0.32,N/A
+,@livecms/nuxt-live-edit@v1.9.2,@livecms,nuxt-live-edit,v1.9.2,N/A
+,@lokeswari-satyanarayanan/rn-zustand-expo-template@v1.0.9,@lokeswari-satyanarayanan,rn-zustand-expo-template,v1.0.9,N/A
+25-Nov,@louisle2/core@v1.0.1,@louisle2,core,v1.0.1,NEW FINDING
+25-Nov,@louisle2/cortex-js@v0.1.6,@louisle2,cortex-js,v0.1.6,NEW FINDING
+25-Nov,@lpdjs/firestore-repo-service@v1.0.1,@lpdjs,firestore-repo-service,v1.0.1,NEW FINDING
+,@lui-ui/lui-nuxt@v0.1.1,@lui-ui,lui-nuxt,v0.1.1,N/A
+,@lui-ui/lui-tailwindcss@v0.1.2,@lui-ui,lui-tailwindcss,v0.1.2,N/A
+,@lui-ui/lui-vue@v1.0.13,@lui-ui,lui-vue,v1.0.13,N/A
+,@micado-digital/stadtmarketing-kufstein-external@v1.9.1,@micado-digital,stadtmarketing-kufstein-external,v1.9.1,N/A
+,@mizzle-dev/orm@v0.0.2,@mizzle-dev,orm,v0.0.2,N/A
+,@ntnx/passport-wso2@v0.0.3,@ntnx,passport-wso2,v0.0.3,N/A
+,@ntnx/t@v0.0.101,@ntnx,t,v0.0.101,N/A
+,@oku-ui/accordion@v0.6.2,@oku-ui,accordion,v0.6.2,N/A
+,@oku-ui/alert-dialog@v0.6.2,@oku-ui,alert-dialog,v0.6.2,N/A
+,@oku-ui/arrow@v0.6.2,@oku-ui,arrow,v0.6.2,N/A
+,@oku-ui/aspect-ratio@v0.6.2,@oku-ui,aspect-ratio,v0.6.2,N/A
+,@oku-ui/avatar@v0.6.2,@oku-ui,avatar,v0.6.2,N/A
+,@oku-ui/checkbox@v0.6.3,@oku-ui,checkbox,v0.6.3,N/A
+,@oku-ui/collapsible@v0.6.2,@oku-ui,collapsible,v0.6.2,N/A
+,@oku-ui/collection@v0.6.2,@oku-ui,collection,v0.6.2,N/A
+,@oku-ui/dialog@v0.6.2,@oku-ui,dialog,v0.6.2,N/A
+,@oku-ui/direction@v0.6.2,@oku-ui,direction,v0.6.2,N/A
+,@oku-ui/dismissable-layer@v0.6.2,@oku-ui,dismissable-layer,v0.6.2,N/A
+,@oku-ui/focus-guards@v0.6.2,@oku-ui,focus-guards,v0.6.2,N/A
+,@oku-ui/focus-scope@v0.6.2,@oku-ui,focus-scope,v0.6.2,N/A
+,@oku-ui/hover-card@v0.6.2,@oku-ui,hover-card,v0.6.2,N/A
+,@oku-ui/label@v0.6.2,@oku-ui,label,v0.6.2,N/A
+,@oku-ui/menu@v0.6.2,@oku-ui,menu,v0.6.2,N/A
+,@oku-ui/motion@v0.4.4,@oku-ui,motion,v0.4.4,N/A
+,@oku-ui/motion-nuxt@v0.2.2,@oku-ui,motion-nuxt,v0.2.2,N/A
+,@oku-ui/popover@v0.6.2,@oku-ui,popover,v0.6.2,N/A
+,@oku-ui/popper@v0.6.2,@oku-ui,popper,v0.6.2,N/A
+,@oku-ui/portal@v0.6.2,@oku-ui,portal,v0.6.2,N/A
+,@oku-ui/presence@v0.6.2,@oku-ui,presence,v0.6.2,N/A
+,@oku-ui/primitive@v0.6.2,@oku-ui,primitive,v0.6.2,N/A
+,@oku-ui/primitives@v0.7.9,@oku-ui,primitives,v0.7.9,N/A
+,@oku-ui/primitives-nuxt@v0.3.1,@oku-ui,primitives-nuxt,v0.3.1,N/A
+,@oku-ui/progress@v0.6.2,@oku-ui,progress,v0.6.2,N/A
+,@oku-ui/provide@v0.6.2,@oku-ui,provide,v0.6.2,N/A
+,@oku-ui/radio-group@v0.6.2,@oku-ui,radio-group,v0.6.2,N/A
+,@oku-ui/roving-focus@v0.6.2,@oku-ui,roving-focus,v0.6.2,N/A
+,@oku-ui/scroll-area@v0.6.2,@oku-ui,scroll-area,v0.6.2,N/A
+,@oku-ui/separator@v0.6.2,@oku-ui,separator,v0.6.2,N/A
+,@oku-ui/slider@v0.6.2,@oku-ui,slider,v0.6.2,N/A
+,@oku-ui/slot@v0.6.2,@oku-ui,slot,v0.6.2,N/A
+,@oku-ui/switch@v0.6.2,@oku-ui,switch,v0.6.2,N/A
+,@oku-ui/tabs@v0.6.2,@oku-ui,tabs,v0.6.2,N/A
+,@oku-ui/toast@v0.6.2,@oku-ui,toast,v0.6.2,N/A
+,@oku-ui/toggle@v0.6.2,@oku-ui,toggle,v0.6.2,N/A
+,@oku-ui/toggle-group@v0.6.2,@oku-ui,toggle-group,v0.6.2,N/A
+,@oku-ui/toolbar@v0.6.2,@oku-ui,toolbar,v0.6.2,N/A
+,@oku-ui/tooltip@v0.6.2,@oku-ui,tooltip,v0.6.2,N/A
+,@oku-ui/use-composable@v0.6.2,@oku-ui,use-composable,v0.6.2,N/A
+20 September Shai Hulud + Crowdstrike + Mass Exploit - Consolidation,@oku-ui/utils@v0.6.2,@oku-ui,utils,v0.6.2,PREVOUS REPORT
+,@oku-ui/visually-hidden@v0.6.2,@oku-ui,visually-hidden,v0.6.2,N/A
+25-Nov,@orbitgtbelgium/mapbox-gl-draw-cut-polygon-mode@v2.0.5,@orbitgtbelgium,mapbox-gl-draw-cut-polygon-mode,v2.0.5,NEW FINDING
+25-Nov,@orbitgtbelgium/mapbox-gl-draw-scale-rotate-mode@v1.1.1,@orbitgtbelgium,mapbox-gl-draw-scale-rotate-mode,v1.1.1,NEW FINDING
+25-Nov,@orbitgtbelgium/orbit-components@v1.2.9,@orbitgtbelgium,orbit-components,v1.2.9,NEW FINDING
+25-Nov,@orbitgtbelgium/time-slider@v1.0.187,@orbitgtbelgium,time-slider,v1.0.187,NEW FINDING
+,@osmanekrem/bmad@v1.0.6,@osmanekrem,bmad,v1.0.6,N/A
+25-Nov,@osmanekrem/error-handler@v1.2.2,@osmanekrem,error-handler,v1.2.2,NEW FINDING
+25-Nov,@pergel/cli@v0.11.1,@pergel,cli,v0.11.1,NEW FINDING
+,@pergel/module-box@v0.6.1,@pergel,module-box,v0.6.1,N/A
+,@pergel/module-graphql@v0.6.1,@pergel,module-graphql,v0.6.1,N/A
+,@pergel/module-ui@v0.0.9,@pergel,module-ui,v0.0.9,N/A
+25-Nov,@pergel/nuxt@v0.25.5,@pergel,nuxt,v0.25.5,NEW FINDING
+25-Nov,@posthog/agent@v1.24.1,@posthog,agent,v1.24.1,NEW FINDING
+25-Nov,@posthog/ai@v7.1.2,@posthog,ai,v7.1.2,NEW FINDING
+25-Nov,@posthog/automatic-cohorts-plugin@v0.0.8,@posthog,automatic-cohorts-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/bitbucket-release-tracker@v0.0.8,@posthog,bitbucket-release-tracker,v0.0.8,NEW FINDING
+25-Nov,@posthog/cli@v0.5.15,@posthog,cli,v0.5.15,NEW FINDING
+25-Nov,@posthog/clickhouse@v1.7.1,@posthog,clickhouse,v1.7.1,NEW FINDING
+25-Nov,@posthog/core@v1.5.6,@posthog,core,v1.5.6,NEW FINDING
+25-Nov,@posthog/currency-normalization-plugin@v0.0.8,@posthog,currency-normalization-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/customerio-plugin@v0.0.8,@posthog,customerio-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/databricks-plugin@v0.0.8,@posthog,databricks-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/drop-events-on-property-plugin@v0.0.8,@posthog,drop-events-on-property-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/event-sequence-timer-plugin@v0.0.8,@posthog,event-sequence-timer-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/filter-out-plugin@v0.0.8,@posthog,filter-out-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/first-time-event-tracker@v0.0.8,@posthog,first-time-event-tracker,v0.0.8,NEW FINDING
+25-Nov,@posthog/geoip-plugin@v0.0.8,@posthog,geoip-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/github-release-tracking-plugin@v0.0.8,@posthog,github-release-tracking-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/gitub-star-sync-plugin@v0.0.8,@posthog,gitub-star-sync-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/heartbeat-plugin@v0.0.8,@posthog,heartbeat-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/hedgehog-mode@v0.0.42,@posthog,hedgehog-mode,v0.0.42,NEW FINDING
+25-Nov,@posthog/icons@v0.36.1,@posthog,icons,v0.36.1,NEW FINDING
+25-Nov,@posthog/ingestion-alert-plugin@v0.0.8,@posthog,ingestion-alert-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/intercom-plugin@v0.0.8,@posthog,intercom-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/kinesis-plugin@v0.0.8,@posthog,kinesis-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/laudspeaker-plugin@v0.0.8,@posthog,laudspeaker-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/lemon-ui@v0.0.1,@posthog,lemon-ui,v0.0.1,NEW FINDING
+25-Nov,@posthog/maxmind-plugin@v0.1.6,@posthog,maxmind-plugin,v0.1.6,NEW FINDING
+25-Nov,@posthog/migrator3000-plugin@v0.0.8,@posthog,migrator3000-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/netdata-event-processing@v0.0.8,@posthog,netdata-event-processing,v0.0.8,NEW FINDING
+25-Nov,@posthog/nextjs@v0.0.3,@posthog,nextjs,v0.0.3,NEW FINDING
+25-Nov,@posthog/nextjs-config@v1.5.1,@posthog,nextjs-config,v1.5.1,NEW FINDING
+25-Nov,@posthog/nuxt@v1.2.9,@posthog,nuxt,v1.2.9,NEW FINDING
+25-Nov,@posthog/pagerduty-plugin@v0.0.8,@posthog,pagerduty-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/piscina@v3.2.1,@posthog,piscina,v3.2.1,NEW FINDING
+25-Nov,@posthog/plugin-contrib@v0.0.6,@posthog,plugin-contrib,v0.0.6,NEW FINDING
+25-Nov,@posthog/plugin-server@v1.10.8,@posthog,plugin-server,v1.10.8,NEW FINDING
+25-Nov,@posthog/plugin-unduplicates@v0.0.8,@posthog,plugin-unduplicates,v0.0.8,NEW FINDING
+25-Nov,@posthog/postgres-plugin@v0.0.8,@posthog,postgres-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/rrdom@v0.0.31,@posthog,rrdom,v0.0.31,NEW FINDING
+25-Nov,@posthog/rrweb@v0.0.31,@posthog,rrweb,v0.0.31,NEW FINDING
+25-Nov,@posthog/rrweb-player@v0.0.31,@posthog,rrweb-player,v0.0.31,NEW FINDING
+25-Nov,@posthog/rrweb-record@v0.0.31,@posthog,rrweb-record,v0.0.31,NEW FINDING
+25-Nov,@posthog/rrweb-replay@v0.0.19,@posthog,rrweb-replay,v0.0.19,NEW FINDING
+25-Nov,@posthog/rrweb-snapshot@v0.0.31,@posthog,rrweb-snapshot,v0.0.31,NEW FINDING
+25-Nov,@posthog/rrweb-utils@v0.0.31,@posthog,rrweb-utils,v0.0.31,NEW FINDING
+25-Nov,@posthog/sendgrid-plugin@v0.0.8,@posthog,sendgrid-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/siphash@v1.1.2,@posthog,siphash,v1.1.2,NEW FINDING
+25-Nov,@posthog/snowflake-export-plugin@v0.0.8,@posthog,snowflake-export-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/taxonomy-plugin@v0.0.8,@posthog,taxonomy-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/twilio-plugin@v0.0.8,@posthog,twilio-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/twitter-followers-plugin@v0.0.8,@posthog,twitter-followers-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/url-normalizer-plugin@v0.0.8,@posthog,url-normalizer-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/variance-plugin@v0.0.8,@posthog,variance-plugin,v0.0.8,NEW FINDING
+25-Nov,@posthog/web-dev-server@v1.0.5,@posthog,web-dev-server,v1.0.5,NEW FINDING
+25-Nov,@posthog/wizard@v1.18.1,@posthog,wizard,v1.18.1,NEW FINDING
+25-Nov,@posthog/zendesk-plugin@v0.0.8,@posthog,zendesk-plugin,v0.0.8,NEW FINDING
+,@pradhumngautam/common-app@v1.0.2,@pradhumngautam,common-app,v1.0.2,N/A
+,@productdevbook/animejs-vue@v0.2.1,@productdevbook,animejs-vue,v0.2.1,N/A
+,@productdevbook/auth@v0.2.2,@productdevbook,auth,v0.2.2,N/A
+,@productdevbook/chatwoot@v2.0.1,@productdevbook,chatwoot,v2.0.1,N/A
+,@productdevbook/motion@v1.0.4,@productdevbook,motion,v1.0.4,N/A
+,@productdevbook/ts-i18n@v1.4.2,@productdevbook,ts-i18n,v1.4.2,N/A
+25-Nov,@pruthvi21/use-debounce@v1.0.3,@pruthvi21,use-debounce,v1.0.3,NEW FINDING
+25-Nov,@quick-start-soft/quick-document-translator@v1.4.2511142126,@quick-start-soft,quick-document-translator,v1.4.2511142126,NEW FINDING
+25-Nov,@quick-start-soft/quick-git-clean-markdown@v1.4.2511142126,@quick-start-soft,quick-git-clean-markdown,v1.4.2511142126,NEW FINDING
+25-Nov,@quick-start-soft/quick-markdown@v1.4.2511142126,@quick-start-soft,quick-markdown,v1.4.2511142126,NEW FINDING
+25-Nov,@quick-start-soft/quick-markdown-compose@v1.4.2506300029,@quick-start-soft,quick-markdown-compose,v1.4.2506300029,NEW FINDING
+25-Nov,@quick-start-soft/quick-markdown-image@v1.4.2511142126,@quick-start-soft,quick-markdown-image,v1.4.2511142126,NEW FINDING
+25-Nov,@quick-start-soft/quick-markdown-print@v1.4.2511142126,@quick-start-soft,quick-markdown-print,v1.4.2511142126,NEW FINDING
+25-Nov,@quick-start-soft/quick-markdown-translator@v1.4.2509202331,@quick-start-soft,quick-markdown-translator,v1.4.2509202331,NEW FINDING
+25-Nov,@quick-start-soft/quick-remove-image-background@v1.4.2511142126,@quick-start-soft,quick-remove-image-background,v1.4.2511142126,NEW FINDING
+25-Nov,@quick-start-soft/quick-task-refine@v1.4.2511142126,@quick-start-soft,quick-task-refine,v1.4.2511142126,NEW FINDING
+,@relyt/claude-context-core@v0.1.1,@relyt,claude-context-core,v0.1.1,N/A
+,@relyt/claude-context-mcp@v0.1.1,@relyt,claude-context-mcp,v0.1.1,N/A
+,@relyt/mcp-server-relytone@v0.0.3,@relyt,mcp-server-relytone,v0.0.3,N/A
+,@seezo/sdr-mcp-server@v0.0.5,@seezo,sdr-mcp-server,v0.0.5,N/A
+25-Nov,@seung-ju/next@v0.0.2,@seung-ju,next,v0.0.2,NEW FINDING
+25-Nov,@seung-ju/openapi-generator@v0.0.4,@seung-ju,openapi-generator,v0.0.4,NEW FINDING
+25-Nov,@seung-ju/react-hooks@v0.0.2,@seung-ju,react-hooks,v0.0.2,NEW FINDING
+25-Nov,@seung-ju/react-native-action-sheet@v0.2.1,@seung-ju,react-native-action-sheet,v0.2.1,NEW FINDING
+,@silgi/better-auth@v0.8.1,@silgi,better-auth,v0.8.1,N/A
+,@silgi/drizzle@v0.8.4,@silgi,drizzle,v0.8.4,N/A
+,@silgi/ecosystem@v0.7.6,@silgi,ecosystem,v0.7.6,N/A
+20 September Shai Hulud + Crowdstrike + Mass Exploit - Consolidation,@silgi/graphql@v0.7.15,@silgi,graphql,v0.7.15,PREVOUS REPORT
+,@silgi/module-builder@v0.8.8,@silgi,module-builder,v0.8.8,N/A
+20 September Shai Hulud + Crowdstrike + Mass Exploit - Consolidation,@silgi/openapi@v0.7.4,@silgi,openapi,v0.7.4,PREVOUS REPORT
+,@silgi/permission@v0.6.8,@silgi,permission,v0.6.8,N/A
+,@silgi/ratelimit@v0.2.1,@silgi,ratelimit,v0.2.1,N/A
+20 September Shai Hulud + Crowdstrike + Mass Exploit - Consolidation,@silgi/scalar@v0.6.2,@silgi,scalar,v0.6.2,PREVOUS REPORT
+,@silgi/yoga@v0.7.1,@silgi,yoga,v0.7.1,N/A
+,@sme-ui/aoma-vevasound-metadata-lib@v0.1.3,@sme-ui,aoma-vevasound-metadata-lib,v0.1.3,N/A
+25-Nov,@strapbuild/react-native-date-time-picker@v2.0.4,@strapbuild,react-native-date-time-picker,v2.0.4,NEW FINDING
+25-Nov,@strapbuild/react-native-perspective-image-cropper@v0.4.15,@strapbuild,react-native-perspective-image-cropper,v0.4.15,NEW FINDING
+25-Nov,@strapbuild/react-native-perspective-image-cropper-2@v0.4.7,@strapbuild,react-native-perspective-image-cropper-2,v0.4.7,NEW FINDING
+25-Nov,@strapbuild/react-native-perspective-image-cropper-poojan31@v0.4.6,@strapbuild,react-native-perspective-image-cropper-poojan31,v0.4.6,NEW FINDING
+,@suraj_h/medium-common@v1.0.5,@suraj_h,medium-common,v1.0.5,N/A
+25-Nov,@thedelta/eslint-config@v1.0.2,@thedelta,eslint-config,v1.0.2,NEW FINDING
+,@trackstar/angular-trackstar-link@v1.0.2,@trackstar,angular-trackstar-link,v1.0.2,N/A
+,@trackstar/react-trackstar-link@v2.0.21,@trackstar,react-trackstar-link,v2.0.21,N/A
+,@trackstar/react-trackstar-link-upgrade@v1.1.10,@trackstar,react-trackstar-link-upgrade,v1.1.10,N/A
+,@trackstar/test-angular-package@v0.0.9,@trackstar,test-angular-package,v0.0.9,N/A
+,@trackstar/test-package@v1.1.5,@trackstar,test-package,v1.1.5,N/A
+25-Nov,@trefox/sleekshop-js@v0.1.6,@trefox,sleekshop-js,v0.1.6,NEW FINDING
+25-Nov,@trigo/atrix@v7.0.1,@trigo,atrix,v7.0.1,NEW FINDING
+25-Nov,@trigo/atrix-acl@v4.0.2,@trigo,atrix-acl,v4.0.2,NEW FINDING
+25-Nov,@trigo/atrix-elasticsearch@v2.0.1,@trigo,atrix-elasticsearch,v2.0.1,NEW FINDING
+25-Nov,@trigo/atrix-mongoose@v1.0.2,@trigo,atrix-mongoose,v1.0.2,NEW FINDING
+25-Nov,@trigo/atrix-orientdb@v1.0.2,@trigo,atrix-orientdb,v1.0.2,NEW FINDING
+25-Nov,@trigo/atrix-postgres@v1.0.3,@trigo,atrix-postgres,v1.0.3,NEW FINDING
+25-Nov,@trigo/atrix-pubsub@v4.0.3,@trigo,atrix-pubsub,v4.0.3,NEW FINDING
+25-Nov,@trigo/atrix-redis@v1.0.2,@trigo,atrix-redis,v1.0.2,NEW FINDING
+25-Nov,@trigo/atrix-soap@v1.0.2,@trigo,atrix-soap,v1.0.2,NEW FINDING
+25-Nov,@trigo/atrix-swagger@v3.0.1,@trigo,atrix-swagger,v3.0.1,NEW FINDING
+25-Nov,@trigo/bool-expressions@v4.1.3,@trigo,bool-expressions,v4.1.3,NEW FINDING
+25-Nov,@trigo/eslint-config-trigo@v3.3.1,@trigo,eslint-config-trigo,v3.3.1,NEW FINDING
+25-Nov,@trigo/fsm@v3.4.2,@trigo,fsm,v3.4.2,NEW FINDING
+25-Nov,@trigo/hapi-auth-signedlink@v1.3.1,@trigo,hapi-auth-signedlink,v1.3.1,NEW FINDING
+25-Nov,@trigo/jsdt@v0.2.1,@trigo,jsdt,v0.2.1,NEW FINDING
+25-Nov,@trigo/keycloak-api@v1.3.1,@trigo,keycloak-api,v1.3.1,NEW FINDING
+25-Nov,@trigo/node-soap@v0.5.4,@trigo,node-soap,v0.5.4,NEW FINDING
+25-Nov,@trigo/pathfinder-ui-css@v0.1.1,@trigo,pathfinder-ui-css,v0.1.1,NEW FINDING
+25-Nov,@trigo/trigo-hapijs@v5.0.1,@trigo,trigo-hapijs,v5.0.1,NEW FINDING
+,@trpc-rate-limiter/cloudflare@v0.1.4,@trpc-rate-limiter,cloudflare,v0.1.4,N/A
+,@trpc-rate-limiter/hono@v0.1.4,@trpc-rate-limiter,hono,v0.1.4,N/A
+25-Nov,@varsityvibe/api-client@v1.3.37,@varsityvibe,api-client,v1.3.37,NEW FINDING
+20 September Shai Hulud + Crowdstrike + Mass Exploit - Consolidation,@varsityvibe/utils@v5.0.6,@varsityvibe,utils,v5.0.6,PREVOUS REPORT
+25-Nov,@viapip/eslint-config@v0.2.4,@viapip,eslint-config,v0.2.4,NEW FINDING
+,@vishadtyagi/full-year-calendar@v0.1.11,@vishadtyagi,full-year-calendar,v0.1.11,N/A
+,@vucod/email@v0.0.3,@vucod,email,v0.0.3,N/A
+,02-echo@v0.0.7,,02-echo,v0.0.7,N/A
+,ai-crowl-shield@v1.0.7,,ai-crowl-shield,v1.0.7,N/A
+25-Nov,arc-cli-fc@v1.0.1,,arc-cli-fc,v1.0.1,NEW FINDING
+,asciitranslator@v1.0.3,,asciitranslator,v1.0.3,N/A
+25-Nov,asyncapi-preview@v1.0.1,,asyncapi-preview,v1.0.1,NEW FINDING
+25-Nov,asyncapi-preview@v1.0.2,,asyncapi-preview,v1.0.2,NEW FINDING
+25-Nov,atrix@v1.0.1,,atrix,v1.0.1,NEW FINDING
+25-Nov,atrix-mongoose@v1.0.1,,atrix-mongoose,v1.0.1,NEW FINDING
+,automation_model@v1.0.491,,automation_model,v1.0.491,N/A
+,avvvatars-vue@v1.1.2,,avvvatars-vue,v1.1.2,N/A
+25-Nov,axios-builder@v1.2.1,,axios-builder,v1.2.1,NEW FINDING
+,babel-preset-kinvey-flex-service@v0.1.1,,babel-preset-kinvey-flex-service,v0.1.1,N/A
+25-Nov,benmostyn-frame-print@v1.0.1,,benmostyn-frame-print,v1.0.1,NEW FINDING
+,best_gpio_controller@v1.0.10,,best_gpio_controller,v1.0.10,N/A
+,better-auth-nuxt@v0.0.10,,better-auth-nuxt,v0.0.10,N/A
+,better-queue-nedb@v0.1.5,,better-queue-nedb,v0.1.5,N/A
+25-Nov,blinqio-executions-cli@v1.0.41,,blinqio-executions-cli,v1.0.41,NEW FINDING
+,blob-to-base64@v1.0.3,,blob-to-base64,v1.0.3,N/A
+25-Nov,bool-expressions@v0.1.2,,bool-expressions,v0.1.2,NEW FINDING
+,buffered-interpolation-babylon6@v0.2.8,,buffered-interpolation-babylon6,v0.2.8,N/A
+25-Nov,bun-plugin-httpfile@v0.1.1,,bun-plugin-httpfile,v0.1.1,NEW FINDING
+25-Nov,bytes-to-x@v1.0.1,,bytes-to-x,v1.0.1,NEW FINDING
+25-Nov,calc-loan-interest@v1.0.4,,calc-loan-interest,v1.0.4,NEW FINDING
+25-Nov,capacitor-plugin-apptrackingios@v0.0.21,,capacitor-plugin-apptrackingios,v0.0.21,NEW FINDING
+25-Nov,capacitor-plugin-purchase@v0.1.1,,capacitor-plugin-purchase,v0.1.1,NEW FINDING
+25-Nov,capacitor-plugin-scgssigninwithgoogle@v0.0.5,,capacitor-plugin-scgssigninwithgoogle,v0.0.5,NEW FINDING
+25-Nov,capacitor-purchase-history@v0.0.10,,capacitor-purchase-history,v0.0.10,NEW FINDING
+25-Nov,capacitor-voice-recorder-wav@v6.0.3,,capacitor-voice-recorder-wav,v6.0.3,NEW FINDING
+,ceviz@v0.0.5,,ceviz,v0.0.5,N/A
+25-Nov,claude-token-updater@v1.0.3,,claude-token-updater,v1.0.3,NEW FINDING
+,colors-regex@v2.0.1,,colors-regex,v2.0.1,N/A
+25-Nov,command-irail@v0.5.4,,command-irail,v0.5.4,NEW FINDING
+25-Nov,cpu-instructions@v0.0.14,,cpu-instructions,v0.0.14,NEW FINDING
+,create-director-app@v0.1.1,,create-director-app,v0.1.1,N/A
+25-Nov,create-glee-app@v0.2.2,,create-glee-app,v0.2.2,NEW FINDING
+25-Nov,create-glee-app@v0.2.3,,create-glee-app,v0.2.3,NEW FINDING
+,create-kinvey-flex-service@v0.2.1,,create-kinvey-flex-service,v0.2.1,N/A
+,create-silgi@v0.3.1,,create-silgi,v0.3.1,N/A
+25-Nov,crypto-addr-codec@v0.1.9,,crypto-addr-codec,v0.1.9,NEW FINDING
+,css-dedoupe@v0.1.2,,css-dedoupe,v0.1.2,N/A
+,csv-tool-cli@v1.2.1,,csv-tool-cli,v1.2.1,N/A
+,dashboard-empty-state@v1.0.3,,dashboard-empty-state,v1.0.3,N/A
+25-Nov,designstudiouiux@v1.0.1,,designstudiouiux,v1.0.1,NEW FINDING
+25-Nov,devstart-cli@v1.0.6,,devstart-cli,v1.0.6,NEW FINDING
+25-Nov,discord-bot-server@v0.1.2,,discord-bot-server,v0.1.2,NEW FINDING
+,docusaurus-plugin-vanilla-extract@v1.0.3,,docusaurus-plugin-vanilla-extract,v1.0.3,N/A
+,dont-go@v1.1.2,,dont-go,v1.1.2,N/A
+25-Nov,dotnet-template@v0.0.3,,dotnet-template,v0.0.3,NEW FINDING
+25-Nov,dotnet-template@v0.0.4,,dotnet-template,v0.0.4,NEW FINDING
+25-Nov,drop-events-on-property-plugin@v0.0.2,,drop-events-on-property-plugin,v0.0.2,NEW FINDING
+,easypanel-sdk@v0.3.2,,easypanel-sdk,v0.3.2,N/A
+,electron-volt@v0.0.2,,electron-volt,v0.0.2,N/A
+,email-deliverability-tester@v1.1.1,,email-deliverability-tester,v1.1.1,N/A
+25-Nov,enforce-branch-name@v1.1.3,,enforce-branch-name,v1.1.3,NEW FINDING
+,esbuild-plugin-brotli@v0.2.1,,esbuild-plugin-brotli,v0.2.1,N/A
+,esbuild-plugin-eta@v0.1.1,,esbuild-plugin-eta,v0.1.1,N/A
+,esbuild-plugin-httpfile@v0.4.1,,esbuild-plugin-httpfile,v0.4.1,N/A
+,eslint-config-kinvey-flex-service@v0.1.1,,eslint-config-kinvey-flex-service,v0.1.1,N/A
+,eslint-config-nitpicky@v4.0.1,,eslint-config-nitpicky,v4.0.1,N/A
+25-Nov,eslint-config-trigo@v22.0.2,,eslint-config-trigo,v22.0.2,NEW FINDING
+25-Nov,eslint-config-zeallat-base@v1.0.4,,eslint-config-zeallat-base,v1.0.4,NEW FINDING
+25-Nov,ethereum-ens@v0.8.1,,ethereum-ens,v0.8.1,NEW FINDING
+25-Nov,exact-ticker@v0.3.5,,exact-ticker,v0.3.5,NEW FINDING
+25-Nov,expo-audio-session@v0.2.1,,expo-audio-session,v0.2.1,NEW FINDING
+,expo-router-on-rails@v0.0.4,,expo-router-on-rails,v0.0.4,N/A
+,express-starter-template@v1.0.10,,express-starter-template,v1.0.10,N/A
+,expressos@v1.1.3,,expressos,v1.1.3,N/A
+,firestore-search-engine@v1.2.3,,firestore-search-engine,v1.2.3,N/A
+25-Nov,formik-error-focus@v2.0.1,,formik-error-focus,v2.0.1,NEW FINDING
+25-Nov,formik-store@v1.0.1,,formik-store,v1.0.1,NEW FINDING
+,frontity-starter-theme@v1.0.1,,frontity-starter-theme,v1.0.1,N/A
+,gatsby-plugin-antd@v2.2.1,,gatsby-plugin-antd,v2.2.1,N/A
+25-Nov,generator-meteor-stock@v0.1.6,,generator-meteor-stock,v0.1.6,NEW FINDING
+,generator-ng-itobuz@v0.0.15,,generator-ng-itobuz,v0.0.15,N/A
+25-Nov,get-them-args@v1.3.3,,get-them-args,v1.3.3,NEW FINDING
+25-Nov,github-action-for-generator@v2.1.27,,github-action-for-generator,v2.1.27,NEW FINDING
+25-Nov,github-action-for-generator@v2.1.28,,github-action-for-generator,v2.1.28,NEW FINDING
+25-Nov,gitsafe@v1.0.5,,gitsafe,v1.0.5,NEW FINDING
+25-Nov,go-template@v0.1.8,,go-template,v0.1.8,NEW FINDING
+25-Nov,go-template@v0.1.9,,go-template,v0.1.9,NEW FINDING
+25-Nov,hope-mapboxdraw@v0.1.1,,hope-mapboxdraw,v0.1.1,NEW FINDING
+25-Nov,hopedraw@v1.0.3,,hopedraw,v1.0.3,NEW FINDING
+,hover-design-prototype@v0.0.5,,hover-design-prototype,v0.0.5,N/A
+,hyper-fullfacing@v1.0.3,,hyper-fullfacing,v1.0.3,N/A
+25-Nov,hyperterm-hipster@v1.0.7,,hyperterm-hipster,v1.0.7,NEW FINDING
+,ids-css@v1.5.1,,ids-css,v1.5.1,N/A
+,ids-enterprise-mcp-server@v0.0.2,,ids-enterprise-mcp-server,v0.0.2,N/A
+,ids-enterprise-ng@v20.1.6,,ids-enterprise-ng,v20.1.6,N/A
+,ids-enterprise-typings@v20.1.6,,ids-enterprise-typings,v20.1.6,N/A
+,insomnia-plugin-random-pick@v1.0.4,,insomnia-plugin-random-pick,v1.0.4,N/A
+25-Nov,invo@v0.2.2,,invo,v0.2.2,NEW FINDING
+25-Nov,iron-shield-miniapp@v0.0.2,,iron-shield-miniapp,v0.0.2,NEW FINDING
+25-Nov,ito-button@v8.0.3,,ito-button,v8.0.3,NEW FINDING
+25-Nov,itobuz-angular@v0.0.1,,itobuz-angular,v0.0.1,NEW FINDING
+25-Nov,itobuz-angular-auth@v8.0.11,,itobuz-angular-auth,v8.0.11,NEW FINDING
+,itobuz-angular-button@v8.0.11,,itobuz-angular-button,v8.0.11,N/A
+,jaetut-varit-test@1.0.2,,jaetut-varit-test,1.0.2,N/A
+25-Nov,jan-browser@v0.13.1,,jan-browser,v0.13.1,NEW FINDING
+25-Nov,jsonsurge@v1.0.7,,jsonsurge,v1.0.7,NEW FINDING
+25-Nov,just-toasty@v1.7.1,,just-toasty,v1.7.1,NEW FINDING
+,kinetix-default-token-list@v1.0.5,,kinetix-default-token-list,v1.0.5,N/A
+,kinvey-cli-wrapper@v0.3.1,,kinvey-cli-wrapper,v0.3.1,N/A
+,kinvey-flex-scripts@v0.5.1,,kinvey-flex-scripts,v0.5.1,N/A
+,kns-error-code@v1.0.8,,kns-error-code,v1.0.8,N/A
+25-Nov,korea-administrative-area-geo-json-util@v1.0.7,,korea-administrative-area-geo-json-util,v1.0.7,NEW FINDING
+25-Nov,lite-serper-mcp-server@v0.2.2,,lite-serper-mcp-server,v0.2.2,NEW FINDING
+,lui-vue-test@v0.70.9,,lui-vue-test,v0.70.9,N/A
+25-Nov,luno-api@v1.2.3,,luno-api,v1.2.3,NEW FINDING
+,m25-transaction-utils@v1.1.16,,m25-transaction-utils,v1.1.16,N/A
+25-Nov,manual-billing-system-miniapp-api@v1.3.1,,manual-billing-system-miniapp-api,v1.3.1,NEW FINDING
+25-Nov,medusa-plugin-announcement@v0.0.3,,medusa-plugin-announcement,v0.0.3,NEW FINDING
+25-Nov,medusa-plugin-logs@v0.0.17,,medusa-plugin-logs,v0.0.17,NEW FINDING
+25-Nov,medusa-plugin-momo@v0.0.68,,medusa-plugin-momo,v0.0.68,NEW FINDING
+25-Nov,medusa-plugin-product-reviews-kvy@v0.0.4,,medusa-plugin-product-reviews-kvy,v0.0.4,NEW FINDING
+25-Nov,medusa-plugin-zalopay@v0.0.40,,medusa-plugin-zalopay,v0.0.40,NEW FINDING
+,mod10-check-digit@v1.0.1,,mod10-check-digit,v1.0.1,N/A
+25-Nov,mon-package-react-typescript@v1.0.1,,mon-package-react-typescript,v1.0.1,NEW FINDING
+,my-saeed-lib@v0.1.1,,my-saeed-lib,v0.1.1,N/A
+25-Nov,n8n-nodes-tmdb@v0.5.1,,n8n-nodes-tmdb,v0.5.1,NEW FINDING
+,n8n-nodes-vercel-ai-sdk@v0.1.7,,n8n-nodes-vercel-ai-sdk,v0.1.7,N/A
+25-Nov,n8n-nodes-viral-app@v0.2.5,,n8n-nodes-viral-app,v0.2.5,NEW FINDING
+,ngx-useful-swiper-prosenjit@v9.0.2,,ngx-useful-swiper-prosenjit,v9.0.2,N/A
+,ngx-wooapi@v12.0.1,,ngx-wooapi,v12.0.1,N/A
+,nitro-graphql@v1.5.12,,nitro-graphql,v1.5.12,N/A
+,nitro-kutu@v0.1.1,,nitro-kutu,v0.1.1,N/A
+,nitrodeploy@v1.0.8,,nitrodeploy,v1.0.8,N/A
+,nitroping@v0.1.1,,nitroping,v0.1.1,N/A
+,nuxt-keycloak@v0.2.2,,nuxt-keycloak,v0.2.2,N/A
+25-Nov,okta-react-router-6@v5.0.1,,okta-react-router-6,v5.0.1,NEW FINDING
+25-Nov,open2internet@v0.1.1,,open2internet,v0.1.1,NEW FINDING
+25-Nov,orbit-boxicons@v2.1.3,,orbit-boxicons,v2.1.3,NEW FINDING
+25-Nov,orbit-nebula-draw-tools@v1.0.10,,orbit-nebula-draw-tools,v1.0.10,NEW FINDING
+25-Nov,orbit-nebula-editor@v1.0.2,,orbit-nebula-editor,v1.0.2,NEW FINDING
+25-Nov,orbit-soap@v0.43.13,,orbit-soap,v0.43.13,NEW FINDING
+,orchestrix@v12.1.2,,orchestrix,v12.1.2,N/A
+,package-tester@v1.0.1,,package-tester,v1.0.1,N/A
+,pdf-annotation@v0.0.2,,pdf-annotation,v0.0.2,N/A
+,pergel@v0.13.2,,pergel,v0.13.2,N/A
+,pergeltest@v0.0.25,,pergeltest,v0.0.25,N/A
+25-Nov,piclite@v1.0.1,,piclite,v1.0.1,NEW FINDING
+,pkg-readme@v1.1.1,,pkg-readme,v1.1.1,N/A
+25-Nov,poper-react-sdk@v0.1.2,,poper-react-sdk,v0.1.2,NEW FINDING
+25-Nov,posthog-docusaurus@v2.0.6,,posthog-docusaurus,v2.0.6,NEW FINDING
+25-Nov,posthog-js@v1.297.3,,posthog-js,v1.297.3,NEW FINDING
+25-Nov,posthog-node@v4.18.1 - Java/Maven,,posthog-node,v4.18.1 - Java/Maven,NEW FINDING
+25-Nov,posthog-plugin-hello-world@v1.0.1,,posthog-plugin-hello-world,v1.0.1,NEW FINDING
+,prime-one-table@v0.0.19,,prime-one-table,v0.0.19,N/A
+,prompt-eng@v1.0.50,,prompt-eng,v1.0.50,N/A
+,prompt-eng-server@v1.0.18,,prompt-eng-server,v1.0.18,N/A
+,puny-req@v1.0.3,,puny-req,v1.0.3,N/A
+,quickswap-default-staking-list@v1.0.11,,quickswap-default-staking-list,v1.0.11,N/A
+,quickswap-default-staking-list-address@v1.0.55,,quickswap-default-staking-list-address,v1.0.55,N/A
+,quickswap-default-token-list@v1.5.16,,quickswap-default-token-list,v1.5.16,N/A
+,quickswap-router-sdk@v1.0.1,,quickswap-router-sdk,v1.0.1,N/A
+,quickswap-sdk@v3.0.44,,quickswap-sdk,v3.0.44,N/A
+,quickswap-smart-order-router@v1.0.1,,quickswap-smart-order-router,v1.0.1,N/A
+,quickswap-token-lists@v1.0.3,,quickswap-token-lists,v1.0.3,N/A
+,quickswap-v2-sdk@v2.0.1,,quickswap-v2-sdk,v2.0.1,N/A
+,ra-auth-firebase@v1.0.3,,ra-auth-firebase,v1.0.3,N/A
+25-Nov,react-component-taggers@v0.1.9,,react-component-taggers,v0.1.9,NEW FINDING
+,react-data-to-export@v1.0.1,,react-data-to-export,v1.0.1,N/A
+25-Nov,react-element-prompt-inspector@v0.1.18,,react-element-prompt-inspector,v0.1.18,NEW FINDING
+,react-favic@v1.0.2,,react-favic,v1.0.2,N/A
+25-Nov,react-library-setup@v0.0.6,,react-library-setup,v0.0.6,NEW FINDING
+,react-linear-loader@v1.0.2,,react-linear-loader,v1.0.2,N/A
+,react-native-google-maps-directions@v2.1.2,,react-native-google-maps-directions,v2.1.2,N/A
+,react-native-modest-checkbox@v3.3.1,,react-native-modest-checkbox,v3.3.1,N/A
+,react-native-modest-storage@v2.1.1,,react-native-modest-storage,v2.1.1,N/A
+25-Nov,react-native-use-modal@v1.0.3,,react-native-use-modal,v1.0.3,NEW FINDING
+25-Nov,react-native-worklet-functions@v3.3.3,,react-native-worklet-functions,v3.3.3,NEW FINDING
+,react-packery-component@v1.0.3,,react-packery-component,v1.0.3,N/A
+25-Nov,react-qr-image@v1.1.1,,react-qr-image,v1.1.1,NEW FINDING
+25-Nov,rediff@v1.0.5,,rediff,v1.0.5,NEW FINDING
+,rediff-viewer@v0.0.7,,rediff-viewer,v0.0.7,N/A
+25-Nov,redux-forge@v2.5.3,,redux-forge,v2.5.3,NEW FINDING
+,revenuecat@v1.0.1,,revenuecat,v1.0.1,N/A
+,rollup-plugin-httpfile@v0.2.1,,rollup-plugin-httpfile,v0.2.1,N/A
+,samesame@v1.0.3,,samesame,v1.0.3,N/A
+25-Nov,scgs-capacitor-subscribe@v1.0.11,,scgs-capacitor-subscribe,v1.0.11,NEW FINDING
+25-Nov,scgsffcreator@v1.0.5,,scgsffcreator,v1.0.5,NEW FINDING
+,schob@v1.0.3,,schob,v1.0.3,N/A
+,selenium-session@v1.0.5,,selenium-session,v1.0.5,N/A
+,selenium-session-client@v1.0.4,,selenium-session-client,v1.0.4,N/A
+25-Nov,shelf-jwt-sessions@v0.1.2,,shelf-jwt-sessions,v0.1.2,NEW FINDING
+25-Nov,shinhan-limit-scrap@v1.0.3,,shinhan-limit-scrap,v1.0.3,NEW FINDING
+,silgi@v0.43.30,,silgi,v0.43.30,N/A
+,simplejsonform@v1.0.1,,simplejsonform,v1.0.1,N/A
+25-Nov,solomon-api-stories@v1.0.2,,solomon-api-stories,v1.0.2,NEW FINDING
+25-Nov,solomon-v3-stories@v1.15.6,,solomon-v3-stories,v1.15.6,NEW FINDING
+25-Nov,solomon-v3-ui-wrapper@v1.6.1,,solomon-v3-ui-wrapper,v1.6.1,NEW FINDING
+,soneium-acs@v1.0.1,,soneium-acs,v1.0.1,N/A
+25-Nov,sort-by-distance@v2.0.1,,sort-by-distance,v2.0.1,NEW FINDING
+,south-african-id-info@v1.0.2,,south-african-id-info,v1.0.2,N/A
+,stat-fns@v1.0.1,,stat-fns,v1.0.1,N/A
+25-Nov,stoor@v2.3.2,,stoor,v2.3.2,NEW FINDING
+,sufetch@v0.4.1,,sufetch,v0.4.1,N/A
+,super-commit@v1.0.1,,super-commit,v1.0.1,N/A
+25-Nov,svelte-autocomplete-select@v1.1.1,,svelte-autocomplete-select,v1.1.1,NEW FINDING
+,tanstack-shadcn-table@v1.1.5,,tanstack-shadcn-table,v1.1.5,N/A
+,tavily-module@v1.0.1,,tavily-module,v1.0.1,N/A
+,tcsp@v2.0.2,,tcsp,v2.0.2,N/A
+25-Nov,tcsp-draw-test@v1.0.5,,tcsp-draw-test,v1.0.5,NEW FINDING
+,tcsp-test-vd@v2.4.4,,tcsp-test-vd,v2.4.4,N/A
+25-Nov,test23112222-api@v1.0.1,,test23112222-api,v1.0.1,NEW FINDING
+,tiaan@v1.0.2,,tiaan,v1.0.2,N/A
+,tiptap-shadcn-vue@v0.2.1,,tiptap-shadcn-vue,v0.2.1,N/A
+25-Nov,token.js-fork@v0.7.32,,token.js-fork,v0.7.32,NEW FINDING
+,toonfetch@v0.3.2,,toonfetch,v0.3.2,N/A
+25-Nov,trigo-react-app@v4.1.2,,trigo-react-app,v4.1.2,NEW FINDING
+,ts-relay-cursor-paging@v2.1.1,,ts-relay-cursor-paging,v2.1.1,N/A
+,typeface-antonio-complete@v1.0.5,,typeface-antonio-complete,v1.0.5,N/A
+25-Nov,typeorm-orbit@v0.2.27,,typeorm-orbit,v0.2.27,NEW FINDING
+,unadapter@v0.1.3,,unadapter,v0.1.3,N/A
+,unemail@v0.3.1,,unemail,v0.3.1,N/A
+,uniswap-router-sdk@v1.6.2,,uniswap-router-sdk,v1.6.2,N/A
+,uniswap-smart-order-router@v3.16.26,,uniswap-smart-order-router,v3.16.26,N/A
+,uniswap-test-sdk-core@v4.0.8,,uniswap-test-sdk-core,v4.0.8,N/A
+,unsearch@v0.0.3,,unsearch,v0.0.3,N/A
+25-Nov,uplandui@v0.5.4,,uplandui,v0.5.4,NEW FINDING
+,use-unsaved-changes@v1.0.9,,use-unsaved-changes,v1.0.9,N/A
+,v-plausible@v1.2.1,,v-plausible,v1.2.1,N/A
+,valid-south-african-id@v1.0.3,,valid-south-african-id,v1.0.3,N/A
+,valuedex-sdk@v3.0.5,,valuedex-sdk,v3.0.5,N/A
+25-Nov,vite-plugin-httpfile@v0.2.1,,vite-plugin-httpfile,v0.2.1,NEW FINDING
+,vue-browserupdate-nuxt@v1.0.5,,vue-browserupdate-nuxt,v1.0.5,N/A
+,web-scraper-mcp@v1.1.4,,web-scraper-mcp,v1.1.4,N/A
+25-Nov,web-types-htmx@v0.1.1,,web-types-htmx,v0.1.1,NEW FINDING
+25-Nov,web-types-lit@v0.1.1,,web-types-lit,v0.1.1,NEW FINDING
+,webpack-loader-httpfile@v0.2.1,,webpack-loader-httpfile,v0.2.1,N/A
+,wellness-expert-ng-gallery@v5.1.1,,wellness-expert-ng-gallery,v5.1.1,N/A
+25-Nov,zuper-cli@v1.0.1,,zuper-cli,v1.0.1,NEW FINDING
+25-Nov,zuper-sdk@v1.0.57,,zuper-sdk,v1.0.57,NEW FINDING
+25-Nov,zuper-stream@v2.0.9,,zuper-stream,v2.0.9,NEW FINDING
+25-Nov,@alexcolls/nuxt-socket.io@v0.0.7,@alexcolls,nuxt-socket.io,v0.0.7,NEW FINDING
+25-Nov,@alexcolls/nuxt-socket.io@v0.0.8,@alexcolls,nuxt-socket.io,v0.0.8,NEW FINDING
+25-Nov,@alexcolls/nuxt-ux@v0.6.1,@alexcolls,nuxt-ux,v0.6.1,NEW FINDING
+25-Nov,@alexcolls/nuxt-ux@v0.6.2,@alexcolls,nuxt-ux,v0.6.2,NEW FINDING
+25-Nov,@asyncapi/bundler@v0.6.5,@asyncapi,bundler,v0.6.5,NEW FINDING
+25-Nov,@asyncapi/markdown-template@v1.6.8,@asyncapi,markdown-template,v1.6.8,NEW FINDING
+25-Nov,@asyncapi/markdown-template@v1.6.9,@asyncapi,markdown-template,v1.6.9,NEW FINDING
+25-Nov,@asyncapi/protobuf-schema-parser@v3.5.2,@asyncapi,protobuf-schema-parser,v3.5.2,NEW FINDING
+25-Nov,@asyncapi/protobuf-schema-parser@v3.6.1,@asyncapi,protobuf-schema-parser,v3.6.1,NEW FINDING
+25-Nov,@asyncapi/specs@v6.8.2,@asyncapi,specs,v6.8.2,NEW FINDING
+25-Nov,@asyncapi/specs@v6.9.1,@asyncapi,specs,v6.9.1,NEW FINDING
+25-Nov,@asyncapi/specs@v6.10.1,@asyncapi,specs,v6.10.1,NEW FINDING
+,@everreal/validate-esmoduleinterop-imports@v1.4.4,@everreal,validate-esmoduleinterop-imports,v1.4.4,N/A
+,@everreal/validate-esmoduleinterop-imports@v1.4.5,@everreal,validate-esmoduleinterop-imports,v1.4.5,N/A
+25-Nov,@everreal/web-analytics@v0.0.1,@everreal,web-analytics,v0.0.1,NEW FINDING
+25-Nov,@everreal/web-analytics@v0.0.2,@everreal,web-analytics,v0.0.2,NEW FINDING
+25-Nov,@lessondesk/schoolbus@v5.2.2,@lessondesk,schoolbus,v5.2.2,NEW FINDING
+25-Nov,@lessondesk/schoolbus@v5.2.3,@lessondesk,schoolbus,v5.2.3,NEW FINDING
+25-Nov,@markvivanco/app-version-checker@v1.0.1,@markvivanco,app-version-checker,v1.0.1,NEW FINDING
+25-Nov,@markvivanco/app-version-checker@v1.0.2,@markvivanco,app-version-checker,v1.0.2,NEW FINDING
+25-Nov,@mcp-use/cli@v2.2.6,@mcp-use,cli,v2.2.6,NEW FINDING
+25-Nov,@mcp-use/cli@v2.2.7,@mcp-use,cli,v2.2.7,NEW FINDING
+25-Nov,@mcp-use/inspector@v0.6.2,@mcp-use,inspector,v0.6.2,NEW FINDING
+25-Nov,@mcp-use/inspector@v0.6.3,@mcp-use,inspector,v0.6.3,NEW FINDING
+25-Nov,@mcp-use/mcp-use@v1.0.1,@mcp-use,mcp-use,v1.0.1,NEW FINDING
+25-Nov,@mcp-use/mcp-use@v1.0.2,@mcp-use,mcp-use,v1.0.2,NEW FINDING
+25-Nov,@postman/aether-icons@v2.23.2,@postman,aether-icons,v2.23.2,NEW FINDING
+25-Nov,@postman/aether-icons@v2.23.3,@postman,aether-icons,v2.23.3,NEW FINDING
+25-Nov,@postman/aether-icons@v2.23.4,@postman,aether-icons,v2.23.4,NEW FINDING
+25-Nov,@postman/csv-parse@v4.0.3,@postman,csv-parse,v4.0.3,NEW FINDING
+25-Nov,@postman/csv-parse@v4.0.4,@postman,csv-parse,v4.0.4,NEW FINDING
+25-Nov,@postman/csv-parse@v4.0.5,@postman,csv-parse,v4.0.5,NEW FINDING
+25-Nov,@postman/final-node-keytar@v7.9.1,@postman,final-node-keytar,v7.9.1,NEW FINDING
+25-Nov,@postman/final-node-keytar@v7.9.2,@postman,final-node-keytar,v7.9.2,NEW FINDING
+25-Nov,@postman/final-node-keytar@v7.9.3,@postman,final-node-keytar,v7.9.3,NEW FINDING
+25-Nov,@postman/mcp-ui-client@v5.5.1,@postman,mcp-ui-client,v5.5.1,NEW FINDING
+25-Nov,@postman/mcp-ui-client@v5.5.2,@postman,mcp-ui-client,v5.5.2,NEW FINDING
+25-Nov,@postman/mcp-ui-client@v5.5.3,@postman,mcp-ui-client,v5.5.3,NEW FINDING
+25-Nov,@postman/node-keytar@v7.9.4,@postman,node-keytar,v7.9.4,NEW FINDING
+25-Nov,@postman/node-keytar@v7.9.5,@postman,node-keytar,v7.9.5,NEW FINDING
+25-Nov,@postman/node-keytar@v7.9.6,@postman,node-keytar,v7.9.6,NEW FINDING
+25-Nov,@postman/pm-bin-linux-x64@v1.24.4,@postman,pm-bin-linux-x64,v1.24.4,NEW FINDING
+25-Nov,@postman/pm-bin-linux-x64@v1.24.5,@postman,pm-bin-linux-x64,v1.24.5,NEW FINDING
+25-Nov,@postman/pm-bin-macos-arm64@v1.24.3,@postman,pm-bin-macos-arm64,v1.24.3,NEW FINDING
+25-Nov,@postman/pm-bin-macos-arm64@v1.24.4,@postman,pm-bin-macos-arm64,v1.24.4,NEW FINDING
+25-Nov,@postman/pm-bin-macos-arm64@v1.24.5,@postman,pm-bin-macos-arm64,v1.24.5,NEW FINDING
+25-Nov,@postman/pm-bin-macos-x64@v1.24.3,@postman,pm-bin-macos-x64,v1.24.3,NEW FINDING
+25-Nov,@postman/pm-bin-macos-x64@v1.24.4,@postman,pm-bin-macos-x64,v1.24.4,NEW FINDING
+25-Nov,@postman/pm-bin-windows-x64@v1.24.3,@postman,pm-bin-windows-x64,v1.24.3,NEW FINDING
+25-Nov,@postman/pm-bin-windows-x64@v1.24.4,@postman,pm-bin-windows-x64,v1.24.4,NEW FINDING
+25-Nov,@postman/pm-bin-windows-x64@v1.24.5,@postman,pm-bin-windows-x64,v1.24.5,NEW FINDING
+25-Nov,@postman/postman-collection-fork@v4.3.3,@postman,postman-collection-fork,v4.3.3,NEW FINDING
+25-Nov,@postman/postman-collection-fork@v4.3.4,@postman,postman-collection-fork,v4.3.4,NEW FINDING
+25-Nov,@postman/postman-collection-fork@v4.3.5,@postman,postman-collection-fork,v4.3.5,NEW FINDING
+25-Nov,@postman/postman-mcp-cli@v1.0.3,@postman,postman-mcp-cli,v1.0.3,NEW FINDING
+25-Nov,@postman/postman-mcp-cli@v1.0.4,@postman,postman-mcp-cli,v1.0.4,NEW FINDING
+25-Nov,@postman/postman-mcp-cli@v1.0.5,@postman,postman-mcp-cli,v1.0.5,NEW FINDING
+25-Nov,@postman/postman-mcp-server@v2.4.10,@postman,postman-mcp-server,v2.4.10,NEW FINDING
+25-Nov,@postman/postman-mcp-server@v2.4.11,@postman,postman-mcp-server,v2.4.11,NEW FINDING
+25-Nov,@postman/postman-mcp-server@v2.4.12,@postman,postman-mcp-server,v2.4.12,NEW FINDING
+25-Nov,@postman/pretty-ms@v6.1.1,@postman,pretty-ms,v6.1.1,NEW FINDING
+25-Nov,@postman/pretty-ms@v6.1.2,@postman,pretty-ms,v6.1.2,NEW FINDING
+25-Nov,@postman/pretty-ms@v6.1.3,@postman,pretty-ms,v6.1.3,NEW FINDING
+25-Nov,@postman/secret-scanner-wasm@v2.1.2,@postman,secret-scanner-wasm,v2.1.2,NEW FINDING
+25-Nov,@postman/secret-scanner-wasm@v2.1.3,@postman,secret-scanner-wasm,v2.1.3,NEW FINDING
+25-Nov,@postman/secret-scanner-wasm@v2.1.4,@postman,secret-scanner-wasm,v2.1.4,NEW FINDING
+25-Nov,@postman/tunnel-agent@v0.6.5,@postman,tunnel-agent,v0.6.5,NEW FINDING
+25-Nov,@postman/tunnel-agent@v0.6.6,@postman,tunnel-agent,v0.6.6,NEW FINDING
+25-Nov,@postman/tunnel-agent@v0.6.7,@postman,tunnel-agent,v0.6.7,NEW FINDING
+25-Nov,@postman/wdio-allure-reporter@v0.0.7,@postman,wdio-allure-reporter,v0.0.7,NEW FINDING
+25-Nov,@postman/wdio-allure-reporter@v0.0.8,@postman,wdio-allure-reporter,v0.0.8,NEW FINDING
+25-Nov,@postman/wdio-allure-reporter@v0.0.9,@postman,wdio-allure-reporter,v0.0.9,NEW FINDING
+25-Nov,@postman/wdio-junit-reporter@v0.0.4,@postman,wdio-junit-reporter,v0.0.4,NEW FINDING
+25-Nov,@postman/wdio-junit-reporter@v0.0.5,@postman,wdio-junit-reporter,v0.0.5,NEW FINDING
+25-Nov,@postman/wdio-junit-reporter@v0.0.6,@postman,wdio-junit-reporter,v0.0.6,NEW FINDING
+,@sameepsi/sor@v1.0.3,@sameepsi,sor,v1.0.3,N/A
+,@sameepsi/sor@v2.0.2,@sameepsi,sor,v2.0.2,N/A
+25-Nov,@tiaanduplessis/json@v2.0.2,@tiaanduplessis,json,v2.0.2,NEW FINDING
+25-Nov,@tiaanduplessis/json@v2.0.3,@tiaanduplessis,json,v2.0.3,NEW FINDING
+25-Nov,@tiaanduplessis/react-progressbar@v1.0.1,@tiaanduplessis,react-progressbar,v1.0.1,NEW FINDING
+25-Nov,@tiaanduplessis/react-progressbar@v1.0.2,@tiaanduplessis,react-progressbar,v1.0.2,NEW FINDING
+25-Nov,@varsityvibe/validation-schemas@v0.6.7,@varsityvibe,validation-schemas,v0.6.7,NEW FINDING
+25-Nov,@varsityvibe/validation-schemas@v0.6.8,@varsityvibe,validation-schemas,v0.6.8,NEW FINDING
+25-Nov,@voiceflow/alexa-types@v2.15.60,@voiceflow,alexa-types,v2.15.60,NEW FINDING
+25-Nov,@voiceflow/alexa-types@v2.15.61,@voiceflow,alexa-types,v2.15.61,NEW FINDING
+25-Nov,@voiceflow/anthropic@v0.4.4,@voiceflow,anthropic,v0.4.4,NEW FINDING
+25-Nov,@voiceflow/anthropic@v0.4.5,@voiceflow,anthropic,v0.4.5,NEW FINDING
+25-Nov,@voiceflow/api-sdk@v3.28.58,@voiceflow,api-sdk,v3.28.58,NEW FINDING
+25-Nov,@voiceflow/api-sdk@v3.28.59,@voiceflow,api-sdk,v3.28.59,NEW FINDING
+25-Nov,@voiceflow/backend-utils@v5.0.1,@voiceflow,backend-utils,v5.0.1,NEW FINDING
+25-Nov,@voiceflow/backend-utils@v5.0.2,@voiceflow,backend-utils,v5.0.2,NEW FINDING
+25-Nov,@voiceflow/base-types@v2.136.2,@voiceflow,base-types,v2.136.2,NEW FINDING
+25-Nov,@voiceflow/base-types@v2.136.3,@voiceflow,base-types,v2.136.3,NEW FINDING
+25-Nov,@voiceflow/body-parser@v1.21.2,@voiceflow,body-parser,v1.21.2,NEW FINDING
+25-Nov,@voiceflow/body-parser@v1.21.3,@voiceflow,body-parser,v1.21.3,NEW FINDING
+,@voiceflow/chat-types@v2.14.58,@voiceflow,chat-types,v2.14.58,N/A
+,@voiceflow/chat-types@v2.14.59,@voiceflow,chat-types,v2.14.59,N/A
+25-Nov,@voiceflow/circleci-config-sdk-orb-import@v0.2.1,@voiceflow,circleci-config-sdk-orb-import,v0.2.1,NEW FINDING
+25-Nov,@voiceflow/circleci-config-sdk-orb-import@v0.2.2,@voiceflow,circleci-config-sdk-orb-import,v0.2.2,NEW FINDING
+25-Nov,@voiceflow/commitlint-config@v2.6.1,@voiceflow,commitlint-config,v2.6.1,NEW FINDING
+25-Nov,@voiceflow/commitlint-config@v2.6.2,@voiceflow,commitlint-config,v2.6.2,NEW FINDING
+25-Nov,@voiceflow/common@v8.9.1,@voiceflow,common,v8.9.1,NEW FINDING
+25-Nov,@voiceflow/common@v8.9.2,@voiceflow,common,v8.9.2,NEW FINDING
+25-Nov,@voiceflow/default-prompt-wrappers@v1.7.3,@voiceflow,default-prompt-wrappers,v1.7.3,NEW FINDING
+25-Nov,@voiceflow/default-prompt-wrappers@v1.7.4,@voiceflow,default-prompt-wrappers,v1.7.4,NEW FINDING
+,@voiceflow/dependency-cruiser-config@v1.8.11,@voiceflow,dependency-cruiser-config,v1.8.11,N/A
+,@voiceflow/dependency-cruiser-config@v1.8.12,@voiceflow,dependency-cruiser-config,v1.8.12,N/A
+25-Nov,@voiceflow/dtos-interact@v1.40.1,@voiceflow,dtos-interact,v1.40.1,NEW FINDING
+25-Nov,@voiceflow/dtos-interact@v1.40.2,@voiceflow,dtos-interact,v1.40.2,NEW FINDING
+,@voiceflow/encryption@v0.3.2,@voiceflow,encryption,v0.3.2,N/A
+,@voiceflow/encryption@v0.3.3,@voiceflow,encryption,v0.3.3,N/A
+25-Nov,@voiceflow/eslint-config@v7.16.4,@voiceflow,eslint-config,v7.16.4,NEW FINDING
+25-Nov,@voiceflow/eslint-config@v7.16.5,@voiceflow,eslint-config,v7.16.5,NEW FINDING
+25-Nov,@voiceflow/eslint-plugin@v1.6.1,@voiceflow,eslint-plugin,v1.6.1,NEW FINDING
+25-Nov,@voiceflow/eslint-plugin@v1.6.2,@voiceflow,eslint-plugin,v1.6.2,NEW FINDING
+25-Nov,@voiceflow/exception@v1.10.1,@voiceflow,exception,v1.10.1,NEW FINDING
+25-Nov,@voiceflow/exception@v1.10.2,@voiceflow,exception,v1.10.2,NEW FINDING
+25-Nov,@voiceflow/fetch@v1.11.1,@voiceflow,fetch,v1.11.1,NEW FINDING
+25-Nov,@voiceflow/fetch@v1.11.2,@voiceflow,fetch,v1.11.2,NEW FINDING
+,@voiceflow/general-types@v3.2.22,@voiceflow,general-types,v3.2.22,N/A
+,@voiceflow/general-types@v3.2.23,@voiceflow,general-types,v3.2.23,N/A
+25-Nov,@voiceflow/git-branch-check@v1.4.3,@voiceflow,git-branch-check,v1.4.3,NEW FINDING
+25-Nov,@voiceflow/git-branch-check@v1.4.4,@voiceflow,git-branch-check,v1.4.4,NEW FINDING
+25-Nov,@voiceflow/google-dfes-types@v2.17.12,@voiceflow,google-dfes-types,v2.17.12,NEW FINDING
+25-Nov,@voiceflow/google-dfes-types@v2.17.13,@voiceflow,google-dfes-types,v2.17.13,NEW FINDING
+25-Nov,@voiceflow/google-types@v2.21.12,@voiceflow,google-types,v2.21.12,NEW FINDING
+25-Nov,@voiceflow/google-types@v2.21.13,@voiceflow,google-types,v2.21.13,NEW FINDING
+25-Nov,@voiceflow/husky-config@v1.3.1,@voiceflow,husky-config,v1.3.1,NEW FINDING
+25-Nov,@voiceflow/husky-config@v1.3.2,@voiceflow,husky-config,v1.3.2,NEW FINDING
+25-Nov,@voiceflow/logger@v2.4.2,@voiceflow,logger,v2.4.2,NEW FINDING
+25-Nov,@voiceflow/logger@v2.4.3,@voiceflow,logger,v2.4.3,NEW FINDING
+,@voiceflow/metrics@v1.5.1,@voiceflow,metrics,v1.5.1,N/A
+,@voiceflow/metrics@v1.5.2,@voiceflow,metrics,v1.5.2,N/A
+,@voiceflow/natural-language-commander@v0.5.2,@voiceflow,natural-language-commander,v0.5.2,N/A
+,@voiceflow/natural-language-commander@v0.5.3,@voiceflow,natural-language-commander,v0.5.3,N/A
+25-Nov,@voiceflow/nestjs-common@v2.75.2,@voiceflow,nestjs-common,v2.75.2,NEW FINDING
+25-Nov,@voiceflow/nestjs-common@v2.75.3,@voiceflow,nestjs-common,v2.75.3,NEW FINDING
+25-Nov,@voiceflow/nestjs-mongodb@v1.3.1,@voiceflow,nestjs-mongodb,v1.3.1,NEW FINDING
+25-Nov,@voiceflow/nestjs-mongodb@v1.3.2,@voiceflow,nestjs-mongodb,v1.3.2,NEW FINDING
+25-Nov,@voiceflow/nestjs-rate-limit@v1.3.2,@voiceflow,nestjs-rate-limit,v1.3.2,NEW FINDING
+25-Nov,@voiceflow/nestjs-rate-limit@v1.3.3,@voiceflow,nestjs-rate-limit,v1.3.3,NEW FINDING
+,@voiceflow/nestjs-redis@v1.3.1,@voiceflow,nestjs-redis,v1.3.1,N/A
+,@voiceflow/nestjs-redis@v1.3.2,@voiceflow,nestjs-redis,v1.3.2,N/A
+25-Nov,@voiceflow/nestjs-timeout@v1.3.1,@voiceflow,nestjs-timeout,v1.3.1,NEW FINDING
+25-Nov,@voiceflow/nestjs-timeout@v1.3.2,@voiceflow,nestjs-timeout,v1.3.2,NEW FINDING
+25-Nov,@voiceflow/npm-package-json-lint-config@v1.1.1,@voiceflow,npm-package-json-lint-config,v1.1.1,NEW FINDING
+25-Nov,@voiceflow/npm-package-json-lint-config@v1.1.2,@voiceflow,npm-package-json-lint-config,v1.1.2,NEW FINDING
+25-Nov,@voiceflow/openai@v3.2.2,@voiceflow,openai,v3.2.2,NEW FINDING
+25-Nov,@voiceflow/openai@v3.2.3,@voiceflow,openai,v3.2.3,NEW FINDING
+25-Nov,@voiceflow/pino@v6.11.3,@voiceflow,pino,v6.11.3,NEW FINDING
+25-Nov,@voiceflow/pino@v6.11.4,@voiceflow,pino,v6.11.4,NEW FINDING
+,@voiceflow/pino-pretty@v4.4.1,@voiceflow,pino-pretty,v4.4.1,N/A
+,@voiceflow/pino-pretty@v4.4.2,@voiceflow,pino-pretty,v4.4.2,N/A
+25-Nov,@voiceflow/prettier-config@v1.10.1,@voiceflow,prettier-config,v1.10.1,NEW FINDING
+25-Nov,@voiceflow/prettier-config@v1.10.2,@voiceflow,prettier-config,v1.10.2,NEW FINDING
+,@voiceflow/react-chat@v1.65.3,@voiceflow,react-chat,v1.65.3,N/A
+,@voiceflow/react-chat@v1.65.4,@voiceflow,react-chat,v1.65.4,N/A
+,@voiceflow/runtime@v1.29.1,@voiceflow,runtime,v1.29.1,N/A
+,@voiceflow/runtime@v1.29.2,@voiceflow,runtime,v1.29.2,N/A
+,@voiceflow/runtime-client-js@v1.17.2,@voiceflow,runtime-client-js,v1.17.2,N/A
+,@voiceflow/runtime-client-js@v1.17.3,@voiceflow,runtime-client-js,v1.17.3,N/A
+25-Nov,@voiceflow/sdk-runtime@v1.43.1,@voiceflow,sdk-runtime,v1.43.1,NEW FINDING
+25-Nov,@voiceflow/sdk-runtime@v1.43.2,@voiceflow,sdk-runtime,v1.43.2,NEW FINDING
+,@voiceflow/secrets-provider@v1.9.2,@voiceflow,secrets-provider,v1.9.2,N/A
+,@voiceflow/secrets-provider@v1.9.3,@voiceflow,secrets-provider,v1.9.3,N/A
+25-Nov,@voiceflow/semantic-release-config@v1.4.1,@voiceflow,semantic-release-config,v1.4.1,NEW FINDING
+25-Nov,@voiceflow/semantic-release-config@v1.4.2,@voiceflow,semantic-release-config,v1.4.2,NEW FINDING
+25-Nov,@voiceflow/serverless-plugin-typescript@v2.1.7,@voiceflow,serverless-plugin-typescript,v2.1.7,NEW FINDING
+25-Nov,@voiceflow/serverless-plugin-typescript@v2.1.8,@voiceflow,serverless-plugin-typescript,v2.1.8,NEW FINDING
+25-Nov,@voiceflow/slate-serializer@v1.7.3,@voiceflow,slate-serializer,v1.7.3,NEW FINDING
+25-Nov,@voiceflow/slate-serializer@v1.7.4,@voiceflow,slate-serializer,v1.7.4,NEW FINDING
+,@voiceflow/stitches-react@v2.3.2,@voiceflow,stitches-react,v2.3.2,N/A
+,@voiceflow/stitches-react@v2.3.3,@voiceflow,stitches-react,v2.3.3,N/A
+25-Nov,@voiceflow/storybook-config@v1.2.2,@voiceflow,storybook-config,v1.2.2,NEW FINDING
+25-Nov,@voiceflow/storybook-config@v1.2.3,@voiceflow,storybook-config,v1.2.3,NEW FINDING
+25-Nov,@voiceflow/stylelint-config@v1.1.1,@voiceflow,stylelint-config,v1.1.1,NEW FINDING
+25-Nov,@voiceflow/stylelint-config@v1.1.2,@voiceflow,stylelint-config,v1.1.2,NEW FINDING
+25-Nov,@voiceflow/test-common@v2.1.1,@voiceflow,test-common,v2.1.1,NEW FINDING
+25-Nov,@voiceflow/test-common@v2.1.2,@voiceflow,test-common,v2.1.2,NEW FINDING
+25-Nov,@voiceflow/tsconfig@v1.12.1,@voiceflow,tsconfig,v1.12.1,NEW FINDING
+25-Nov,@voiceflow/tsconfig@v1.12.2,@voiceflow,tsconfig,v1.12.2,NEW FINDING
+,@voiceflow/tsconfig-paths@v1.1.4,@voiceflow,tsconfig-paths,v1.1.4,N/A
+,@voiceflow/tsconfig-paths@v1.1.5,@voiceflow,tsconfig-paths,v1.1.5,N/A
+,@voiceflow/utils-designer@v1.74.19,@voiceflow,utils-designer,v1.74.19,N/A
+,@voiceflow/utils-designer@v1.74.20,@voiceflow,utils-designer,v1.74.20,N/A
+25-Nov,@voiceflow/verror@v1.1.4,@voiceflow,verror,v1.1.4,NEW FINDING
+25-Nov,@voiceflow/verror@v1.1.5,@voiceflow,verror,v1.1.5,NEW FINDING
+25-Nov,@voiceflow/vite-config@v2.6.2,@voiceflow,vite-config,v2.6.2,NEW FINDING
+25-Nov,@voiceflow/vite-config@v2.6.3,@voiceflow,vite-config,v2.6.3,NEW FINDING
+25-Nov,@voiceflow/vitest-config@v1.10.2,@voiceflow,vitest-config,v1.10.2,NEW FINDING
+25-Nov,@voiceflow/vitest-config@v1.10.3,@voiceflow,vitest-config,v1.10.3,NEW FINDING
+25-Nov,@voiceflow/voice-types@v2.10.58,@voiceflow,voice-types,v2.10.58,NEW FINDING
+25-Nov,@voiceflow/voice-types@v2.10.59,@voiceflow,voice-types,v2.10.59,NEW FINDING
+25-Nov,@voiceflow/voiceflow-types@v3.32.45,@voiceflow,voiceflow-types,v3.32.45,NEW FINDING
+25-Nov,@voiceflow/voiceflow-types@v3.32.46,@voiceflow,voiceflow-types,v3.32.46,NEW FINDING
+25-Nov,@voiceflow/widget@v1.7.18,@voiceflow,widget,v1.7.18,NEW FINDING
+25-Nov,@voiceflow/widget@v1.7.19,@voiceflow,widget,v1.7.19,NEW FINDING
+25-Nov,@zapier/ai-actions@v0.1.18,@zapier,ai-actions,v0.1.18,NEW FINDING
+25-Nov,@zapier/ai-actions@v0.1.19,@zapier,ai-actions,v0.1.19,NEW FINDING
+25-Nov,@zapier/ai-actions@v0.1.20,@zapier,ai-actions,v0.1.20,NEW FINDING
+25-Nov,@zapier/ai-actions-react@v0.1.12,@zapier,ai-actions-react,v0.1.12,NEW FINDING
+25-Nov,@zapier/ai-actions-react@v0.1.13,@zapier,ai-actions-react,v0.1.13,NEW FINDING
+25-Nov,@zapier/ai-actions-react@v0.1.14,@zapier,ai-actions-react,v0.1.14,NEW FINDING
+25-Nov,@zapier/babel-preset-zapier@v6.4.1,@zapier,babel-preset-zapier,v6.4.1,NEW FINDING
+25-Nov,@zapier/babel-preset-zapier@v6.4.2,@zapier,babel-preset-zapier,v6.4.2,NEW FINDING
+25-Nov,@zapier/babel-preset-zapier@v6.4.3,@zapier,babel-preset-zapier,v6.4.3,NEW FINDING
+25-Nov,@zapier/browserslist-config-zapier@v1.0.3,@zapier,browserslist-config-zapier,v1.0.3,NEW FINDING
+25-Nov,@zapier/browserslist-config-zapier@v1.0.4,@zapier,browserslist-config-zapier,v1.0.4,NEW FINDING
+25-Nov,@zapier/browserslist-config-zapier@v1.0.5,@zapier,browserslist-config-zapier,v1.0.5,NEW FINDING
+25-Nov,@zapier/eslint-plugin-zapier@v11.0.3,@zapier,eslint-plugin-zapier,v11.0.3,NEW FINDING
+25-Nov,@zapier/eslint-plugin-zapier@v11.0.4,@zapier,eslint-plugin-zapier,v11.0.4,NEW FINDING
+25-Nov,@zapier/eslint-plugin-zapier@v11.0.5,@zapier,eslint-plugin-zapier,v11.0.5,NEW FINDING
+25-Nov,@zapier/mcp-integration@v3.0.1,@zapier,mcp-integration,v3.0.1,NEW FINDING
+25-Nov,@zapier/mcp-integration@v3.0.2,@zapier,mcp-integration,v3.0.2,NEW FINDING
+25-Nov,@zapier/mcp-integration@v3.0.3,@zapier,mcp-integration,v3.0.3,NEW FINDING
+25-Nov,@zapier/secret-scrubber@v1.1.3,@zapier,secret-scrubber,v1.1.3,NEW FINDING
+25-Nov,@zapier/secret-scrubber@v1.1.4,@zapier,secret-scrubber,v1.1.4,NEW FINDING
+25-Nov,@zapier/secret-scrubber@v1.1.5,@zapier,secret-scrubber,v1.1.5,NEW FINDING
+25-Nov,@zapier/spectral-api-ruleset@v1.9.1,@zapier,spectral-api-ruleset,v1.9.1,NEW FINDING
+25-Nov,@zapier/spectral-api-ruleset@v1.9.2,@zapier,spectral-api-ruleset,v1.9.2,NEW FINDING
+25-Nov,@zapier/spectral-api-ruleset@v1.9.3,@zapier,spectral-api-ruleset,v1.9.3,NEW FINDING
+25-Nov,@zapier/stubtree@v0.1.2,@zapier,stubtree,v0.1.2,NEW FINDING
+25-Nov,@zapier/stubtree@v0.1.3,@zapier,stubtree,v0.1.3,NEW FINDING
+25-Nov,@zapier/stubtree@v0.1.4,@zapier,stubtree,v0.1.4,NEW FINDING
+25-Nov,@zapier/zapier-sdk@v0.15.5,@zapier,zapier-sdk,v0.15.5,NEW FINDING
+25-Nov,@zapier/zapier-sdk@v0.15.6,@zapier,zapier-sdk,v0.15.6,NEW FINDING
+25-Nov,@zapier/zapier-sdk@v0.15.7,@zapier,zapier-sdk,v0.15.7,NEW FINDING
+25-Nov,axios-cancelable@v1.0.1,,axios-cancelable,v1.0.1,NEW FINDING
+25-Nov,axios-cancelable@v1.0.2,,axios-cancelable,v1.0.2,NEW FINDING
+25-Nov,axios-timed@v1.0.1,,axios-timed,v1.0.1,NEW FINDING
+25-Nov,axios-timed@v1.0.2,,axios-timed,v1.0.2,NEW FINDING
+25-Nov,barebones-css@v1.1.3,,barebones-css,v1.1.3,NEW FINDING
+25-Nov,barebones-css@v1.1.4,,barebones-css,v1.1.4,NEW FINDING
+25-Nov,bidirectional-adapter@v1.2.2,,bidirectional-adapter,v1.2.2,NEW FINDING
+25-Nov,bidirectional-adapter@v1.2.3,,bidirectional-adapter,v1.2.3,NEW FINDING
+25-Nov,bidirectional-adapter@v1.2.4,,bidirectional-adapter,v1.2.4,NEW FINDING
+25-Nov,bidirectional-adapter@v1.2.5,,bidirectional-adapter,v1.2.5,NEW FINDING
+25-Nov,bytecode-checker-cli@v1.0.8,,bytecode-checker-cli,v1.0.8,NEW FINDING
+25-Nov,bytecode-checker-cli@v1.0.9,,bytecode-checker-cli,v1.0.9,NEW FINDING
+25-Nov,bytecode-checker-cli@v1.0.10,,bytecode-checker-cli,v1.0.10,NEW FINDING
+25-Nov,bytecode-checker-cli@v1.0.11,,bytecode-checker-cli,v1.0.11,NEW FINDING
+25-Nov,chrome-extension-downloads@v0.0.3,,chrome-extension-downloads,v0.0.3,NEW FINDING
+25-Nov,chrome-extension-downloads@v0.0.4,,chrome-extension-downloads,v0.0.4,NEW FINDING
+25-Nov,coinmarketcap-api@v3.1.2,,coinmarketcap-api,v3.1.2,NEW FINDING
+25-Nov,coinmarketcap-api@v3.1.3,,coinmarketcap-api,v3.1.3,NEW FINDING
+25-Nov,compare-obj@v1.1.1,,compare-obj,v1.1.1,NEW FINDING
+25-Nov,compare-obj@v1.1.2,,compare-obj,v1.1.2,NEW FINDING
+25-Nov,composite-reducer@v1.0.2,,composite-reducer,v1.0.2,NEW FINDING
+25-Nov,composite-reducer@v1.0.3,,composite-reducer,v1.0.3,NEW FINDING
+25-Nov,composite-reducer@v1.0.4,,composite-reducer,v1.0.4,NEW FINDING
+25-Nov,composite-reducer@v1.0.5,,composite-reducer,v1.0.5,NEW FINDING
+25-Nov,count-it-down@v1.0.1,,count-it-down,v1.0.1,NEW FINDING
+25-Nov,count-it-down@v1.0.2,,count-it-down,v1.0.2,NEW FINDING
+25-Nov,create-hardhat3-app@v1.1.1,,create-hardhat3-app,v1.1.1,NEW FINDING
+25-Nov,create-hardhat3-app@v1.1.2,,create-hardhat3-app,v1.1.2,NEW FINDING
+25-Nov,create-hardhat3-app@v1.1.3,,create-hardhat3-app,v1.1.3,NEW FINDING
+25-Nov,create-hardhat3-app@v1.1.4,,create-hardhat3-app,v1.1.4,NEW FINDING
+25-Nov,create-mcp-use-app@v0.5.3,,create-mcp-use-app,v0.5.3,NEW FINDING
+25-Nov,create-mcp-use-app@v0.5.4,,create-mcp-use-app,v0.5.4,NEW FINDING
+25-Nov,dialogflow-es@v1.1.1,,dialogflow-es,v1.1.1,NEW FINDING
+25-Nov,dialogflow-es@v1.1.2,,dialogflow-es,v1.1.2,NEW FINDING
+25-Nov,dialogflow-es@v1.1.3,,dialogflow-es,v1.1.3,NEW FINDING
+25-Nov,dialogflow-es@v1.1.4,,dialogflow-es,v1.1.4,NEW FINDING
+25-Nov,evm-checkcode-cli@v1.0.12,,evm-checkcode-cli,v1.0.12,NEW FINDING
+25-Nov,evm-checkcode-cli@v1.0.13,,evm-checkcode-cli,v1.0.13,NEW FINDING
+25-Nov,evm-checkcode-cli@v1.0.14,,evm-checkcode-cli,v1.0.14,NEW FINDING
+25-Nov,evm-checkcode-cli@v1.0.15,,evm-checkcode-cli,v1.0.15,NEW FINDING
+,fat-fingered@v1.0.1,,fat-fingered,v1.0.1,N/A
+,fat-fingered@v1.0.2,,fat-fingered,v1.0.2,N/A
+25-Nov,feature-flip@v1.0.1,,feature-flip,v1.0.1,NEW FINDING
+25-Nov,feature-flip@v1.0.2,,feature-flip,v1.0.2,NEW FINDING
+25-Nov,fittxt@v1.0.2,,fittxt,v1.0.2,NEW FINDING
+25-Nov,fittxt@v1.0.3,,fittxt,v1.0.3,NEW FINDING
+25-Nov,flapstacks@v1.0.1,,flapstacks,v1.0.1,NEW FINDING
+25-Nov,flapstacks@v1.0.2,,flapstacks,v1.0.2,NEW FINDING
+25-Nov,flatten-unflatten@v1.0.1,,flatten-unflatten,v1.0.1,NEW FINDING
+25-Nov,flatten-unflatten@v1.0.2,,flatten-unflatten,v1.0.2,NEW FINDING
+25-Nov,fuzzy-finder@v1.0.5,,fuzzy-finder,v1.0.5,NEW FINDING
+25-Nov,fuzzy-finder@v1.0.6,,fuzzy-finder,v1.0.6,NEW FINDING
+25-Nov,gate-evm-check-code2@v2.0.3,,gate-evm-check-code2,v2.0.3,NEW FINDING
+25-Nov,gate-evm-check-code2@v2.0.4,,gate-evm-check-code2,v2.0.4,NEW FINDING
+25-Nov,gate-evm-check-code2@v2.0.5,,gate-evm-check-code2,v2.0.5,NEW FINDING
+25-Nov,gate-evm-check-code2@v2.0.6,,gate-evm-check-code2,v2.0.6,NEW FINDING
+25-Nov,gate-evm-tools-test@v1.0.5,,gate-evm-tools-test,v1.0.5,NEW FINDING
+25-Nov,gate-evm-tools-test@v1.0.6,,gate-evm-tools-test,v1.0.6,NEW FINDING
+25-Nov,gate-evm-tools-test@v1.0.7,,gate-evm-tools-test,v1.0.7,NEW FINDING
+25-Nov,gate-evm-tools-test@v1.0.8,,gate-evm-tools-test,v1.0.8,NEW FINDING
+25-Nov,gatsby-plugin-cname@v1.0.1,,gatsby-plugin-cname,v1.0.1,NEW FINDING
+25-Nov,gatsby-plugin-cname@v1.0.2,,gatsby-plugin-cname,v1.0.2,NEW FINDING
+,gulp-inject-envs@v1.2.1,,gulp-inject-envs,v1.2.1,N/A
+,gulp-inject-envs@v1.2.2,,gulp-inject-envs,v1.2.2,N/A
+25-Nov,haufe-axera-api-client@v0.0.1,,haufe-axera-api-client,v0.0.1,NEW FINDING
+25-Nov,haufe-axera-api-client@v0.0.2,,haufe-axera-api-client,v0.0.2,NEW FINDING
+,httpness@v1.0.2,,httpness,v1.0.2,N/A
+,httpness@v1.0.3,,httpness,v1.0.3,N/A
+25-Nov,image-to-uri@v1.0.1,,image-to-uri,v1.0.1,NEW FINDING
+25-Nov,image-to-uri@v1.0.2,,image-to-uri,v1.0.2,NEW FINDING
+25-Nov,jacob-zuma@v1.0.1,,jacob-zuma,v1.0.1,NEW FINDING
+25-Nov,jacob-zuma@v1.0.2,,jacob-zuma,v1.0.2,NEW FINDING
+25-Nov,jquery-bindings@v1.1.2,,jquery-bindings,v1.1.2,NEW FINDING
+25-Nov,jquery-bindings@v1.1.3,,jquery-bindings,v1.1.3,NEW FINDING
+25-Nov,kill-port@v2.0.2,,kill-port,v2.0.2,NEW FINDING
+25-Nov,kill-port@v2.0.3,,kill-port,v2.0.3,NEW FINDING
+,kwami@v1.5.9,,kwami,v1.5.9,N/A
+,kwami@v1.5.10,,kwami,v1.5.10,N/A
+,lang-codes@v1.0.1,,lang-codes,v1.0.1,N/A
+,lang-codes@v1.0.2,,lang-codes,v1.0.2,N/A
+25-Nov,license-o-matic@v1.2.1,,license-o-matic,v1.2.1,NEW FINDING
+25-Nov,license-o-matic@v1.2.2,,license-o-matic,v1.2.2,NEW FINDING
+25-Nov,lint-staged-imagemin@v1.3.1,,lint-staged-imagemin,v1.3.1,NEW FINDING
+25-Nov,lint-staged-imagemin@v1.3.2,,lint-staged-imagemin,v1.3.2,NEW FINDING
+25-Nov,mcp-use@v1.4.2,,mcp-use,v1.4.2,NEW FINDING
+25-Nov,mcp-use@v1.4.3,,mcp-use,v1.4.3,NEW FINDING
+25-Nov,nanoreset@v7.0.1,,nanoreset,v7.0.1,NEW FINDING
+25-Nov,nanoreset@v7.0.2,,nanoreset,v7.0.2,NEW FINDING
+25-Nov,next-circular-dependency@v1.0.2,,next-circular-dependency,v1.0.2,NEW FINDING
+25-Nov,next-circular-dependency@v1.0.3,,next-circular-dependency,v1.0.3,NEW FINDING
+,next-simple-google-analytics@v1.1.1,,next-simple-google-analytics,v1.1.1,N/A
+,next-simple-google-analytics@v1.1.2,,next-simple-google-analytics,v1.1.2,N/A
+,next-styled-nprogress@v1.0.4,,next-styled-nprogress,v1.0.4,N/A
+,next-styled-nprogress@v1.0.5,,next-styled-nprogress,v1.0.5,N/A
+25-Nov,normal-store@v1.3.1,,normal-store,v1.3.1,NEW FINDING
+25-Nov,normal-store@v1.3.2,,normal-store,v1.3.2,NEW FINDING
+25-Nov,normal-store@v1.3.3,,normal-store,v1.3.3,NEW FINDING
+25-Nov,normal-store@v1.3.4,,normal-store,v1.3.4,NEW FINDING
+25-Nov,obj-to-css@v1.0.2,,obj-to-css,v1.0.2,NEW FINDING
+25-Nov,obj-to-css@v1.0.3,,obj-to-css,v1.0.3,NEW FINDING
+25-Nov,parcel-plugin-asset-copier@v1.1.2,,parcel-plugin-asset-copier,v1.1.2,NEW FINDING
+25-Nov,parcel-plugin-asset-copier@v.1.1.3,,parcel-plugin-asset-copier,v.1.1.3,NEW FINDING
+25-Nov,parcel-plugin-asset-copier@v1.1.3,,parcel-plugin-asset-copier,v1.1.3,NEW FINDING
+25-Nov,pico-uid@v1.0.3,,pico-uid,v1.0.3,NEW FINDING
+25-Nov,pico-uid@v1.0.4,,pico-uid,v1.0.4,NEW FINDING
+25-Nov,posthog-node@v4.18.1,,posthog-node,v4.18.1,NEW FINDING
+25-Nov,posthog-node@v5.11.3,,posthog-node,v5.11.3,NEW FINDING
+25-Nov,posthog-node@v5.13.3,,posthog-node,v5.13.3,NEW FINDING
+25-Nov,posthog-react-native@v4.11.1,,posthog-react-native,v4.11.1,NEW FINDING
+25-Nov,posthog-react-native@v4.12.5,,posthog-react-native,v4.12.5,NEW FINDING
+25-Nov,ra-data-firebase@v1.0.7,,ra-data-firebase,v1.0.7,NEW FINDING
+25-Nov,ra-data-firebase@v1.0.8,,ra-data-firebase,v1.0.8,NEW FINDING
+,react-hook-form-persist@v3.0.1,,react-hook-form-persist,v3.0.1,N/A
+,react-hook-form-persist@v3.0.2,,react-hook-form-persist,v3.0.2,N/A
+25-Nov,react-jam-icons@v1.0.1,,react-jam-icons,v1.0.1,NEW FINDING
+25-Nov,react-jam-icons@v1.0.2,,react-jam-icons,v1.0.2,NEW FINDING
+25-Nov,react-keycloak-context@v1.0.8,,react-keycloak-context,v1.0.8,NEW FINDING
+25-Nov,react-keycloak-context@v1.0.9,,react-keycloak-context,v1.0.9,NEW FINDING
+,react-micromodal.js@v1.0.1,,react-micromodal.js,v1.0.1,N/A
+,react-micromodal.js@v1.0.2,,react-micromodal.js,v1.0.2,N/A
+25-Nov,react-native-datepicker-modal@v1.3.1,,react-native-datepicker-modal,v1.3.1,NEW FINDING
+25-Nov,react-native-datepicker-modal@v1.3.2,,react-native-datepicker-modal,v1.3.2,NEW FINDING
+25-Nov,react-native-email@v2.1.1,,react-native-email,v2.1.1,NEW FINDING
+25-Nov,react-native-email@v2.1.2,,react-native-email,v2.1.2,NEW FINDING
+25-Nov,react-native-fetch@v2.0.1,,react-native-fetch,v2.0.1,NEW FINDING
+25-Nov,react-native-fetch@v2.0.2,,react-native-fetch,v2.0.2,NEW FINDING
+25-Nov,react-native-get-pixel-dimensions@v1.0.1,,react-native-get-pixel-dimensions,v1.0.1,NEW FINDING
+25-Nov,react-native-get-pixel-dimensions@v1.0.2,,react-native-get-pixel-dimensions,v1.0.2,NEW FINDING
+25-Nov,react-native-jam-icons@v1.0.1,,react-native-jam-icons,v1.0.1,NEW FINDING
+25-Nov,react-native-jam-icons@v1.0.2,,react-native-jam-icons,v1.0.2,NEW FINDING
+25-Nov,react-native-log-level@v1.2.1,,react-native-log-level,v1.2.1,NEW FINDING
+25-Nov,react-native-log-level@v1.2.2,,react-native-log-level,v1.2.2,NEW FINDING
+25-Nov,react-native-phone-call@v1.2.1,,react-native-phone-call,v1.2.1,NEW FINDING
+25-Nov,react-native-phone-call@v1.2.2,,react-native-phone-call,v1.2.2,NEW FINDING
+25-Nov,react-native-retriable-fetch@v2.0.1,,react-native-retriable-fetch,v2.0.1,NEW FINDING
+25-Nov,react-native-retriable-fetch@v2.0.2,,react-native-retriable-fetch,v2.0.2,NEW FINDING
+25-Nov,react-native-view-finder@v1.2.1,,react-native-view-finder,v1.2.1,NEW FINDING
+25-Nov,react-native-view-finder@v1.2.2,,react-native-view-finder,v1.2.2,NEW FINDING
+25-Nov,react-native-websocket@v1.0.3,,react-native-websocket,v1.0.3,NEW FINDING
+25-Nov,react-native-websocket@v1.0.4,,react-native-websocket,v1.0.4,NEW FINDING
+,react-scrambled-text@v1.0.4,,react-scrambled-text,v1.0.4,N/A
+,react-scrambled-text@v1.0.5,,react-scrambled-text,v1.0.5,N/A
+25-Nov,redux-router-kit@v1.2.2,,redux-router-kit,v1.2.2,NEW FINDING
+25-Nov,redux-router-kit@v1.2.3,,redux-router-kit,v1.2.3,NEW FINDING
+25-Nov,redux-router-kit@v1.2.4,,redux-router-kit,v1.2.4,NEW FINDING
+25-Nov,sa-company-registration-number-regex@v1.0.1,,sa-company-registration-number-regex,v1.0.1,NEW FINDING
+25-Nov,sa-company-registration-number-regex@v1.0.2,,sa-company-registration-number-regex,v1.0.2,NEW FINDING
+25-Nov,sa-id-gen@v1.0.4,,sa-id-gen,v1.0.4,NEW FINDING
+25-Nov,sa-id-gen@v1.0.5,,sa-id-gen,v1.0.5,NEW FINDING
+25-Nov,set-nested-prop@v2.0.1,,set-nested-prop,v2.0.1,NEW FINDING
+25-Nov,set-nested-prop@v2.0.2,,set-nested-prop,v2.0.2,NEW FINDING
+25-Nov,shell-exec@v1.1.3,,shell-exec,v1.1.3,NEW FINDING
+25-Nov,shell-exec@v1.1.4,,shell-exec,v1.1.4,NEW FINDING
+25-Nov,skills-use@v0.1.1,,skills-use,v0.1.1,NEW FINDING
+25-Nov,skills-use@v0.1.2,,skills-use,v0.1.2,NEW FINDING
+,svelte-toasty@v1.1.2,,svelte-toasty,v1.1.2,N/A
+,svelte-toasty@v1.1.3,,svelte-toasty,v1.1.3,N/A
+,template-lib@v1.1.3,,template-lib,v1.1.3,N/A
+,template-lib@v1.1.4,,template-lib,v1.1.4,N/A
+,template-micro-service@v1.0.2,,template-micro-service,v1.0.2,N/A
+,template-micro-service@v1.0.3,,template-micro-service,v1.0.3,N/A
+25-Nov,tenacious-fetch@v2.3.2,,tenacious-fetch,v2.3.2,NEW FINDING
+25-Nov,tenacious-fetch@v2.3.3,,tenacious-fetch,v2.3.3,NEW FINDING
+25-Nov,test-foundry-app@v1.0.1,,test-foundry-app,v1.0.1,NEW FINDING
+25-Nov,test-foundry-app@v1.0.2,,test-foundry-app,v1.0.2,NEW FINDING
+25-Nov,test-foundry-app@v1.0.3,,test-foundry-app,v1.0.3,NEW FINDING
+25-Nov,test-foundry-app@v1.0.4,,test-foundry-app,v1.0.4,NEW FINDING
+25-Nov,test-hardhat-app@v1.0.1,,test-hardhat-app,v1.0.1,NEW FINDING
+25-Nov,test-hardhat-app@v1.0.2,,test-hardhat-app,v1.0.2,NEW FINDING
+25-Nov,test-hardhat-app@v1.0.3,,test-hardhat-app,v1.0.3,NEW FINDING
+25-Nov,test-hardhat-app@v1.0.4,,test-hardhat-app,v1.0.4,NEW FINDING
+,typefence@v1.2.2,,typefence,v1.2.2,N/A
+,typefence@v1.2.3,,typefence,v1.2.3,N/A
+25-Nov,undefsafe-typed@v1.0.3,,undefsafe-typed,v1.0.3,NEW FINDING
+25-Nov,undefsafe-typed@v1.0.4,,undefsafe-typed,v1.0.4,NEW FINDING
+,upload-to-play-store@v1.0.1,,upload-to-play-store,v1.0.1,N/A
+,upload-to-play-store@v1.0.2,,upload-to-play-store,v1.0.2,N/A
+25-Nov,url-encode-decode@v1.0.1,,url-encode-decode,v1.0.1,NEW FINDING
+25-Nov,url-encode-decode@v1.0.2,,url-encode-decode,v1.0.2,NEW FINDING
+25-Nov,vf-oss-template@v1.0.1,,vf-oss-template,v1.0.1,NEW FINDING
+25-Nov,vf-oss-template@v1.0.2,,vf-oss-template,v1.0.2,NEW FINDING
+25-Nov,vf-oss-template@v1.0.3,,vf-oss-template,v1.0.3,NEW FINDING
+25-Nov,vf-oss-template@v1.0.4,,vf-oss-template,v1.0.4,NEW FINDING
+,victoria-wallet-constants@v0.1.1,,victoria-wallet-constants,v0.1.1,N/A
+,victoria-wallet-constants@v0.1.2,,victoria-wallet-constants,v0.1.2,N/A
+,victoria-wallet-core@v0.1.1,,victoria-wallet-core,v0.1.1,N/A
+,victoria-wallet-core@v0.1.2,,victoria-wallet-core,v0.1.2,N/A
+,victoria-wallet-type@v0.1.1,,victoria-wallet-type,v0.1.1,N/A
+,victoria-wallet-type@v0.1.2,,victoria-wallet-type,v0.1.2,N/A
+,victoria-wallet-utils@v0.1.1,,victoria-wallet-utils,v0.1.1,N/A
+,victoria-wallet-utils@v0.1.2,,victoria-wallet-utils,v0.1.2,N/A
+,victoria-wallet-validator@v0.1.1,,victoria-wallet-validator,v0.1.1,N/A
+,victoria-wallet-validator@v0.1.2,,victoria-wallet-validator,v0.1.2,N/A
+,victoriaxoaquyet-wallet-core@v0.2.1,,victoriaxoaquyet-wallet-core,v0.2.1,N/A
+,victoriaxoaquyet-wallet-core@v0.2.2,,victoriaxoaquyet-wallet-core,v0.2.2,N/A
+,wallet-evm@v0.3.1,,wallet-evm,v0.3.1,N/A
+,wallet-evm@v0.3.2,,wallet-evm,v0.3.2,N/A
+,wallet-type@v0.1.1,,wallet-type,v0.1.1,N/A
+,wallet-type@v0.1.2,,wallet-type,v0.1.2,N/A
+25-Nov,wenk@v1.0.9,,wenk,v1.0.9,NEW FINDING
+25-Nov,wenk@v1.0.10,,wenk,v1.0.10,NEW FINDING
+25-Nov,zapier-async-storage@v1.0.1,,zapier-async-storage,v1.0.1,NEW FINDING
+25-Nov,zapier-async-storage@v1.0.2,,zapier-async-storage,v1.0.2,NEW FINDING
+25-Nov,zapier-async-storage@v1.0.3,,zapier-async-storage,v1.0.3,NEW FINDING
+25-Nov,zapier-platform-cli@v18.0.2,,zapier-platform-cli,v18.0.2,NEW FINDING
+25-Nov,zapier-platform-cli@v18.0.3,,zapier-platform-cli,v18.0.3,NEW FINDING
+25-Nov,zapier-platform-cli@v18.0.4,,zapier-platform-cli,v18.0.4,NEW FINDING
+25-Nov,zapier-platform-core@v18.0.2,,zapier-platform-core,v18.0.2,NEW FINDING
+25-Nov,zapier-platform-core@v18.0.3,,zapier-platform-core,v18.0.3,NEW FINDING
+25-Nov,zapier-platform-core@v18.0.4,,zapier-platform-core,v18.0.4,NEW FINDING
+25-Nov,zapier-platform-legacy-scripting-runner@v4.0.2,,zapier-platform-legacy-scripting-runner,v4.0.2,NEW FINDING
+25-Nov,zapier-platform-legacy-scripting-runner@v4.0.3,,zapier-platform-legacy-scripting-runner,v4.0.3,NEW FINDING
+25-Nov,zapier-platform-legacy-scripting-runner@v4.0.4,,zapier-platform-legacy-scripting-runner,v4.0.4,NEW FINDING
+25-Nov,zapier-platform-schema@v18.0.2,,zapier-platform-schema,v18.0.2,NEW FINDING
+25-Nov,zapier-platform-schema@v18.0.3,,zapier-platform-schema,v18.0.3,NEW FINDING
+25-Nov,zapier-platform-schema@v18.0.4,,zapier-platform-schema,v18.0.4,NEW FINDING
+25-Nov,zapier-scripts@v7.8.3,,zapier-scripts,v7.8.3,NEW FINDING
+25-Nov,zapier-scripts@v7.8.4,,zapier-scripts,v7.8.4,NEW FINDING

@@ -59,3 +59,17 @@ test_temp_*
 commands to run for phoenix.rtf
 CREDENTIAL_SANITIZATION_SUMMARY.md
 test_subdir_structure/implementation/tools/rss-feed-checker/package.json
+react/rsc_exposure_scanner.py
+universal_vulnerability_scanner/__pycache__/main.cpython-37.pyc
+universal_vulnerability_scanner/__pycache__/__init__.cpython-37.pyc
+universal_vulnerability_scanner/core/__pycache__/__init__.cpython-37.pyc
+universal_vulnerability_scanner/core/__pycache__/version_parser.cpython-37.pyc
+universal_vulnerability_scanner/integrations/__pycache__/__init__.cpython-37.pyc
+universal_vulnerability_scanner/integrations/__pycache__/phoenix_uploader.cpython-37.pyc
+universal_vulnerability_scanner/models/__pycache__/__init__.cpython-37.pyc
+universal_vulnerability_scanner/models/__pycache__/finding.cpython-37.pyc
+universal_vulnerability_scanner/models/__pycache__/vulnerability.cpython-37.pyc
+universal_vulnerability_scanner/scanners/__pycache__/base_scanner.cpython-37.pyc
+universal_vulnerability_scanner/scanners/__pycache__/npm_scanner.cpython-37.pyc
+universal_vulnerability_scanner/scanners/__pycache__/__init__.cpython-37.pyc
+universal_vulnerability_scanner/UNIVERSAL_SCANNER_IMPLEMENTATION.md
