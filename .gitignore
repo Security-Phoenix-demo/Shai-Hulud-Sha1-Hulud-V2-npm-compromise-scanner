@@ -73,3 +73,6 @@ universal_vulnerability_scanner/scanners/__pycache__/base_scanner.cpython-37.pyc
 universal_vulnerability_scanner/scanners/__pycache__/npm_scanner.cpython-37.pyc
 universal_vulnerability_scanner/scanners/__pycache__/__init__.cpython-37.pyc
 universal_vulnerability_scanner/UNIVERSAL_SCANNER_IMPLEMENTATION.md
+universal_vulnerability_scanner/BLOG_EXAMPLES.md
+universal_vulnerability_scanner/BLOG_POST_TEMPLATE.md
+universal_vulnerability_scanner/BLOG_QUICK_COMMANDS.md
