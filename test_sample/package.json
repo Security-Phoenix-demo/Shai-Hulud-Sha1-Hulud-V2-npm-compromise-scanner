@@ -6,7 +6,7 @@
     "@ctrl/tinycolor": "4.1.0",
     "angulartics2": "14.1.0",
     "express": "4.18.2",
-    "lodash": "4.17.21",
+    "lodash": "4.17.23",
     "react": "18.2.0",
     "vue": "3.3.4",
     "@nativescript-community/perms": "3.0.4",
@@ -20,7 +20,7 @@
     "@ctrl/ngx-codemirror": "7.0.1",
     "ngx-toastr": "19.0.1",
     "typescript": "5.0.0",
-    "webpack": "5.88.0",
+    "webpack": "5.104.1",
     "eslint": "8.45.0",
     "@rxap/ngx-bootstrap": "19.0.2",
     "eslint-config-teselagen": "6.1.6"
