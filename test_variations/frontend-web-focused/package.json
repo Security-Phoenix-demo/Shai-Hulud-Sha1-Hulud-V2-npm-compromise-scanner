@@ -14,8 +14,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "vue": "~3.3.8",
-    "next": "14.0.0",
-    "axios": "1.5.1",
+    "next": "15.5.14",
+    "axios": "1.15.0",
     "@asyncapi/cli": "4.1.1",
     "@accordproject/concerto-types": "3.24.1",
     "@accordproject/markdown-docx": "0.5.0",
@@ -76,8 +76,8 @@
   "devDependencies": {
     "typescript": "5.2.0",
     "@types/react": "18.2.37",
-    "vite": "5.0.0",
-    "webpack": "5.89.0",
+    "vite": "6.4.2",
+    "webpack": "5.104.1",
     "eslint": "8.53.0",
     "prettier": "3.1.0",
     "@posthog/web-dev-server": "1.0.0",
