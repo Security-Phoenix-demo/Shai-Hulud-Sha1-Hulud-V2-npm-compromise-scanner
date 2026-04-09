@@ -21,7 +21,7 @@
     "@operato/pull-to-refresh": "9.0.47",
     "@teriyakibomb/ember-velcro": "2.2.1",
     "express": "4.18.2",
-    "lodash": "4.17.21",
+    "lodash": "4.18.1",
     "react": "18.2.0"
   },
   "devDependencies": {
@@ -30,6 +30,6 @@
     "eslint-config-teselagen": "6.1.7",
     "@rxap/ngx-bootstrap": "19.0.4",
     "typescript": "5.0.0",
-    "webpack": "5.88.0"
+    "webpack": "5.104.1"
   }
 }
