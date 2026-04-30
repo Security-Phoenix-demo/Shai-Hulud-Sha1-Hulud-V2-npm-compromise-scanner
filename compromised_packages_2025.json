@@ -2,15 +2,15 @@
   "incident_metadata": {
     "name": "NPM Supply Chain Attack - Extended Package List 2025 - UPDATED",
     "date": "2025-11-26",
-    "last_update": "2025-11-26",
+    "last_update": "2026-04-29",
     "cve_reference": "Multiple CVEs pending",
     "github_issue": "Multiple packages compromised - Comprehensive list",
     "attack_vector": "Supply chain compromise targeting popular packages across multiple organizations",
     "impact": "Potential malicious code injection, data exfiltration, crypto wallet theft",
     "severity": "CRITICAL",
-    "total_packages_confirmed": 787,
+    "total_packages_confirmed": 790,
     "total_packages_potentially_compromised": 0,
-    "total_packages": 787,
+    "total_packages": 790,
     "organizations_affected": [
       "@ctrl",
       "@nativescript-community",
@@ -40,10 +40,11 @@
       "@seung-ju",
       "@strapbuild",
       "@quick-start-soft",
-      "@varsityvibe"
+      "@varsityvibe",
+      "@cap-js"
     ],
-    "note": "5th Wave: Granular version-specific detection from CSV import. Specific compromised versions with safe version recommendations.",
-    "version": "5.0.0"
+    "note": "6th Wave: Added @cap-js package compromises with version-specific detection and safe version recommendations.",
+    "version": "6.0.0"
   },
   "compromised_packages": {
     "@accordproject/concerto-linter": {
@@ -545,6 +546,24 @@
         "1.0.1"
       ],
       "safe_version": "1.0.0"
+    },
+    "@cap-js/db-service": {
+      "compromised_versions": [
+        "2.10.1"
+      ],
+      "safe_version": "2.10.0"
+    },
+    "@cap-js/postgres": {
+      "compromised_versions": [
+        "2.2.2"
+      ],
+      "safe_version": "2.2.1"
+    },
+    "@cap-js/sqlite": {
+      "compromised_versions": [
+        "2.2.2"
+      ],
+      "safe_version": "2.2.1"
     },
     "@caretive/caret-cli": {
       "compromised_versions": [
