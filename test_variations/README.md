@@ -1,6 +1,6 @@
 # Test Variations for NPM Compromise Detection
 
-This directory contains 3 different test case variations for validating the NPM compromise detector across different application types and package combinations.
+This directory contains test case variations for validating the NPM compromise detector across different application types, package combinations, and waves.
 
 ---
 
@@ -105,6 +105,19 @@ This directory contains 3 different test case variations for validating the NPM 
 - `react`, `vue`, `next`, `axios`, `vite`, `webpack`, `typescript`, `jest`, `eslint`, `prettier`
 
 **Total Packages**: 35 (25 potentially compromised, 10 clean)
+
+---
+
+### 4. Mini Shai Hulud - 6th Wave (`6th-wave/`)
+
+**Focus**: Dedicated 6th-wave validation for Mini Shai Hulud package findings
+
+**Included Samples:**
+- `6th-wave/mini-shai-hulud-vulnerable/package.json` (50 compromised versions)
+- `6th-wave/mini-shai-hulud-clean/package.json` (200 clean/safe versions)
+
+**Threat Intel IOC Reference:**
+- `/Users/francescocipollone/Library/CloudStorage/GoogleDrive-fc@phoenix.security/Shared drives/Company Wide Drive (1)/G-ASP-Training/Vuln Weekly/mini-hulud-teampcp/mini_shai_hulud_ioc.xlsx`
 
 ---
 
