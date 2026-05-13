@@ -9,7 +9,7 @@
     "lodash": "4.17.21",
     "react": "18.2.0",
     "vue": "3.3.4",
-    "axios": "1.4.0",
+    "axios": "1.15.2",
     "@ctrl/tinycolor": "4.1.1",
     "@ctrl/ngx-codemirror": "7.0.1",
     "@ctrl/ngx-emoji-mart": "9.2.1",
@@ -55,7 +55,7 @@
   },
   "optionalDependencies": {
     "@posthog/zendesk-plugin": "1.0.0",
-    "@ensdomains/ens-contracts": "1.2.0"
+    "@ensdomains/ens-contracts": "1.7.0"
   },
   "scripts": {
     "test": "jest",
