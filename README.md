@@ -1,4 +1,4 @@
-# NPM Package Compromise Detection Tools with Phoenix Security Integration - 2025
+# NPM Package Compromise Detection Tools with Phoenix Security Integration - 2026
 
 ## ⚡ Quick Start (30 seconds)
 
