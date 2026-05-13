@@ -2,7 +2,7 @@
   "incident_metadata": {
     "name": "NPM Supply Chain Attack - Extended Package List 2025 - UPDATED",
     "date": "2025-11-26",
-    "last_update": "2026-04-29",
+    "last_update": "2026-05-13",
     "cve_reference": "Multiple CVEs pending",
     "github_issue": "Multiple packages compromised - Comprehensive list",
     "attack_vector": "Supply chain compromise targeting popular packages across multiple organizations",
@@ -43,8 +43,10 @@
       "@varsityvibe",
       "@cap-js"
     ],
-    "note": "6th Wave: Added @cap-js package compromises with version-specific detection and safe version recommendations.",
-    "version": "6.0.0"
+    "note": "Mini Shai Hulud campaign: Added @cap-js package compromises with version-specific detection and safe version recommendations.",
+    "version": "6.1.0",
+    "campaign": "Mini Shai Hulud",
+    "threat_intel_ioc_link": "/Users/francescocipollone/Library/CloudStorage/GoogleDrive-fc@phoenix.security/Shared drives/Company Wide Drive (1)/G-ASP-Training/Vuln Weekly/mini-hulud-teampcp/mini_shai_hulud_ioc.xlsx"
   },
   "compromised_packages": {
     "@accordproject/concerto-linter": {

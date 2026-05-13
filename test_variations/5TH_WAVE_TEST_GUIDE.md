@@ -49,6 +49,25 @@ These test files demonstrate the **5TH WAVE** granular version detection approac
 - `@accordproject/markdown-docx@0.5.0` → **POTENTIALLY** (severity 3)
 - `posthog-js@1.297.3` → **CRITICAL** (exact match)
 
+### Mini Shai Hulud Campaign Samples (6th Wave)
+
+#### Vulnerable Sample (`6th-wave/mini-shai-hulud-vulnerable/package.json`)
+
+- Contains **50 compromised package versions** from the current database
+- `@cap-js/db-service@2.10.1` → **CRITICAL** (new finding)
+- `@cap-js/postgres@2.2.2` → **CRITICAL** (new finding)
+- `@cap-js/sqlite@2.2.2` → **CRITICAL** (new finding)
+
+#### Clean Sample (`6th-wave/mini-shai-hulud-clean/package.json`)
+
+- Contains **200 clean/safe package versions** from the current database
+- `@cap-js/db-service@2.10.0` → **CLEAN** (safe version)
+- `@cap-js/postgres@2.2.1` → **CLEAN** (safe version)
+- `@cap-js/sqlite@2.2.1` → **CLEAN** (safe version)
+
+**Threat Intel IOC Reference**:  
+`/Users/francescocipollone/Library/CloudStorage/GoogleDrive-fc@phoenix.security/Shared drives/Company Wide Drive (1)/G-ASP-Training/Vuln Weekly/mini-hulud-teampcp/mini_shai_hulud_ioc.xlsx`
+
 ---
 
 ## 🔍 How to Test
@@ -61,6 +80,12 @@ python3 enhanced_npm_compromise_detector_phoenix.py test_variations/
 
 # Test specific variation
 python3 enhanced_npm_compromise_detector_phoenix.py test_variations/backend-api-focused/
+
+# Mini Shai Hulud vulnerable sample (6th Wave)
+python3 enhanced_npm_compromise_detector_phoenix.py test_variations/6th-wave/mini-shai-hulud-vulnerable/
+
+# Mini Shai Hulud clean sample (6th Wave)
+python3 enhanced_npm_compromise_detector_phoenix.py test_variations/6th-wave/mini-shai-hulud-clean/
 
 # With Phoenix integration
 python3 enhanced_npm_compromise_detector_phoenix.py test_variations/ --enable-phoenix
