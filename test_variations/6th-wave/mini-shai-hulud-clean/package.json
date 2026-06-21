@@ -123,7 +123,7 @@
     "@ensdomains/durin-middleware": "0.0.1",
     "@ensdomains/ens-archived-contracts": "0.0.2",
     "@ensdomains/ens-avatar": "1.0.3",
-    "@ensdomains/ens-contracts": "1.6.0",
+    "@ensdomains/ens-contracts": "1.7.0",
     "@ensdomains/ens-test-env": "1.0.1",
     "@ensdomains/ens-validation": "0.1.0",
     "@ensdomains/ensjs": "4.0.2",
